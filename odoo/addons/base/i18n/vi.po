@@ -7952,7 +7952,7 @@ msgstr "Yêu cầu quyền Quản trị viên để gỡ bỏ một phân hệ"
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_country_form
 msgid "Advanced Address Formatting"
-msgstr ""
+msgstr "Định dạng Địa chỉ Nâng cao"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_to_event_programs
@@ -7991,7 +7991,7 @@ msgstr ""
 #. module: base
 #: selection:res.country,name_position:0
 msgid "After Address"
-msgstr ""
+msgstr "Sau Địa chỉ"
 
 #. module: base
 #: selection:res.currency,position:0
@@ -8130,7 +8130,7 @@ msgstr "Kho Ứng dụng"
 #. module: base
 #: model:ir.actions.act_url,name:base.action_open_website
 msgid "App Switcher"
-msgstr ""
+msgstr "Bộ chuyển Ứng dụng"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_company_report_header
