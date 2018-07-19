@@ -2283,7 +2283,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Happy Selling!<br/>- The Odoo Team"
-msgstr "Chúc Bán hàng vui vẻ!<br/>- Đội Odoo ERPOnline"
+msgstr "Chúc Bán hàng vui vẻ!<br/>- Đội SkyERP"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner

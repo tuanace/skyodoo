@@ -3077,7 +3077,7 @@ msgstr "bài trùng lặp"
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.new_link
 msgid "e.g. https://www.odoo.com"
-msgstr "vd: https://www.erponline.vn"
+msgstr "vd: https://www.skyerp.net"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.faq
@@ -3282,7 +3282,7 @@ msgstr "spam hoặc quảng cáo"
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
 msgid "specific questions about Odoo service offers, etc."
-msgstr "các câu hỏi cụ thể về các dịch vụ mà Odoo/ERPOnline cung cấp, v.v.."
+msgstr "các câu hỏi cụ thể về các dịch vụ mà SkyERP cung cấp, v.v.."
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help

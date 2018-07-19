@@ -5794,7 +5794,7 @@ msgstr "đã được chỉnh sửa"
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "mycompany.odoo.com"
-msgstr "mycompany.erponline.com"
+msgstr "mycompany.skyerp.net"
 
 #. module: mail
 #. openerp-web
