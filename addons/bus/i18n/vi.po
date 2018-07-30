@@ -3,9 +3,10 @@
 # * bus
 #
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
 msgid ""
 msgstr ""
@@ -104,12 +105,12 @@ msgstr "Thông điệp"
 #. module: bus
 #: selection:bus.presence,status:0
 msgid "Offline"
-msgstr ""
+msgstr "Ngoại tuyến"
 
 #. module: bus
 #: selection:bus.presence,status:0
 msgid "Online"
-msgstr ""
+msgstr "Trực tuyến"
 
 #. module: bus
 #: model:ir.model,name:bus.model_bus_presence

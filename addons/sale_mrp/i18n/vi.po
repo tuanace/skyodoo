@@ -3,6 +3,7 @@
 # * sale_mrp
 #
 # Translators:
+# Duy BQ <duybq86@gmail.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
 msgid ""
 msgstr ""

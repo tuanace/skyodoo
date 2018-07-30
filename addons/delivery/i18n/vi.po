@@ -5,13 +5,11 @@
 # Translators:
 # Martin Trigaux, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
-# lam nguyen <lamev.inc@gmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # Tuan Tran <tmtuan.projects@gmail.com>, 2017
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
-# Duy Pham <phamduy1812@gmail.com>, 2017
 # Jean-Charles Drubay <jcdrubay@gmail.com>, 2017
 msgid ""
 msgstr ""
@@ -313,13 +311,13 @@ msgstr ""
 #: model:ir.ui.menu,name:delivery.menu_delivery_packagings
 #: model:ir.ui.view,arch_db:delivery.product_packaging_delivery_tree
 msgid "Delivery Packages"
-msgstr ""
+msgstr "Giao hàng theo Gói"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_package_delivery_packaging_id
 #: model:ir.ui.view,arch_db:delivery.product_packaging_delivery_form
 msgid "Delivery Packaging"
-msgstr ""
+msgstr "Đóng gói hàng"
 
 #. module: delivery
 #: model:ir.model,name:delivery.model_delivery_price_rule
@@ -635,7 +633,7 @@ msgstr "Đóng gói"
 #. module: delivery
 #: model:ir.model,name:delivery.model_stock_move_line
 msgid "Packing Operation"
-msgstr ""
+msgstr "Hoạt động đóng gói"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_package_stock_quant_package_id

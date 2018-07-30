@@ -3,9 +3,9 @@
 # * mrp_byproduct
 #
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
 msgid ""
@@ -106,7 +106,7 @@ msgstr "Sản xuất"
 #. module: mrp_byproduct
 #: model:ir.model,name:mrp_byproduct.model_mrp_product_produce
 msgid "Record Production"
-msgstr ""
+msgstr "Ghi nhận Sản xuất"
 
 #. module: mrp_byproduct
 #: model:ir.model,name:mrp_byproduct.model_stock_move

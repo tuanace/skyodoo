@@ -1,9 +1,10 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * sale_timesheet
-#
+# 
 # Translators:
 # fanha99 <fanha99@hotmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # Martin Trigaux, 2017
 # Tuan Tran <tmtuan.projects@gmail.com>, 2017
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
@@ -383,7 +384,8 @@ msgstr "Nhiệm vụ"
 msgid ""
 "Task Created (%s): <a href=# data-oe-model=project.task data-oe-id=%d>%s</a>"
 msgstr ""
-"Nhiệm vụ được tạo (%s): <a href=# data-oe-model=project.task data-oe-id=%d>%s</a>"
+"Nhiệm vụ được tạo (%s): <a href=# data-oe-model=project.task data-oe-"
+"id=%d>%s</a>"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_sale_order_line_task_id
@@ -504,8 +506,8 @@ msgid ""
 "You cannot delete a task related to a Sales Order. You can only archive this"
 " task."
 msgstr ""
-"Bạn không được phép xoá một nhiệm vụ mà liên quan đến một Đơn Bán. Bạn chỉ có thể lưu trữ (vô hiệu)"
-" nhiệm vụ này"
+"Bạn không được phép xoá một nhiệm vụ mà liên quan đến một Đơn Bán. Bạn chỉ "
+"có thể lưu trữ (vô hiệu) nhiệm vụ này"
 
 #. module: sale_timesheet
 #: model:ir.ui.view,arch_db:sale_timesheet.hr_timesheet_employee_extd_form

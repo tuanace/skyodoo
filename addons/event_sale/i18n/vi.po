@@ -6,7 +6,7 @@
 # Martin Trigaux, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
 # Tuan Tran <tmtuan.projects@gmail.com>, 2017
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
@@ -137,7 +137,7 @@ msgstr "Sự kiện"
 #: model:ir.model,name:event_sale.model_event_type
 #: model:ir.model.fields,field_description:event_sale.field_event_event_ticket_event_type_id
 msgid "Event Category"
-msgstr ""
+msgstr "Nhóm Sự kiện"
 
 #. module: event_sale
 #: model:ir.ui.view,arch_db:event_sale.event_ticket_form_view

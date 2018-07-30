@@ -4,22 +4,19 @@
 # 
 # Translators:
 # Martin Trigaux, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
-# lam nguyen <lamev.inc@gmail.com>, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
-# Tuan Tran <tmtuan.projects@gmail.com>, 2017
 # Duc Dao <blakice12@gmail.com>, 2017
-# Duy BQ <duybq86@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
-"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
+"Last-Translator: Duc Dao <blakice12@gmail.com>, 2017\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -365,7 +362,7 @@ msgstr "Ly hôn"
 #. module: hr
 #: model:ir.model,name:hr.model_mail_alias
 msgid "Email Aliases"
-msgstr ""
+msgstr "Bí danh Email"
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_employee
@@ -536,7 +533,7 @@ msgstr "Nhóm theo"
 #. module: hr
 #: model:ir.model,name:hr.model_hr_department
 msgid "HR Department"
-msgstr ""
+msgstr "Phòng/Ban (HR)"
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
@@ -1006,15 +1003,14 @@ msgid ""
 "Set default calendar used to compute time allocation for leaves, timesheets,"
 " ..."
 msgstr ""
-"Thiết lập lịch làm việc mặc định để sử dụng trong việc tính toán giờ làm việc, ngày nghỉ, chấm công,"
-" ..."
+"Thiết lập lịch làm việc mặc định để sử dụng trong việc tính toán giờ làm "
+"việc, ngày nghỉ, chấm công, ..."
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job_state
 msgid ""
 "Set whether the recruitment process is open or closed for this job position."
-msgstr ""
-"Thiết lập quy trình tuyển dụng mở hay đóng cho vị trí công việc này."
+msgstr "Thiết lập quy trình tuyển dụng mở hay đóng cho vị trí công việc này."
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_config_settings_action

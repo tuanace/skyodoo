@@ -4,9 +4,9 @@
 # 
 # Translators:
 # Martin Trigaux, 2017
-# fanha99 <fanha99@hotmail.com>, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
+# fanha99 <fanha99@hotmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
 # Tuan Tran <tmtuan.projects@gmail.com>, 2017
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
@@ -427,7 +427,7 @@ msgstr ""
 #. module: barcodes
 #: selection:barcode.rule,type:0
 msgid "Weighted Product"
-msgstr ""
+msgstr "Sản phẩm"
 
 #. module: barcodes
 #: model:ir.model,name:barcodes.model_barcode_nomenclature

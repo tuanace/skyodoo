@@ -6,26 +6,19 @@
 # Martin Trigaux, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
 # Thang Duong Bao <nothingctrl@gmail.com>, 2017
-# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017
-# son dang <son.dang@doda100.com>, 2017
-# Tuan Tran <tmtuan.projects@gmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
-# Su Pham Nghiep Vu <nghiepvusupham58@gmail.com>, 2017
 # Thong Dong <thongdong7@gmail.com>, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
 # sao sang <saosangmo@yahoo.com>, 2017
-# lam nguyen <lamev.inc@gmail.com>, 2017
-# Duc Dao <blakice12@gmail.com>, 2017
-# Binh Lam <ltb0374@gmail.com>, 2017
-# Thư Lê <thu.ltv@komit-consulting.com>, 2018
-# Duy BQ <duybq86@gmail.com>, 2018
+# son dang <son.dang@doda100.com>, 2017
+# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:11+0000\n"
 "PO-Revision-Date: 2017-11-30 13:11+0000\n"
-"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
+"Last-Translator: thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -636,12 +629,12 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.portal_my_project
 msgid "<strong>Customer</strong>"
-msgstr ""
+msgstr "<strong>Khách hàng</strong>"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.portal_my_task
 msgid "<strong>Date:</strong>"
-msgstr ""
+msgstr "<strong>Ngày:</strong>"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.portal_my_task
@@ -1005,7 +998,7 @@ msgstr "Các hoạt động"
 #: model:ir.actions.act_window,name:project.mail_activity_type_action_config_project_types
 #: model:ir.ui.menu,name:project.project_menu_config_activity_type
 msgid "Activity Types"
-msgstr ""
+msgstr "Kiểu Hoạt động"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.task_type_edit
@@ -1058,7 +1051,7 @@ msgstr "Miền bí danh"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_model_id
 msgid "Aliased Model"
-msgstr ""
+msgstr "Bí danh Model"
 
 #. module: project
 #: code:addons/project/controllers/portal.py:89
@@ -1493,7 +1486,7 @@ msgstr "Tạo"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_project_view_form_simplified
 msgid "Create & Edit"
-msgstr ""
+msgstr "Tạo & Chỉnh sửa"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_create_date
@@ -2029,7 +2022,7 @@ msgstr "Dự báo"
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Future Activities"
-msgstr ""
+msgstr "Hoạt động Tương lai"
 
 #. module: project
 #: model:ir.ui.menu,name:project.menu_tasks_config
@@ -2092,7 +2085,7 @@ msgstr "Chúc may mắn!"
 #. module: project
 #: selection:project.task,kanban_state:0
 msgid "Green"
-msgstr ""
+msgstr "Xanh lá"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_legend_done
@@ -2522,7 +2515,7 @@ msgstr "Cập nhật lần cuối"
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Late Activities"
-msgstr ""
+msgstr "Hoạt động bị Trễ"
 
 #. module: project
 #: model:web.planner,tooltip_planner:project.planner_project
@@ -2647,7 +2640,7 @@ msgstr "Thông tin liên lạc hiệu quả hơn giữa các nhân viên"
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "My Activities"
-msgstr ""
+msgstr "Hoạt động của tôi"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_project_filter
@@ -2812,9 +2805,9 @@ msgid ""
 "efficiently. You can track progress, discuss on tasks, attach documents, "
 "etc."
 msgstr ""
-"Quản lý dự án của hệ thống cho phép bạn quản lý một cách hiệu quản các tác"
-"vụ của bạn. Bạn có thể theo dõi tiến độ, thảo luận trong các tác vụ, đính kèm"
-" tài liệu, v.v..."
+"Quản lý dự án của hệ thống cho phép bạn quản lý một cách hiệu quản các tác vụ "
+"của bạn. Bạn có thể theo dõi tiến độ, thảo luận trong các tác vụ, đính kèm "
+"tài liệu, v.v..."
 
 #. module: project
 #: code:addons/project/models/project.py:200
@@ -2906,7 +2899,7 @@ msgstr "Chủ sở hữu"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_parent_model_id
 msgid "Parent Model"
-msgstr ""
+msgstr "Model cha"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_parent_thread_id
@@ -3002,7 +2995,7 @@ msgstr "Dự án"
 #. module: project
 #: model:ir.ui.view,arch_db:project.portal_my_project
 msgid "Project -"
-msgstr ""
+msgstr "Dự án -"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_account_analytic_account_project_count
@@ -3389,7 +3382,7 @@ msgstr "Hiện Dự án ở bảng thông tin"
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Show all records which has next action date is before today"
-msgstr ""
+msgstr "Hiển thị tất cả các bản ghi mà có ngày xử lý tiếp theo trước ngày hôm nay"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3763,6 +3756,10 @@ msgid ""
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
+"Model (Kiểu Tài liệu Odoo) mà bí danh này ứng với nó. Bất kỳ thông điệp "
+"email mà không đáp lại (reply) một bản ghi có sẵn sẽ làm cho Hệ thống tự "
+"động tạo một bản ghi mới cho model này (vd: tạo mới một Nhiệm vụ Dự án nếu "
+"model là project.task)"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_alias_name
@@ -3963,7 +3960,7 @@ msgstr "Để sử dụng Bảng chấm công, hãy đến"
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Today Activities"
-msgstr ""
+msgstr "Hoạt động hôm nay"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_remaining_hours
@@ -4334,9 +4331,8 @@ msgid ""
 "The sub-task's project of the parent task's project should be this task's "
 "project"
 msgstr ""
-"Bạn không thể định nghĩa một tác vụ cha nếu dự án của nó không được cấu "
-"hình chính xác. Tác vụ phụ của Tác vụ cha trong dự án nên là tác vụ"
-"này"
+"Bạn không thể định nghĩa một tác vụ cha nếu dự án của nó không được cấu hình"
+" chính xác. Tác vụ phụ của Tác vụ cha trong dự án nên là tác vụ này"
 
 #. module: project
 #: code:addons/project/models/project.py:67

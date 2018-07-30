@@ -569,7 +569,7 @@ msgstr "Tên hiển thị"
 #: model:ir.model.fields,help:website_slides.field_slide_category_sequence
 #: model:ir.model.fields,help:website_slides.field_slide_channel_sequence
 msgid "Display order"
-msgstr "Thứ tự hiển thị"
+msgstr "Trình tự Hiển thị"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_slide_form

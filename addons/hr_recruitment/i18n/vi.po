@@ -7,20 +7,18 @@
 # Martin Trigaux, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
 # file aio <fileaio@gmail.com>, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
 # Tuan Tran <tmtuan.projects@gmail.com>, 2017
-# lam nguyen <lamev.inc@gmail.com>, 2017
 # Duc Dao <blakice12@gmail.com>, 2017
-# Binh Lam <ltb0374@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-16 08:08+0000\n"
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
-"Last-Translator: Binh Lam <ltb0374@gmail.com>, 2017\n"
+"Last-Translator: Duc Dao <blakice12@gmail.com>, 2017\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -463,6 +461,8 @@ msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
 "creating new records for this alias."
 msgstr ""
+"Một thư viện Python mà sẽ được biểu thị/đánh giá để cung cấp các giá trị mặc"
+" định khi tạo mới các bản ghi cho bí danh này."
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_active
@@ -513,7 +513,7 @@ msgstr "Miền bí danh"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job_alias_model_id
 msgid "Aliased Model"
-msgstr ""
+msgstr "Bí danh Model"
 
 #. module: hr_recruitment
 #: model:ir.ui.menu,name:hr_recruitment.menu_crm_case_categ_all_app
@@ -756,7 +756,7 @@ msgstr "Tạo"
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.hr_job_simple_form
 msgid "Create & Edit"
-msgstr ""
+msgstr "Tạo & Chỉnh sửa"
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.crm_case_form_view_job
@@ -875,7 +875,7 @@ msgstr "Bằng cấp"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_delay_close
 msgid "Delay to Close"
-msgstr ""
+msgstr "Độ trễ đến khi Đóng"
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.hr_kanban_view_applicant
@@ -1101,6 +1101,8 @@ msgid ""
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
 msgstr ""
+"ID của bản ghi cha mà chứa bí danh (ví dụ: dự án chứa bí danh để tạo nhiệm "
+"vụ)"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_recruitment_stage_template_id
@@ -1441,6 +1443,9 @@ msgid ""
 "attached, even if they did not reply to it. If set, this will disable the "
 "creation of new records completely."
 msgstr ""
+"ID tuỳ chọn của một chủ đề/bản ghi (thread) mà tất cả các thông điệp đến sẽ "
+"được gắn/đính vào, thâm chí nếu người ta không reply nó. Nếu được thiết lập,"
+" điều này sẽ vô hiệu hoàn toàn việc tạo mới bản ghi."
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job_alias_user_id
@@ -1450,7 +1455,7 @@ msgstr "Chủ sở hữu"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job_alias_parent_model_id
 msgid "Parent Model"
-msgstr ""
+msgstr "Model cha"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job_alias_parent_thread_id
@@ -1468,7 +1473,9 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_hr_responsible_id
 msgid "Person responsible of validating the employee's contracts."
-msgstr "Người mà chịu trách nhiệm xác nhận hợp đồng cho nhân viên trúng tuyển vào vị trí này."
+msgstr ""
+"Người mà chịu trách nhiệm xác nhận hợp đồng cho nhân viên trúng tuyển vào vị"
+" trí này."
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_partner_phone
@@ -1771,6 +1778,10 @@ msgid ""
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
+"Model (Kiểu Tài liệu Odoo) mà bí danh này ứng với nó. Bất kỳ thông điệp "
+"email mà không đáp lại (reply) một bản ghi có sẵn sẽ làm cho Hệ thống tự "
+"động tạo một bản ghi mới cho model này (vd: tạo mới một Nhiệm vụ Dự án nếu "
+"model là project.task)"
 
 #. module: hr_recruitment
 #: sql_constraint:hr.recruitment.degree:0

@@ -1,26 +1,23 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * fleet
-#
+# 
 # Translators:
 # Martin Trigaux, 2017
 # lam nguyen <lamev.inc@gmail.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
 # Su Pham Nghiep Vu <nghiepvusupham58@gmail.com>, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017
-# Tuan Tran <tmtuan.projects@gmail.com>, 2017
+# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
-# Thang Duong Bao <nothingctrl@gmail.com>, 2017
-# Binh Lam <ltb0374@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
 "PO-Revision-Date: 2017-09-20 09:54+0000\n"
-"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
+"Last-Translator: Phạm Lân <phamquanglan@gmail.com>, 2017\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -712,7 +709,7 @@ msgstr ""
 #: selection:fleet.vehicle.log.contract,state:0
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search
 msgid "Expired"
-msgstr ""
+msgstr "Hết hạn"
 
 #. module: fleet
 #: selection:fleet.vehicle.log.contract,state:0
@@ -1536,7 +1533,7 @@ msgstr "Báo cáo"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_residual_value
 msgid "Residual Value"
-msgstr ""
+msgstr "Giá trị còn lại"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_15

@@ -4,12 +4,9 @@
 # 
 # Translators:
 # fanha99 <fanha99@hotmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # Martin Trigaux, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
-# Su Pham Nghiep Vu <nghiepvusupham58@gmail.com>, 2017
-# lam nguyen <lamev.inc@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
-# Tuan Tran <tmtuan.projects@gmail.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017
 # Tri Bui <tribd@trobz.com>, 2018
@@ -574,7 +571,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.model,name:hr_holidays.model_hr_department
 msgid "HR Department"
-msgstr ""
+msgstr "Phòng nhân sự"
 
 #. module: hr_holidays
 #: model:ir.model,name:hr_holidays.model_hr_holidays_summary_dept

@@ -1,13 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * calendar
-#
+# 
 # Translators:
 # Martin Trigaux, 2017
 # Tuan Tran <tmtuan.projects@gmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
-# lam nguyen <lamev.inc@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
@@ -1303,12 +1302,12 @@ msgstr "Tính riêng tư"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_rrule_type
 msgid "Recurrence"
-msgstr "Lặp lại"
+msgstr "Tái diễn"
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_end_type
 msgid "Recurrence Termination"
-msgstr "Kết thúc Lặp"
+msgstr "Kết thúc Tái diễn"
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_recurrency
@@ -1318,12 +1317,12 @@ msgstr "Lặp lại"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_recurrent_id
 msgid "Recurrent ID"
-msgstr "Mã Lặp lại"
+msgstr "Mã Tái diễn"
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_recurrent_id_date
 msgid "Recurrent ID date"
-msgstr "Ngày Mã Lặp lại"
+msgstr "Ngày Mã Tái diễn"
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event_recurrency
@@ -1518,6 +1517,8 @@ msgid ""
 "The activity is linked to a meeting. Deleting it will remove the meeting as "
 "well. Do you want to proceed ?"
 msgstr ""
+"Hoạt động được liên kết với một sự kiện (lịch). Xoá nó sẽ đồng thời xoá sự kiện."
+" Bạn có muốn tiếp tục?"
 
 #. module: calendar
 #: model:ir.actions.act_window,help:calendar.action_calendar_event

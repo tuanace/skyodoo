@@ -1,24 +1,22 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hr_attendance
-#
+# 
 # Translators:
 # son dang <son.dang@doda100.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # Tri Bui <tribd@trobz.com>, 2017
-# fanha99 <fanha99@hotmail.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
 # Martin Trigaux, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
-# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017
-# Duc Dao <blakice12@gmail.com>, 2017
-# Duy BQ <duybq86@gmail.com>, 2018
+# fanha99 <fanha99@hotmail.com>, 2017
+# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-16 08:08+0000\n"
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
-"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
+"Last-Translator: thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -121,7 +119,8 @@ msgstr ""
 #: code:addons/hr_attendance/models/hr_employee.py:108
 #, python-format
 msgid "Cannot perform check in or check out on multiple employees."
-msgstr "Không thể thực hiện đăng nhập hay đăng xuất cho nhiều nhân viên cùng lúc."
+msgstr ""
+"Không thể thực hiện đăng nhập hay đăng xuất cho nhiều nhân viên cùng lúc."
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/models/hr_employee.py:122
@@ -259,7 +258,8 @@ msgstr "Tên hiển thị"
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:123
 #, python-format
 msgid "Early to bed and early to rise, makes a man healthy, wealthy and wise"
-msgstr "Ngủ sớm và dậy sớm sẽ khiến con người khỏe mạnh, giàu có và khôn ngoan"
+msgstr ""
+"Ngủ sớm và dậy sớm sẽ khiến con người khỏe mạnh, giàu có và khôn ngoan"
 
 #. module: hr_attendance
 #. openerp-web
@@ -548,8 +548,7 @@ msgstr "Vui lòng nhập mã PIN của bạn để check out"
 #: model:ir.actions.act_window,help:hr_attendance.hr_attendance_action
 msgid ""
 "Please make sure you're using the correct filter if you expected to see any."
-msgstr ""
-"Hãy chắc rằng bạn sử dụng bộ lọc đúng nếu bạn muốn thấy dữ liệu."
+msgstr "Hãy chắc rằng bạn sử dụng bộ lọc đúng nếu bạn muốn thấy dữ liệu."
 
 #. module: hr_attendance
 #. openerp-web
@@ -598,8 +597,8 @@ msgid ""
 "The Badge ID must be unique, this one is already assigned to another "
 "employee."
 msgstr ""
-"Mã số thẻ phải là duy nhất, mã này đã được cấp phát cho một nhân viên "
-"khác rồi."
+"Mã số thẻ phải là duy nhất, mã này đã được cấp phát cho một nhân viên khác "
+"rồi."
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/models/hr_employee.py:63

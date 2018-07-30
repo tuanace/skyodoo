@@ -3,21 +3,20 @@
 # * web
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
-# Thang Duong Bao <nothingctrl@gmail.com>, 2017
+# Martin Trigaux, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
+# Thang Duong Bao <nothingctrl@gmail.com>, 2017
 # lam nguyen <lamev.inc@gmail.com>, 2017
 # Tuan Tran <tmtuan.projects@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
-# Nguyễn Hồng Quân <ng.hong.quan@gmail.com>, 2017
-# DuyBQ <duybq86@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-09 10:16+0000\n"
 "PO-Revision-Date: 2018-01-09 10:16+0000\n"
-"Last-Translator: Nguyễn Hồng Quân <ng.hong.quan@gmail.com>, 2017\n"
+"Last-Translator: son dang <son.dang@doda100.com>, 2017\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -551,8 +550,8 @@ msgid ""
 "Binary fields can not be exported to Excel unless their content is "
 "base64-encoded. That does not seem to be the case for %s."
 msgstr ""
-"Trường Nhị phân không thể xuất ra Excel trừ phi nội dung của nó được "
-"mã hoá base64 (base64-encoded). Đó dường như không phải tình huống cho %s "
+"Trường Nhị phân không thể xuất ra Excel trừ phi nội dung của nó được mã hoá "
+"base64 (base64-encoded). Đó dường như không phải tình huống %s "
 
 #. module: web
 #. openerp-web
@@ -650,7 +649,7 @@ msgstr "Làm sạch"
 #: code:addons/web/static/src/xml/base.xml:228
 #, python-format
 msgid "Clear Events"
-msgstr ""
+msgstr "Xóa các sự kiện"
 
 #. module: web
 #. openerp-web
@@ -734,7 +733,7 @@ msgstr "Đã sao chép!"
 #: code:addons/web/static/src/xml/base.xml:144
 #, python-format
 msgid "Copy the full error to clipboard"
-msgstr "Sao chép báo cáo lỗi đầy đủ vào clipboard"
+msgstr "Sao chép đầy đủ báo cáo lỗi vào clipboard"
 
 #. module: web
 #. openerp-web
@@ -1904,7 +1903,8 @@ msgstr "Chỉ có giá trị số nguyên có thể hợp lệ."
 msgid ""
 "Only employee can access this database. Please contact the administrator."
 msgstr ""
-"Chỉ nhân viên mới có thể truy cập cơ sở dữ liệu này. Vui lòng liên lạc với quản trị viên."
+"Chỉ nhân viên mới có thể truy cập cơ sở dữ liệu này. Vui lòng liên lạc với "
+"quản trị viên."
 
 #. module: web
 #. openerp-web
@@ -2062,7 +2062,8 @@ msgstr "Hãy chọn các trường để lưu danh mục xuất"
 msgid ""
 "Please use the copy button to report the error to your support service."
 msgstr ""
-"Vui lòng sử dụng nút Sao chép để báo cáo lỗi đến nhà cung cấp dịch vụ của bạn."
+"Vui lòng sử dụng nút Sao chép để báo cáo lỗi đến nhà cung cấp dịch vụ của "
+"bạn."
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
@@ -2173,15 +2174,15 @@ msgstr "Khôi phục các bản ghi"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:223
 #, python-format
-msgid "Chạy kiểm tra JS điện thoại"
-msgstr ""
+msgid "Run JS Mobile Tests"
+msgstr "Chạy Kiểm thử Mobile JS"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:222
 #, python-format
-msgid "Chạy kiểm tra JS"
-msgstr ""
+msgid "Run JS Tests"
+msgstr "Chạy Kiểm thử JS"
 
 #. module: web
 #. openerp-web
@@ -2506,8 +2507,8 @@ msgid ""
 "The record has been modified, your changes will be discarded. Do you want to"
 " proceed?"
 msgstr ""
-"Bản ghi đã được sửa đổi, các thay đổi của bạn sẽ bị mất. Bạn có muốn tiếp"
-" tục?"
+"Bản ghi đã được sửa đổi, các thay đổi của bạn sẽ bị mất. Bạn có muốn tiếp "
+"tục?"
 
 #. module: web
 #. openerp-web

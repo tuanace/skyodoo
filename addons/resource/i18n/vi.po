@@ -1,11 +1,10 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * resource
-#
+# 
 # Translators:
 # Martin Trigaux, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
-# lam nguyen <lamev.inc@gmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
 # Tuan Tran <tmtuan.projects@gmail.com>, 2017
@@ -104,8 +103,8 @@ msgid ""
 "Define working hours and time table that could be scheduled to your project "
 "members"
 msgstr ""
-"Định nghĩa các khung giờ làm việc và thời gian biểu mà có thể được ấn định cho các"
-" thành viên dự án của bạn"
+"Định nghĩa các khung giờ làm việc và thời gian biểu mà có thể được ấn định "
+"cho các thành viên dự án của bạn"
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance_display_name

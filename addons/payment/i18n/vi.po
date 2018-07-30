@@ -6,10 +6,9 @@
 # Martin Trigaux, 2017
 # son dang <son.dang@doda100.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # Thang Duong Bao <nothingctrl@gmail.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
-# lam nguyen <lamev.inc@gmail.com>, 2017
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
 msgid ""
 msgstr ""
@@ -504,7 +503,7 @@ msgstr "Email"
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_environment
 #: model:ir.ui.view,arch_db:payment.acquirer_search
 msgid "Environment"
-msgstr ""
+msgstr "Môi trường"
 
 #. module: payment
 #: selection:payment.transaction,state:0
@@ -833,7 +832,7 @@ msgstr "Tên Đối tác"
 #: code:addons/payment/controllers/portal.py:39
 #, python-format
 msgid "Pay Now"
-msgstr ""
+msgstr "Thanh toán Ngay"
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_payu
@@ -880,17 +879,17 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_journal_id
 msgid "Payment Journal"
-msgstr ""
+msgstr "Sổ Nhật kí Thanh toán"
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay_methods
 msgid "Payment Methods"
-msgstr ""
+msgstr "Phương thức Thanh toán"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_payment_token_id
 msgid "Payment Token"
-msgstr ""
+msgstr "Token Thanh toán"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_res_partner_payment_token_ids
@@ -899,7 +898,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:payment.payment_token_tree_view
 #: model:ir.ui.view,arch_db:payment.payment_token_view_search
 msgid "Payment Tokens"
-msgstr ""
+msgstr "Token Thanh toán"
 
 #. module: payment
 #: model:ir.model,name:payment.model_payment_transaction
@@ -973,7 +972,7 @@ msgstr "Điện thoại"
 #: code:addons/payment/static/src/js/payment_form.js:199
 #, python-format
 msgid "Please select a payment method."
-msgstr ""
+msgstr "Vui lòng chọn một phương thức thanh toán"
 
 #. module: payment
 #. openerp-web
@@ -1010,7 +1009,7 @@ msgstr "Sản xuất"
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_provider
 #: model:ir.ui.view,arch_db:payment.acquirer_search
 msgid "Provider"
-msgstr ""
+msgstr "Nhà cung cấp"
 
 #. module: payment
 #: selection:payment.acquirer,payment_flow:0
@@ -1091,7 +1090,7 @@ msgstr "Trình tự"
 #: code:addons/payment/static/src/js/payment_form.js:332
 #, python-format
 msgid "Server Error"
-msgstr ""
+msgstr "Lỗi Máy chủ"
 
 #. module: payment
 #: selection:payment.transaction,type:0
@@ -1163,7 +1162,7 @@ msgstr "Kiểm thử"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_post_msg
 msgid "Thanks Message"
-msgstr ""
+msgstr "Thông điệp Cám ơn"
 
 #. module: payment
 #: code:addons/payment/models/payment_acquirer.py:567
@@ -1379,7 +1378,7 @@ msgstr ""
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.payment_confirmation_status
 msgid "Your payment has been authorized."
-msgstr ""
+msgstr "Thanh toán của bạn đã được ủy quyền."
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.transaction_form

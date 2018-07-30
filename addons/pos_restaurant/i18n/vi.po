@@ -1,13 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * pos_restaurant
-#
+# 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
+# Martin Trigaux, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
-# lam nguyen <lamev.inc@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
 # Duy Pham <phamduy1812@gmail.com>, 2017
 # Dang Hanh <hanh.dtm@komit-consulting.com>, 2017
@@ -56,7 +55,8 @@ msgstr ""
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Accept customer tips or convert their change to a tip"
-msgstr "Chấp thuận tiền típ của khách hàng hoặc chuyển đổi tiền thừa thành típ"
+msgstr ""
+"Chấp thuận tiền típ của khách hàng hoặc chuyển đổi tiền thừa thành típ"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_active
