@@ -2752,11 +2752,27 @@ msgstr "Báo cáo Bán"
 
 #. module: website_sale
 #. openerp-web
-#: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:35
-#: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:47
+#: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:38
+#: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:56
 #, python-format
-msgid "Sales Since Last"
-msgstr "Doanh số Kể từ"
+msgid "Sales Since Last Month"
+msgstr "Doanh số từ Tháng Trước"
+
+#. module: website_sale
+#. openerp-web
+#: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:35
+#: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:53
+#, python-format
+msgid "Sales Since Last Week"
+msgstr "Doanh số từ Tuần Trước"
+
+#. module: website_sale
+#. openerp-web
+#: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:41
+#: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:59
+#, python-format
+msgid "Sales Since Last Year"
+msgstr "Doanh số từ Năm Trước"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings_salesperson_id
