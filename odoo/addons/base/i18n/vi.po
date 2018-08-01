@@ -7077,7 +7077,7 @@ msgid ""
 "1. Global rules are combined together with a logical AND operator, and with "
 "the result of the following steps"
 msgstr ""
-"1. Quy tắc chung được kết hợp với toán tử logic AND, và với kết quả của các "
+"1. Quy tắc toàn cục được kết hợp với toán tử luận lý AND, và với kết quả của các "
 "bước sau"
 
 #. module: base
@@ -7089,7 +7089,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:base.view_rule_form
 msgid ""
 "2. Group-specific rules are combined together with a logical OR operator"
-msgstr "2. Quy tắc của nhóm được kết hợp với toán tử logic OR"
+msgstr "2. Quy tắc liên quan đến nhóm được kết hợp với toán tử logic OR"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_widget_x2many_2d_matrix
@@ -12480,6 +12480,10 @@ msgid ""
 "the bounds of global ones. The first group rules restrict further than "
 "global rules, but any additional group rule will add more permissions"
 msgstr ""
+"Quy tắc toàn cục (không liên quan đến nhóm nào) là các hạn chế/giới hạn và không thể tránh được (bypass). "
+"Các quy tắc nhóm cục bộ (cho các nhóm quyền truy cập) cung cấp các quyền bổ sung nhưng bị ràng buộc trong phạm "
+"vi các quy tắc toàn cục. Quy tắc nhóm đầu tiên giới hạn nhiều hơn các quy tắc toàn cục, nhưng bất kỳ một "
+"quy tắc nhóm bổ sung sao đó sẽ bổ sung thêm quyền"
 
 #. module: base
 #: code:addons/base/res/res_config.py:671
@@ -12495,7 +12499,7 @@ msgstr "Vàng"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_google_calendar
 msgid "Google Calendar"
-msgstr ""
+msgstr "Lịch Google"
 
 #. module: base
 #: model:ir.module.module,description:base.module_google_calendar
@@ -12751,7 +12755,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_to_hr_overtime_payroll
 msgid "HR Overtime Management"
-msgstr ""
+msgstr "Quản lý Tăng ca Nhân sự"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_to_hr_payroll_account_advanced
@@ -12766,7 +12770,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_to_hr_payroll_leave_type_code
 msgid "HR Payroll Leave Type Code"
-msgstr ""
+msgstr "Mã Kiểu nghỉ cho Phiếu lương"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_to_hr_recruitment_request
@@ -12776,7 +12780,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_to_hr_shift_rotation
 msgid "HR Shift Rotation"
-msgstr ""
+msgstr "Luân chuyển ca"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_to_hr_working_time_report
