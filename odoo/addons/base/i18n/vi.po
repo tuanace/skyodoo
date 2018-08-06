@@ -15379,7 +15379,7 @@ msgstr "Kiểm kho, Logistics, Quản lý kho"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_to_invoice_partner_vat
 msgid "Invoice Partner VAT"
-msgstr ""
+msgstr "MST Đối tác trên Hoá đơn"
 
 #. module: base
 #: selection:res.partner,type:0
