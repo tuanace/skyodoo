@@ -23,19 +23,33 @@ msgstr ""
 "PO-Revision-Date: 2018-08-02 09:47+0000\n"
 "Last-Translator: Tuan Tran <tmtuan.projects@gmail.com>, 2017\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
-"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_backend_theme_v11
+msgid ""
+"\n"
+"        Backend theme for Odoo 11.0 community edition.\n"
+"    "
+msgstr ""
+"\n"
+"        Giao diện backend cho Odoo 11.0 community edition.\n"
+"    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_to_backend_theme
 msgid ""
 "\n"
-"\t\tBackend theme for Odoo community edition, based on the Material/United Backend Theme by Openworx\n"
+"        Backend theme for Odoo community edition, based on the Material/United Backend Theme by Openworx\n"
 "    "
 msgstr ""
+"\n"
+"        Giao diện backend cho ấn bản Odoo Community, phát triển từ giao diện Material/United Backend Theme của Openworx\n"
+"    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_cn
@@ -83,17 +97,6 @@ msgid ""
 "and get rewards.\n"
 "This module was built as the base for other modules to inherit, eg. Loyalty for PoS, Loyalty for Sales, Loyalty for eCommerce. Without those inheritances, this module does nothing.\n"
 "\n"
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,description:base.module_to_account_balance_carry_forward
-msgid ""
-"\n"
-"\n"
-"=======================\n"
-"\n"
-"This module allows you to define account balance carry forward rules.\n"
-"This module use to carry forward revenue, expense, revenue deduction, other income, other expense...in fiscal year.\n"
 msgstr ""
 
 #. module: base
@@ -242,19 +245,6 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,description:base.module_account_deferred_revenue
-msgid ""
-"\n"
-"\n"
-"Revenue recognitions\n"
-"====================\n"
-"Manage revenue recognitions on product sales.\n"
-"Keeps track of the revenue recognition installments, and creates corresponding journal entries.\n"
-"\n"
-"    "
-msgstr ""
-
-#. module: base
 #: code:addons/base/res/res_config.py:315
 #, python-format
 msgid ""
@@ -310,17 +300,6 @@ msgstr ""
 "Mô-đun này cho phép thu ngân chiết khấu nhanh phần trăm giá bán\n"
 "cho một khách hàng.\n"
 "\n"
-
-#. module: base
-#: model:ir.module.module,description:base.module_pos_loyalty
-msgid ""
-"\n"
-"\n"
-"This module allows you to define a loyalty program in\n"
-"the point of sale, where the customers earn loyalty points\n"
-"and get rewards.\n"
-"\n"
-msgstr ""
 
 #. module: base
 #: code:addons/model.py:136
@@ -482,6 +461,14 @@ msgstr ""
 "        Cho phép sử dụng mã Python để định nghĩa các hạng mục thuế"
 
 #. module: base
+#: model:ir.module.module,summary:base.module_project_gantt
+msgid ""
+"\n"
+"        Apply Gantt to Project Task\n"
+"        "
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,summary:base.module_to_attendance_device
 msgid ""
 "\n"
@@ -551,6 +538,13 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,summary:base.module_to_account_counterpart
+msgid ""
+"\n"
+"        Counterpart relations between Journal Items"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,summary:base.module_to_pos_delivery
 msgid ""
 "\n"
@@ -594,6 +588,13 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,summary:base.module_to_hr_employee_private_fields_access
+msgid ""
+"\n"
+"        Employee Private Fields Access"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,summary:base.module_pos_cache
 msgid ""
 "\n"
@@ -603,10 +604,26 @@ msgstr ""
 "        Kích hoạt chức năng bộ đệm (cache) cho sản phẩm để có thể nạp sản phẩm nhanh hơn trên PoS (Point of Sales)."
 
 #. module: base
+#: model:ir.module.module,summary:base.module_web_group_expand
+msgid ""
+"\n"
+"        Enables expanding/reset all groups in list view\n"
+"    "
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,summary:base.module_web_listview_range_select
 msgid ""
 "\n"
 "        Enables selecting a range of records using the shift key\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_project_gantt
+msgid ""
+"\n"
+"        Example for Web Gantt\n"
 "    "
 msgstr ""
 
@@ -622,6 +639,14 @@ msgstr ""
 msgid ""
 "\n"
 "        Full list of provinces and cities in Vietnam"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_web_gantt
+msgid ""
+"\n"
+"        Gantt Chart\n"
+"        "
 msgstr ""
 
 #. module: base
@@ -882,13 +907,6 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,summary:base.module_l10_vn_waypoint_areas
-msgid ""
-"\n"
-"        This module create areas in Vietnam as initial data"
-msgstr ""
-
-#. module: base
 #: model:ir.module.module,description:base.module_to_common_uom
 msgid ""
 "\n"
@@ -997,6 +1015,18 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,description:base.module_account_lock
+msgid ""
+"\n"
+"    Make the lock date irreversible:\n"
+"\n"
+"    * You cannot define stricter conditions on advisors than on users. Then, the lock date on advisor must be set before the lock date for users.\n"
+"    * You cannot lock a period that is not finished yet. Then, the lock date for advisors must be set before the last day of the previous month.\n"
+"    * The new lock date for advisors must be set after the previous lock date.\n"
+"    "
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_hr_timesheet_attendance
 msgid ""
 "\n"
@@ -1011,6 +1041,16 @@ msgid ""
 "    PayuMoney Payment Acquirer for India.\n"
 "\n"
 "    PayUmoney payment gateway supports only INR currency.\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_to_hr_employee_private_fields_access
+msgid ""
+"\n"
+"    Since the access to the address_home_id is restricted to hr.group_hr_user in Odoo 11, this\n"
+"    method is implemented to retrieve the address_home_id with sudo() for the users who have no\n"
+"    access to this field in some required scenarios\n"
 "    "
 msgstr ""
 
@@ -1036,21 +1076,24 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,description:base.module_to_legal_invoice_number
+msgid ""
+"\n"
+"A new field 'Legal Number' has been added to the invoice model to allow users to:\n"
+"\n"
+"* Input an additional invoice number for legal purpose\n"
+"* Search invoice by legal number\n"
+"    "
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_account_accountant
 msgid ""
 "\n"
 "Accounting Access Rights\n"
 "========================\n"
-"It gives the Administrator user access to all accounting features such as journal items and the chart of accounts.\n"
-"\n"
-"It assigns manager and user access rights to the Administrator for the accounting application and only user rights to the Demo user.\n"
+"This module is to activate full accounting features for Odoo Community\n"
 msgstr ""
-"\n"
-"Các Quyền truy cập kế toán\n"
-"==========================\n"
-"Cho phép Administrator truy cập đến tất cả các tính năng kế toán như bút toán sổ nhật ký, hoạch đồ tài khoản kế toán.\n"
-"\n"
-"Nó gán quyền quản lý và quyền người dùng cho Administrator đối với ứng dụng kế toán và chỉ quyền người dùng cho người dùng Demo.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_be_hr_payroll_account
@@ -1083,7 +1126,14 @@ msgid ""
 "=============================\n"
 "\n"
 "* Provide integration between Accounting and MRP to allow calculate finish product cost in real time\n"
-"* Cost structure report for manufacturing like in Enterprise Edition\n"
+"* Cost structure report for manufacturing like what is available in the Enterprise Edition\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_to_l10n_vn_qweb_layout
+msgid ""
+"\n"
+"Accounting QWeb Layouts for companies based in Vietnam\n"
 msgstr ""
 
 #. module: base
@@ -1093,6 +1143,13 @@ msgid ""
 "Accounting Reports\n"
 "====================\n"
 "    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_to_account_counterpart_reports
+msgid ""
+"\n"
+"Accounting Reports with counterpart support"
 msgstr ""
 
 #. module: base
@@ -1152,6 +1209,13 @@ msgstr ""
 "\n"
 "Bạn có thể gán một vài hợp đồng lao động cho một nhân viên.\n"
 "    "
+
+#. module: base
+#: model:ir.module.module,summary:base.module_to_equipment_image
+msgid ""
+"\n"
+"Add an image for an equipment"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_to_product_collection
@@ -1378,6 +1442,13 @@ msgstr ""
 "\n"
 "Bạn có thể định nghĩa giá cho từng nhà cung cấp dịch vụ vận chuyển. Khi tạo hoá đơn từ các hoạt\n"
 " động giao nhận, hệ thống sẽ có thể tính toán và thêm phí vận chuyển vào từng dòng.\n"
+
+#. module: base
+#: model:ir.module.module,summary:base.module_to_legal_invoice_number
+msgid ""
+"\n"
+"An additional number for invoice"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ar
@@ -1686,6 +1757,22 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,description:base.module_to_mail_notif_and_email
+msgid ""
+"\n"
+"By default, Odoo provides two options for Notification Management:\n"
+"\n"
+"* Handle by Emails: notifications are sent to the users' email. This is the default option for new user creation\n"
+"* Handle in Odoo: notifications appear in the users' Odoo Inbox\n"
+"\n"
+"This module does the following\n"
+"------------------------------\n"
+"1. 'Handle in Odoo' is set to the default option instead of 'Handle by Emails'\n"
+"2. When 'Handle in Odoo' is set for the user, notifications appear in the user's Odoo Inbox and are sent to the user's email at the same time\n"
+"    "
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_to_purchase_landed_cost
 msgid ""
 "\n"
@@ -1707,6 +1794,13 @@ msgid ""
 "============================\n"
 "\n"
 "This module allows for validate and format phone numbers for leads and contacts."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_to_hr_scheduled_working_days
+msgid ""
+"\n"
+"Calculate Scheduled Working Days/Hours in months."
 msgstr ""
 
 #. module: base
@@ -1834,6 +1928,13 @@ msgid ""
 "\n"
 "Core mechanisms for the accounting modules. To display the menuitems, install the module account_invoicing.\n"
 "    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_to_lines_count_on_account_move
+msgid ""
+"\n"
+"Count lines on Journal Entries"
 msgstr ""
 
 #. module: base
@@ -1994,7 +2095,7 @@ msgid ""
 "Notes:\n"
 "-----\n"
 "If you are in Odoo Enterprise, you should remove the Odoo's Loyalty PoS module which is a standard delivery in the Enterprise Edition.\n"
-"Choosing the Loyalty PoS by TVTMA has more benefit since it is a part of total customer loyalty solution which supports the application of Sales, PoS, Website E-Commerce. \n"
+"Choosing the Loyalty PoS by TVTMA has more benefit since it is a part of total customer loyalty solution which supports the application of Sales, PoS, Website E-Commerce.\n"
 "\n"
 msgstr ""
 
@@ -2126,6 +2227,13 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,summary:base.module_to_sale_line_numbering
+msgid ""
+"\n"
+"Enable Numbering on Sales Order Lines"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_utm
 msgid ""
 "\n"
@@ -2176,6 +2284,13 @@ msgid ""
 "by the ``auth_signup`` module (signup for new users does not\n"
 "necessarily have to be enabled).\n"
 "\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_to_accounting_entry_report_flag
+msgid ""
+"\n"
+"Excluded in Legal Reports filtering for accounting journal entries and journal items"
 msgstr ""
 
 #. module: base
@@ -2467,17 +2582,6 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,description:base.module_to_hr_holidays_advanced
-msgid ""
-"\n"
-"Holidays Advanced\n"
-"=================\n"
-"This application allows to load worked days and leaves data into payslip.\n"
-"\n"
-"    "
-msgstr ""
-
-#. module: base
 #: model:ir.module.module,description:base.module_base_import_module
 msgid ""
 "\n"
@@ -2514,9 +2618,9 @@ msgstr ""
 #: model:ir.module.module,description:base.module_to_vat_counterpart
 msgid ""
 "\n"
-"In some user cases where we do not have a counterpart account for a tax entry, this module add Counterpart Account declaration on Tax form to solve the issue.\n"
+"In some use cases where we do not have a counterpart account for a tax entry, this module add Counterpart Account declaration on Tax form to solve the issue.\n"
 "\n"
-"For example, according to Vietnam Accounting Standards, the account code 33312 (VAT on imported goods) requires the account 1331 (VAT on purchase of goods and services) as it counterpart.\n"
+"For example, according to Vietnam Accounting Standards, the account code 33312 (VAT on imported goods) requires the account 1331 (VAT on purchase of goods and services) for a counterpart of its.\n"
 "    "
 msgstr ""
 
@@ -2789,9 +2893,11 @@ msgid ""
 "* You can register employee for each and every Payroll Contribution Type.\n"
 "    * The registration status can be confirmed, suspended, resume or done (when the employee resigns)\n"
 "    * Status changes of Registration is logged automatically\n"
+"\n"
 "Goes into Payslip Computation\n"
 "-----------------------------\n"
 "* Payroll Contribution information is accessible within salary rules using variable employee.payroll_contribution_reg_ids. Find the default salary rules (i.e. Social Insurance by Employee, Unemployment Insurance by Company, etc) created upon installation of this app for further study.\n"
+"\n"
 "Reports and Analysis\n"
 "--------------------\n"
 "* Provided analysis on number of registrations over the time\n"
@@ -2817,6 +2923,17 @@ msgid ""
 "* Salary Structures with mandatory insurances and labor union fee\n"
 "\n"
 "    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_to_account_balance_carry_forward
+msgid ""
+"\n"
+"Key Features\n"
+"=======================\n"
+"\n"
+"This module allows you to define account balance carry forward rules.\n"
+"For example, carry forward your revenue, expense, revenue deduction, other income, other expense, etc in a fiscal year.\n"
 msgstr ""
 
 #. module: base
@@ -3005,13 +3122,6 @@ msgid ""
 "\n"
 "Link module to map leads to tasks\n"
 "        "
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,summary:base.module_to_accounting_entry_report_flag
-msgid ""
-"\n"
-"Legal Report Off filtering for accounting journal entries and journal items"
 msgstr ""
 
 #. module: base
@@ -3402,6 +3512,13 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,summary:base.module_to_mail_notif_and_email
+msgid ""
+"\n"
+"Notifications to both the Odoo Inbox and Email"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_l10n_sa
 msgid ""
 "\n"
@@ -3450,6 +3567,13 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,summary:base.module_to_enterprise_mobile
+msgid ""
+"\n"
+"Odoo EE Mobile App support for Odoo CE"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_website_mail_channel
 msgid ""
 "\n"
@@ -3457,6 +3581,14 @@ msgid ""
 "==========================================\n"
 "\n"
 "        "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_to_enterprise_mobile
+msgid ""
+"\n"
+"Odoo Mobile App does not support Odoo CE. This module provide a bypass so that the app can support Odoo CE\n"
+"    "
 msgstr ""
 
 #. module: base
@@ -3601,6 +3733,29 @@ msgid ""
 "- AHMNET CORP http://www.ahmnet.com\n"
 "\n"
 "    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_to_account_counterpart_partner_balance
+msgid ""
+"\n"
+"Partner Balance reports in Odoo built with data from payable and receivable accounts\n"
+"while the reports offering by this module are based on the data from the counterpart of the payable and the receivable.\n"
+"This offers more details for the debtors and creditors\n"
+"\n"
+"Known Issues:\n"
+"-------------\n"
+"* Payments are distributed across income/expense lines although they should not be. The future implementation may fix it.\n"
+"* Subsequence taxes are not considered yet. The future implementation may fix it.\n"
+"* Taxes are computed based on settings on the taxes. If taxes are changed after journal entries are encoded, the report may come wrong. This is due to the limit in Odoo where there is no link between a tax line and an income/expense line of a journal entry being available\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_to_account_counterpart_partner_balance
+msgid ""
+"\n"
+"Partner balance reports using payable and receivable counterparts"
 msgstr ""
 
 #. module: base
@@ -3759,6 +3914,48 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,description:base.module_to_hr_scheduled_working_days
+msgid ""
+"\n"
+"Problems\n"
+"--------\n"
+"Without this module, it is impossible to find out number of month work hours/days nor number of duty working days\n"
+"of an employee in a specific month of a year. Hence, it is every difficult to find out hour rate / day rate of an employee of a payslip. For example,\n"
+"\n"
+"* Data\n"
+"    * Basic Wage: 1000\n"
+"    * Payslip Period: 2018/02/20 ~ 2018/02/28\n"
+"    * Working Schedule: 45 Hours a week\n"
+"* In this case, we have no way to know the facts below in salary rules\n"
+"    * the total month working hours of the Feb 2018 is 176\n"
+"    * the total month working days of the Feb 2018 is 22\n"
+"    * the duty working hours of the employee of the payslip is 60\n"
+"    * the duty working days of the employee of the payslip is 7.5\n"
+"\n"
+"Key Features\n"
+"------------\n"
+"* This module solves the problem above mentioned by providing the following data into employee payslips:\n"
+"    * Month: a single month of the payslip's\n"
+"    * Duty Working Hours: the total hours of the month the employee of the payslip has to work according to the payslip period\n"
+"    * Duty Working Days: the total days of the month the employee of the payslip has to work according to the payslip period.\n"
+"    * Month Working Hours: the total working hours of the FULL month according to the working schedule, no matter what the payslip period is\n"
+"    * Month Working Days: the total working days of the FULL month according to the working schedule, no matter what the payslip period is\n"
+"* In case a pay slip crosses months, the data should be a table where each row is a set of the data above mentioned.\n"
+"\n"
+"How to apply for Salary Rules\n"
+"-----------------------------\n"
+"1. Basic Wage Calculation (no leave consideration):\n"
+"    result = sum(line.duty_working_hours * (contract.wage / line.month_working_hours) for line in payslip.working_month_calendar_ids)\n"
+"2. Fixed Monthly `allowance` Calculation (no leave consideration):\n"
+"    result = sum(line.duty_working_hours * (contract.allowance / line.month_working_hours) for line in payslip.working_month_calendar_ids)\n"
+"\n"
+"Known Issues\n"
+"------------\n"
+"1. Duty Working Days and Month Working Days are calculated based on the conversion of the unit of measure Hour(s) -> Day(s) whose default value is 8.0 hours per day.\n"
+"In case your working hours of a day may vary across your resource calendar, do NOT use this for for salary computation since it. Go with hours base solution\n"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_to_affiliate_manager
 msgid ""
 "\n"
@@ -3877,6 +4074,20 @@ msgid ""
 "\n"
 "Create some products for which you can re-invoice the costs.\n"
 "This module allow to reinvoice employee expense, by setting the SO directly on the expense.\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_to_enterprice_marks_account
+msgid ""
+"\n"
+"Replace Enterprise labels in Accounting Settings\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_to_enterprice_marks_mrp
+msgid ""
+"\n"
+"Replace Enterprise labels in MRP Settings"
 msgstr ""
 
 #. module: base
@@ -4020,6 +4231,21 @@ msgstr ""
 " * Các kiểu tài liệu được hỗ trợ: PDF, hình ảnh, YouTube videos & tài liệu Google Drive)\n"
 
 #. module: base
+#: model:ir.module.module,summary:base.module_to_invoice_partner_vat
+msgid ""
+"\n"
+"Show and store partner VAT on Invoice"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_to_sale_line_numbering
+msgid ""
+"\n"
+"Show lines numbering on Sales Order form and Sales Order/Quotation PDF version\n"
+"    "
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_l10n_sg
 msgid ""
 "\n"
@@ -4079,6 +4305,28 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,description:base.module_to_hr_employee_relative
+msgid ""
+"\n"
+"Store employee's family and relatives information for unplanned circumstances.\n"
+"\n"
+"Key Features:\n"
+"-------------\n"
+"* Easy input relatives information in the standard employee form. This information is only maintained and visable by users having the HR Officer role.\n"
+"* Search for employees who have relatives or not\n"
+"* Filter Partners/Contacts to find out who are the relative of the company's employee\n"
+"* Search partners by related employee\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_to_hr_employee_relative
+msgid ""
+"\n"
+"Store employee's relatives information"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_to_product_return_reason_pos
 #: model:ir.module.module,description:base.module_to_promotion_voucher
 #: model:ir.module.module,description:base.module_to_promotion_voucher_account_payment
@@ -4100,7 +4348,8 @@ msgid ""
 "\n"
 "Summary\n"
 "=======\n"
-"Change number of digits of currency rate from (12,6) to (26,20) to better support Vietnam Dong and other low rate currencies; Add a graph view to currency rates of a currency\n"
+"* Change number of digits of currency rate from (12,6) to (26,20) to better support Vietnam Dong and other lower rate currencies;\n"
+"* Add a graph view to currency rates of a currency\n"
 "    "
 msgstr ""
 
@@ -4204,6 +4453,101 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,description:base.module_to_account_counterpart
+msgid ""
+"\n"
+"The Problem\n"
+"===========\n"
+"\n"
+"In Odoo, a journal entry may contain multiple debit journal items and credit journal items.\n"
+"\n"
+"However, we do not know the countered line(s) of a line which causes trouble in some legal reports that require showing up counterparts and countered accounts of a transaction\n"
+"\n"
+"Key Features\n"
+"============\n"
+"Journal Item Counterparts\n"
+"-------------------------\n"
+"A new model named 'Journal Item Counterpart' (account.move.line.ctp) is created which has the following key fields:\n"
+"\n"
+"* **dr_aml_id**: The debit journal item (also known as 'account move line')\n"
+"* **cr_aml_id**: The credit journal item\n"
+"* **countered_amt**: the amount that match the counterpart operation of the two journal items above mention\n"
+"\n"
+"When a counterpart operation is carried out, a new record of the model Journal Item Counterpart will\n"
+"be created to link a debit journal item with a credit journal item to indicate that the later journal item is a counterpart with a countered amount.\n"
+"\n"
+"Journal Items\n"
+"-------------\n"
+"The following key stored and computed fields has been added into the Journal Item model (account.move.line):\n"
+"\n"
+"* **ctp_aml_ids** (Countered Journal Items): other items that are counterparts of the current item.\n"
+"* **ctp_account_ids** (Countered Accounts): other accounts that are counterparts of the account of the current item.\n"
+"* **countered_amt** (Countered Amount): The amount that has been set as the countered for this journal item.\n"
+"* **countered_status** (Countered Status): A technical field to indicate that the journal item has either countered fully or partially or not-yet-countered.\n"
+"\n"
+"Journal Entries\n"
+"---------------\n"
+"The following key stored and computed fields has been added into the Journal Entry model (account.move):\n"
+"\n"
+"* **countered_status** (Countered Status): A technical field to indicate that the journal entry has either countered fully or partially or not-yet-countered.\n"
+"\n"
+"Wizards\n"
+"-------\n"
+"* **Counterparts Generator** is a wizard to allow accounting manager to either generate missing counterparts for account journal items or regenerate counterparts for all the existing items. It also allow you to limit the number of entries during generation by select one or more journals\n"
+"\n"
+"Some Use Cases for Proof of Concepts\n"
+"------------------------------------\n"
+"* Entry with One single debit item and One single credit item\n"
+"    * Entry:\n"
+"        * [1] Debit 131 (Customer Receivable): $100\n"
+"        * [2] Credit 511 (Sales Revenue): $100\n"
+"    * Counterpart Mapping:\n"
+"        * Debit Line: [1]\n"
+"        * Credit Line: [2]\n"
+"        * Countered Amount: $100\n"
+"\n"
+"* Entry with One single debit item and Multiple credit items\n"
+"    * Entry:\n"
+"        * [1] Debit 131 (Customer Receivable): $150\n"
+"        * [2] Credit 5111 (Goods Sales Revenue): $100\n"
+"        * [3] Credit 5113 (Service Sales Revenue): $50\n"
+"    * Counterpart Mapping:\n"
+"        * 1st Counterpart:\n"
+"            * Debit Line: [1]\n"
+"            * Credit Line: [2]\n"
+"            * Countered Amount: $100\n"
+"        * 2nd Counterpart:\n"
+"            * Debit Line: [1]\n"
+"            * Credit Line: [3]\n"
+"            * Countered Amount: $50\n"
+"\n"
+"* Entry with Multipe debit items and Multiple credit items\n"
+"    * Entry:\n"
+"        * [1] Debit 131 (Customer Receivable): $120\n"
+"        * [2] Debit 131 (Customer Receivable): $30\n"
+"        * [3] Credit 5111 (Goods Sales Revenue): $100\n"
+"        * [4] Credit 5113 (Service Sales Revenue): $50\n"
+"    * Counterpart Mapping:\n"
+"        * 1st Counterpart:\n"
+"            * Debit Line: [2]\n"
+"            * Credit Line: [3]\n"
+"            * Countered Amount: $20\n"
+"        * 2nd Counterpart:\n"
+"            * Debit Line: [2]\n"
+"            * Credit Line: [4]\n"
+"            * Countered Amount: $10\n"
+"        * 3rd Counterpart:\n"
+"            * Debit Line: [1]\n"
+"            * Credit Line: [3]\n"
+"            * Countered Amount: $80\n"
+"        * 4th Counterpart:\n"
+"            * Debit Line: [1]\n"
+"            * Credit Line: [4]\n"
+"            * Countered Amount: $40\n"
+"\n"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_to_purchase_reports
 msgid ""
 "\n"
@@ -4226,14 +4570,6 @@ msgid ""
 "    * Warranty concept\n"
 "    * Repair quotation report\n"
 "    * Notes for the technician and for the final customer\n"
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,description:base.module_l10_vn_waypoint_areas
-msgid ""
-"\n"
-"The areas will be created basing on Vietnam's Provinces\n"
-"    "
 msgstr ""
 
 #. module: base
@@ -4329,7 +4665,7 @@ msgstr ""
 #: model:ir.module.module,description:base.module_to_fleet_stock
 msgid ""
 "\n"
-"This also generates a vehicle cost if the corresponding stock move moves to a production location. \n"
+"This also generates a vehicle cost if the corresponding stock move moves to a production location.\n"
 "    "
 msgstr ""
 
@@ -4670,6 +5006,14 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,description:base.module_to_lines_count_on_account_move
+msgid ""
+"\n"
+"This module added a new field to count number of lines (aka Journal Items) of a Journal Entry.\n"
+"    "
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_to_l10n_vn_fleet_driver
 msgid ""
 "\n"
@@ -4690,7 +5034,7 @@ msgstr ""
 #: model:ir.module.module,description:base.module_to_accounting_entry_report_flag
 msgid ""
 "\n"
-"This module adds a boolean field of Legal Report Off in accounting journal entries and journal items\n"
+"This module adds a boolean field of Excluded in Legal Reports in accounting journal entries and journal items\n"
 "    "
 msgstr ""
 
@@ -4753,31 +5097,6 @@ msgid ""
 "\n"
 "    Storage: automatic sales closings with computation of both period and cumulative totals (daily, monthly, annually)\n"
 "\n"
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,description:base.module_barcodes
-msgid ""
-"\n"
-"This module adds support for barcode scanning and parsing.\n"
-"\n"
-"Scanning\n"
-"--------\n"
-"Use a USB scanner (that mimics keyboard inputs) in order to work with barcodes in Odoo.\n"
-"The scanner must be configured to use no prefix and a carriage return or tab as suffix.\n"
-"The delay between each character input must be less than or equal to 50 milliseconds.\n"
-"Most barcode scanners will work out of the box.\n"
-"However, make sure the scanner uses the same keyboard layout as the device it's plugged in.\n"
-"Either by setting the device's keyboard layout to US QWERTY (default value for most readers)\n"
-"or by changing the scanner's keyboard layout (check the manual).\n"
-"\n"
-"Parsing\n"
-"-------\n"
-"The barcodes are interpreted using the rules defined by a nomenclature.\n"
-"It provides the following features:\n"
-"- Patterns to identify barcodes containing a numerical value (e.g. weight, price)\n"
-"- Definition of barcode aliases that allow to identify the same product with different barcodes\n"
-"- Support for encodings EAN-13, EAN-8 and UPC-A\n"
 msgstr ""
 
 #. module: base
@@ -5441,12 +5760,75 @@ msgstr ""
 "    "
 
 #. module: base
-#: model:ir.module.module,description:base.module_to_wh_vn_legal_reports
+#: model:ir.module.module,description:base.module_to_l10n_vn_stock_reports
 msgid ""
 "\n"
 "Warehouse Vietnam Legal Reports\n"
 "===============================\n"
 "\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_web_gantt
+msgid ""
+"\n"
+"Web Gantt chart for Odoo, based on Twproject\n"
+"============================================\n"
+"\n"
+"License: \n"
+"------------------------------------------------------\n"
+"- This module is base on open source at Open Lab, Florence, Italy - https://gantt.twproject.com\n"
+"- This library is released under MIT license\n"
+"\n"
+"Support: \n"
+"------------------------------------------------------\n"
+"- Model with fields: start date, end date, progress, state or stage\n"
+"\n"
+"Note:\n"
+"------------------------------------------------------\n"
+"- With stage: stage must be defined color: color = fields.Char('Color')\n"
+"    \n"
+"Example:\n"
+"------------------------------------------------------\n"
+"- Stage: <gantt \n"
+"        manager=\"manager_id\" \n"
+"        members=\"user_id\" \n"
+"        date_start=\"date_start\" \n"
+"        date_stop=\"date_end\" \n"
+"        progress=\"progress\" \n"
+"        stage_domain=\"[('project_ids', '=', project_id)]\" \n"
+"        stage_by=\"project_id\"\n"
+"        depends=\"depends\"\n"
+"        status=\"stage\"\n"
+"        status_readonly=\"0\" \n"
+"        holiday=\"0\" \n"
+"        string=\"Tasks\" \n"
+"        default_group_by=\"project_id\"/>\n"
+"- State: <gantt \n"
+"        manager=\"manager_id\" \n"
+"        members=\"user_id\" \n"
+"        date_start=\"date_start\" \n"
+"        date_stop=\"date_end\" \n"
+"        progress=\"progress\" \n"
+"        status_readonly=\"0\" \n"
+"        depends=\"depends\"\n"
+"        holiday=\"0\" \n"
+"        status=\"state\"\n"
+"        colors=\"['#ffffff', '#3BBF67', '#0099FF', '#fbb11e']\"\n"
+"        string=\"Tasks\" \n"
+"        default_group_by=\"project_id\"/>  \n"
+"      \n"
+"Options: \n"
+"------------------------------------------------------\n"
+"- status: state or stage\n"
+"- status_readonly: 0 or 1, Can't change state or stage in gantt view, default: 0\n"
+"- holiday: 0 or 1, can't assign start or end date at holiday, default: 0\n"
+"- colors: list colors of state\n"
+"- stage_domain & stage_by: Apply with stage as Project of Odoo 10\n"
+"- depends: m2m fields, dependences of task\n"
+"- System will detect fields if missing attributes: status, depends, manager, members\n"
+"- default_closed: [ 'done', 'cancel', 'cancelled', 'close', 'closed' ], with less view, skip records in list states\n"
 "    "
 msgstr ""
 
@@ -5528,6 +5910,17 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,description:base.module_to_mrp_workorder_manual_time
+#: model:ir.module.module,description:base.module_to_mrp_workorder_manual_time_without_quality
+msgid ""
+"\n"
+"Without this module, when you start/stop/block/resume work orders using button, current time will be set upon you press the button.\n"
+"That behaviour may not work in some organization where people cannot record times upon the operation occurs.\n"
+"This module allows operator to record work orders evens after they occured.\n"
+"    "
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_payment_sips
 msgid ""
 "\n"
@@ -5538,7 +5931,7 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_ui_view.py:1048
+#: code:addons/base/ir/ir_ui_view.py:1054
 #, python-format
 msgid " - %r in %s=%r"
 msgstr ""
@@ -5610,9 +6003,9 @@ msgstr "%p - Tương đương với AM hoặc PM\""
 
 #. module: base
 #: code:addons/base/ir/ir_filters.py:38
-#: code:addons/base/res/res_partner.py:325
-#: code:addons/base/res/res_users.py:147 code:addons/base/res/res_users.py:411
-#: code:addons/base/res/res_users.py:413
+#: code:addons/base/res/res_partner.py:331
+#: code:addons/base/res/res_users.py:149 code:addons/base/res/res_users.py:414
+#: code:addons/base/res/res_users.py:416
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (sao chép)"
@@ -5628,7 +6021,7 @@ msgid "%y - Year without century [00,99].\""
 msgstr "%y - Năm không có thế kỹ [00,99].\""
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:1410
+#: code:addons/base/ir/ir_model.py:1416
 #, python-format
 msgid ""
 "'%s' contains too many dots. XML ids should not contain dots ! These are "
@@ -5741,6 +6134,74 @@ msgid "-This module does not exclude any other module."
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,description:base.module_web_widget_datepicker_options
+msgid ""
+".. image:: https://img.shields.io/badge/licence-AGPL--3-blue.png\n"
+"    :alt: License: AGPL-3\n"
+"\n"
+"Datepicker Widget Options\n"
+"=========================\n"
+"\n"
+"This module allows passing options to the jquery datepicker for fields that use\n"
+"the datepicker widget. Options are passed as they are, without any validation.\n"
+"\n"
+"To see all supported options, see the `API documentation\n"
+"<http://api.jqueryui.com/datepicker/>`_.\n"
+"\n"
+"\n"
+"Usage\n"
+"=====\n"
+"\n"
+"You must pass all options through the \"datepicker\" field in the options::\n"
+"\n"
+"    ...\n"
+"    <field name=\"date\" options=\"{'datepicker': {'yearRange': 'c-100:c+0'}}\"/>\n"
+"    ...\n"
+"\n"
+"Known issues / Roadmap\n"
+"======================\n"
+"\n"
+"* Absolutely no validation on options.\n"
+"\n"
+"\n"
+"Bug Tracker\n"
+"===========\n"
+"\n"
+"Bugs are tracked on `GitHub Issues <https://github.com/OCA/web/issues>`_.\n"
+"In case of trouble, please check there if your issue has already been reported.\n"
+"If you spotted it first, help us smashing it by providing a detailed and welcomed feedback\n"
+"`here <https://github.com/OCA/web/issues/new?body=module:%20web_widget_datepicker_options%0Aversion:%2011.0.1.0.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.\n"
+"\n"
+"\n"
+"Credits\n"
+"=======\n"
+"\n"
+"Contributors\n"
+"------------\n"
+"\n"
+"* Vincent Vinet <vincent.vinet@savoirfairelinux.com>\n"
+"* Yanina Aular <yanina.aular@vauxoo.com>\n"
+"* Luis González <lgonzalez@vauxoo.com>\n"
+"\n"
+"Do not contact contributors directly about support or help with technical issues.\n"
+"\n"
+"Maintainer\n"
+"----------\n"
+"\n"
+".. image:: https://odoo-community.org/logo.png\n"
+"   :alt: Odoo Community Association\n"
+"   :target: https://odoo-community.org\n"
+"\n"
+"This module is maintained by the OCA.\n"
+"\n"
+"OCA, or the Odoo Community Association, is a nonprofit organization whose\n"
+"mission is to support the collaborative development of Odoo features and\n"
+"promote its widespread use.\n"
+"\n"
+"To contribute to this module, please visit https://odoo-community.org.\n"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_web_tree_many2one_clickable
 msgid ""
 ".. image:: https://img.shields.io/badge/licence-AGPL--3-blue.png\n"
@@ -5788,6 +6249,165 @@ msgid ""
 "* Antonio Espinosa <antonio.espinosa@tecnativa.com>\n"
 "* Sodexis <dev@sodexis.com>\n"
 "* Artem Kostyuk <a.kostyuk@mobilunity.com>\n"
+"\n"
+"Maintainer\n"
+"----------\n"
+"\n"
+".. image:: https://odoo-community.org/logo.png\n"
+"   :alt: Odoo Community Association\n"
+"   :target: https://odoo-community.org\n"
+"\n"
+"This module is maintained by the OCA.\n"
+"\n"
+"OCA, or the Odoo Community Association, is a nonprofit organization whose\n"
+"mission is to support the collaborative development of Odoo features and\n"
+"promote its widespread use.\n"
+"\n"
+"To contribute to this module, please visit https://odoo-community.org.\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_web_timeline
+msgid ""
+".. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg\n"
+"    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html\n"
+"    :alt: License: AGPL-3\n"
+"\n"
+"=============\n"
+"Timeline view\n"
+"=============\n"
+"\n"
+"Define a new view displaying events in an interactive visualization chart.\n"
+"\n"
+"The widget is based on the external library \n"
+"http://visjs.org/timeline_examples.html\n"
+"\n"
+"Configuration\n"
+"=============\n"
+"\n"
+"You need to define a view with the tag <timeline> as base element. These are\n"
+"the possible attributes for the tag:\n"
+"\n"
+"* date_start (required): it defines the name of the field of type date that\n"
+"  contains the start of the event.\n"
+"* date_end (optional): it defines the name of the field of type date that\n"
+"  contains the end of the event. The date_end can be equal to the attribute\n"
+"  date_start to display events has 'point' on the Timeline (instantaneous event)\n"
+"* date_delay (optional): it defines the name of the field of type float/integer\n"
+"  that contain the duration in hours of the event, default = 1\n"
+"* default_group_by (required): it defines the name of the field that will be\n"
+"  taken as default group by when accessing the view or when no other group by\n"
+"  is selected.\n"
+"* zoomKey (optional): Specifies whether the Timeline is only zoomed when an\n"
+"  additional key is down. Available values are '' (does not apply), 'altKey',\n"
+"  'ctrlKey', or 'metaKey'. Set this option if you want to be able to use the\n"
+"  scroll to navigate vertically on views with a lot of events.\n"
+"* mode (optional): Specifies the initial visible window. Available values are:\n"
+"  'day' to display the current day, 'week', 'month' and 'fit'.\n"
+"  Default value is 'fit' to adjust the visible window such that it fits all items\n"
+"* event_open_popup (optional): when set to true, it allows to edit the events\n"
+"  in a popup. If not (default value), the record is edited changing to form\n"
+"  view.\n"
+"* colors (optional): it allows to set certain specific colors if the expressed\n"
+"  condition (JS syntax) is met.\n"
+"\n"
+"You also need to declare the view in an action window of the involved model.\n"
+"\n"
+"Example:\n"
+"\n"
+".. code-block:: xml\n"
+"\n"
+"    <?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
+"    <odoo>\n"
+"        <record id=\"view_task_timeline\" model=\"ir.ui.view\">\n"
+"            <field name=\"model\">project.task</field>\n"
+"            <field name=\"type\">timeline</field>\n"
+"            <field name=\"arch\" type=\"xml\">\n"
+"                <timeline date_start=\"date_start\"\n"
+"                          date_stop=\"date_end\"\n"
+"                          string=\"Tasks\"\n"
+"                          default_group_by=\"user_id\"\n"
+"                          event_open_popup=\"true\"\n"
+"                          zoomKey=\"ctrlKey\"\n"
+"                          colors=\"#ec7063:user_id == false;#2ecb71:kanban_state=='done';\">\n"
+"                </timeline>\n"
+"            </field>\n"
+"        </record>\n"
+"\n"
+"        <record id=\"project.action_view_task\" model=\"ir.actions.act_window\">\n"
+"            <field name=\"view_mode\">kanban,tree,form,calendar,gantt,timeline,graph</field>\n"
+"        </record>\n"
+"    </odoo>\n"
+"\n"
+"Usage\n"
+"=====\n"
+"\n"
+"For accessing the timeline view, you have to click on the button with the clock\n"
+"icon in the view switcher. The first time you access to it, the timeline window\n"
+"is zoomed to fit all the current elements, the same as when you perform a\n"
+"search, filter or group by operation.\n"
+"\n"
+"You can use the mouse scroll to zoom in or out in the timeline, and click on\n"
+"any free area and drag for panning the view in that direction.\n"
+"\n"
+"The records of your model will be shown as rectangles whose widths are the\n"
+"duration of the event according our definition. You can select them clicking\n"
+"on this rectangle. You can also use Ctrl or Shift keys for adding discrete\n"
+"or range selections. Selected records are hightlighted with a different color\n"
+"(but the difference will be more noticeable depending on the background color).\n"
+"Once selected, you can drag and move the selected records across the timeline.\n"
+"\n"
+"When a record is selected, a red cross button appears on the upper left corner\n"
+"that allows to remove that record. This doesn't work for multiple records\n"
+"although they were selected.\n"
+"\n"
+"Records are grouped in different blocks depending on the group by criteria\n"
+"selected (if none is specified, then the default group by is applied).\n"
+"Dragging a record from one block to another change the corresponding field to\n"
+"the value that represents the block. You can also click on the group name to\n"
+"edit the involved record directly.\n"
+"\n"
+"Double-click on the record to edit it. Double-click in open area to create a\n"
+"new record with the group and start date linked to the area you clicked in.\n"
+"\n"
+"\n"
+".. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas\n"
+"   :alt: Try me on Runbot\n"
+"   :target: https://runbot.odoo-community.org/runbot/162/11.0\n"
+"\n"
+"Known issues / Roadmap\n"
+"======================\n"
+"\n"
+"* Implement support for vis.js timeline range item addition (with Ctrl key\n"
+"  pressed).\n"
+"* Implement a more efficient way of refreshing timeline after a record update.\n"
+"\n"
+"Bug Tracker\n"
+"===========\n"
+"\n"
+"Bugs are tracked on `GitHub Issues\n"
+"<https://github.com/OCA/web/issues>`_. In case of trouble, please\n"
+"check there if your issue has already been reported. If you spotted it first,\n"
+"help us smashing it by providing a detailed and welcomed feedback.\n"
+"\n"
+"Credits\n"
+"=======\n"
+"\n"
+"Images\n"
+"------\n"
+"\n"
+"* Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.\n"
+"\n"
+"Contributors\n"
+"------------\n"
+"\n"
+"* Laurent Mignon <laurent.mignon@acsone.eu>\n"
+"* Adrien Peiffer <adrien.peiffer@acsone.eu>\n"
+"* Pedro M. Baeza <pedro.baeza@tecnativa.com>\n"
+"* Leonardo Donelli <donelli@webmonks.it>\n"
+"* Adrien Didenot <adrien.didenot@horanet.com>\n"
+"\n"
+"Do not contact contributors directly about support or help with technical issues.\n"
 "\n"
 "Maintainer\n"
 "----------\n"
@@ -6304,26 +6924,33 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,description:base.module_web_dialog_size
+#: model:ir.module.module,description:base.module_web_search_with_and
 msgid ""
 ".. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg\n"
-"   :target: https://www.gnu.org/licenses/agpl\n"
+"   :target: https://www.gnu.org/licenses/agpl-3.0-standalone.html\n"
 "   :alt: License: AGPL-3\n"
 "\n"
-"=============\n"
-"Expand Dialog\n"
-"=============\n"
+"====================================\n"
+"Use AND conditions on omnibar search\n"
+"====================================\n"
 "\n"
-"A module that lets the user expand/restore the dialog box size through a button\n"
-"in the upper right corner (mimicking most windows managers).\n"
-"It does also add draggable support to the dialogs.\n"
+"When searching for records on same field Odoo joins multiple queries with OR.\n"
+"For example:\n"
 "\n"
-"Configuration\n"
-"=============\n"
+"* Perform a search for customer \"John\" on field Name\n"
+"* Odoo displays customers containing \"John\"\n"
+"* Search for \"Smith\" on same field Name\n"
+"* Odoo displays customers containing \"John\" OR \"Smith\"\n"
 "\n"
-"By default, the module respects the caller's `dialog_size` option. If you want\n"
-"to override this and have all dialogs maximized by default, set the configuration\n"
-"parameter `web_dialog_size.default_maximize` to `1`.\n"
+"With this module installed you can press Shift key before searching for \"Smith\"\n"
+"and Odoo finds customers containing \"John\" AND \"Smith\"\n"
+"\n"
+"Usage\n"
+"=====\n"
+"\n"
+"* Enter your value in omnibar search field\n"
+"* Press and hold Shift key\n"
+"* Select field with mouse or keyboard to perform search on\n"
 "\n"
 ".. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas\n"
 "   :alt: Try me on Runbot\n"
@@ -6340,24 +6967,12 @@ msgid ""
 "Credits\n"
 "=======\n"
 "\n"
-"Images\n"
-"------\n"
-"\n"
-"* Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.\n"
-"\n"
 "Contributors\n"
 "------------\n"
 "\n"
-"* Anthony Muschang <anthony.muschang@acsone.eu>\n"
-"* Stéphane Bidoul <stephane.bidoul@acsone.eu>\n"
-"* Pedro M. Baeza <pedro.baeza@tecnativa.com>\n"
-"* Holger Brunn <hbrunn@therp.nl>\n"
-"* Siddharth Bhalgami <siddharth.bhalgami@gmail.com>\n"
-"* Wolfgang Pichler <wpichler@callino.at>\n"
-"* David Vidal <david.vidal@tecnativa.com>\n"
-"* Quentin Theuret <quentin.theuret@amaris.com>\n"
-"\n"
-"Do not contact contributors directly about support or help with technical issues.\n"
+"* Andrius Preimantas <andrius@versada.lt>\n"
+"* Adrien Didenot <adrien.didenot@horanet.com>\n"
+"* Francesco Apruzzese <f.apruzzese@apuliasoftware.it>\n"
 "\n"
 "Maintainer\n"
 "----------\n"
@@ -6372,7 +6987,7 @@ msgid ""
 "mission is to support the collaborative development of Odoo features and\n"
 "promote its widespread use.\n"
 "\n"
-"To contribute to this module, please visit https://odoo-community.org.\n"
+"To contribute to this module, please visit https://odoo-community.org."
 msgstr ""
 
 #. module: base
@@ -6476,6 +7091,74 @@ msgid ""
 "promote its widespread use.\n"
 "\n"
 "To contribute to this module, please visit http://odoo-community.org.\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_web_group_expand
+msgid ""
+".. image:: https://img.shields.io/badge/license-AGPL--3-blue.png\n"
+"   :target: https://www.gnu.org/licenses/agpl\n"
+"   :alt: License: AGPL-3\n"
+"\n"
+"====================\n"
+"Group Expand Buttons\n"
+"====================\n"
+"\n"
+"A group by list can be expanded and collapased with buttons\n"
+"\n"
+"You'll see two buttons appear on top right corner of the list when you perform\n"
+"a group by with which you can expand and collapse grouped records by level.\n"
+"\n"
+"\n"
+"Usage\n"
+"=====\n"
+"\n"
+".. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas\n"
+"   :alt: Try me on Runbot\n"
+"   :target: https://runbot.odoo-community.org/runbot/162/11.0\n"
+"\n"
+"For further information, please visit:\n"
+"\n"
+"* https://www.odoo.com/forum/help-1\n"
+"\n"
+"\n"
+"Bug Tracker\n"
+"===========\n"
+"\n"
+"Bugs are tracked on `GitHub Issues <https://github.com/OCA/web/issues>`_.\n"
+"In case of trouble, please check there if your issue has already been reported.\n"
+"If you spotted it first, help us smashing it by providing a detailed and welcomed feedback\n"
+"`here <https://github.com/OCA/web/issues/new?body=module:%20web_group_expand%0Aversion:%2011.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.\n"
+"\n"
+"\n"
+"Credits\n"
+"=======\n"
+"\n"
+"Contributors\n"
+"------------\n"
+"\n"
+"* Mantavya Gajjar <mga@openerp.com>\n"
+"* Oihane Crucelaegui <oihanecrucelaegi@avanzosc.es>\n"
+"* Pedro M. Baeza <pedro.baeza@serviciosbaeza.com>\n"
+"* Jay Vora (SerpentCS) for their alternative implementation\n"
+"* Aldo Soares <soares_aldo@hotmail.com>\n"
+"* Meet Dholakia <meetcomputer009@gmail.com>\n"
+"\n"
+"Maintainer\n"
+"----------\n"
+"\n"
+".. image:: https://odoo-community.org/logo.png\n"
+"   :alt: Odoo Community Association\n"
+"   :target: https://odoo-community.org\n"
+"\n"
+"This module is maintained by the OCA.\n"
+"\n"
+"OCA, or the Odoo Community Association, is a nonprofit organization whose\n"
+"mission is to support the collaborative development of Odoo features and\n"
+"promote its widespread use.\n"
+"\n"
+"To contribute to this module, please visit http://odoo-community.org.\n"
+"\n"
 msgstr ""
 
 #. module: base
@@ -6833,107 +7516,6 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,description:base.module_web_responsive
-msgid ""
-".. image:: https://img.shields.io/badge/license-LGPL--3-blue.svg\n"
-"   :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html\n"
-"   :alt: License: LGPL-3\n"
-"\n"
-"==============\n"
-"Web Responsive\n"
-"==============\n"
-"\n"
-"This module provides a mobile compliant interface for Odoo Community web.\n"
-"\n"
-"Features:\n"
-"\n"
-" * New navigation with an App drawer\n"
-" * Keyboard shortcuts for easier navigation\n"
-" * Display kanban views for small screens if an action or field One2x\n"
-"\n"
-"\n"
-"Installation\n"
-"============\n"
-"\n"
-"Configuration\n"
-"=============\n"
-"\n"
-"Usage\n"
-"=====\n"
-"\n"
-"Keyboard Shortcuts\n"
-"------------------\n"
-"\n"
-"The following keyboard shortcuts are implemented:\n"
-"\n"
-"* Toggle App Drawer - `ActionKey <https://en.wikipedia.org/wiki/Access_key#Access_in_different_browsers>` + ``A``\n"
-"* Navigate Apps Drawer - Arrow Keys\n"
-"* Type to select App Links\n"
-"* ``esc`` to close App Drawer\n"
-"\n"
-".. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas\n"
-"   :alt: Try me on Runbot\n"
-"   :target: https://runbot.odoo-community.org/runbot/162/11.0\n"
-"\n"
-"Known issues / Roadmap\n"
-"======================\n"
-"\n"
-"Note: Data added to the footer ``support_branding`` is not shown while using\n"
-"this module.\n"
-"\n"
-"* Provide full menu search feature instead of just App search\n"
-"* Drag drawer from left to open in mobile\n"
-"* Figure out how to test focus on hidden elements for keyboard nav tests\n"
-"* If you resize the window, body gets a wrong ``overflow: auto`` css property\n"
-"  and you need to refresh your view or open/close the app drawer to fix that.\n"
-"* Override LESS styling to allow for responsive widget layouts\n"
-"* Adding ``oe_main_menu_navbar`` ID to the top navigation bar triggers some\n"
-"  great styles, but also `JavaScript that causes issues on mobile\n"
-"  <https://github.com/OCA/web/pull/446#issuecomment-254827880>`_\n"
-"\n"
-"\n"
-"Bug Tracker\n"
-"===========\n"
-"\n"
-"Bugs are tracked on `GitHub Issues\n"
-"<https://github.com/OCA/web/issues>`_. In case of trouble, please\n"
-"check there if your issue has already been reported. If you spotted it first,\n"
-"help us smashing it by providing a detailed and welcomed feedback.\n"
-"\n"
-"\n"
-"Credits\n"
-"=======\n"
-"\n"
-"Images\n"
-"------\n"
-"\n"
-"* Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.\n"
-"\n"
-"Contributors\n"
-"------------\n"
-"\n"
-"* Dave Lasley <dave@laslabs.com>\n"
-"* Jairo Llopis <jairo.llopis@tecnativa.com>\n"
-"* Dennis Sluijk <d.sluijk@onestein.nl>\n"
-"* Sergio Teruel <sergio.teruel@tecnativa.com>\n"
-"\n"
-"Maintainer\n"
-"----------\n"
-"\n"
-".. image:: https://odoo-community.org/logo.png\n"
-"   :alt: Odoo Community Association\n"
-"   :target: https://odoo-community.org\n"
-"\n"
-"This module is maintained by the OCA.\n"
-"\n"
-"OCA, or the Odoo Community Association, is a nonprofit organization whose\n"
-"mission is to support the collaborative development of Odoo features and\n"
-"promote its widespread use.\n"
-"\n"
-"To contribute to this module, please visit https://odoo-community.org.\n"
-msgstr ""
-
-#. module: base
 #: model:ir.module.module,description:base.module_web_tree_dynamic_colored_field
 msgid ""
 ".. image:: https://img.shields.io/badge/license-LGPL--3-blue.svg\n"
@@ -7049,6 +7631,192 @@ msgid ""
 "* Holger Brunn <hbrunn@therp.nl>\n"
 "* Artem Kostyuk <a.kostyuk@mobilunity.com>\n"
 "* Guewen Baconnier <guewen.baconnier@camptocamp.com>\n"
+"\n"
+"Maintainer\n"
+"----------\n"
+"\n"
+".. image:: https://odoo-community.org/logo.png\n"
+"   :alt: Odoo Community Association\n"
+"   :target: https://odoo-community.org\n"
+"\n"
+"This module is maintained by the OCA.\n"
+"\n"
+"OCA, or the Odoo Community Association, is a nonprofit organization whose\n"
+"mission is to support the collaborative development of Odoo features and\n"
+"promote its widespread use.\n"
+"\n"
+"To contribute to this module, please visit https://odoo-community.org.\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_web_widget_image_url
+msgid ""
+".. image:: https://www.gnu.org/graphics/lgplv3-147x51.png\n"
+"   :target: https://www.gnu.org/licenses/lgpl-3.0.en.html\n"
+"   :alt: License: LGPL-v3\n"
+"\n"
+"=============\n"
+"Web Image URL\n"
+"=============\n"
+"\n"
+"This module provides web widget for displaying image from URL on form and tree views.\n"
+"\n"
+"Usage\n"
+"=====\n"
+"\n"
+"To use this module, you need to decorate xml field with widget ``image_url``.\n"
+"\n"
+"\n"
+".. code-block:: xml\n"
+"\n"
+"    <field name=\"avatar\" widget=\"image_url\" class=\"oe_image_small\" width=\"100px\" height=\"100px\"/>\n"
+"\n"
+"Here's an examples of how images looks like on a form\n"
+"\n"
+".. figure:: static/description/image.png\n"
+"\n"
+"Bug Tracker\n"
+"===========\n"
+"\n"
+"Bugs are tracked on `GitHub Issues\n"
+"<https://github.com/OCA/web/issues>`_. In case of trouble, please\n"
+"check there if your issue has already been reported. If you spotted it first,\n"
+"help us smash it by providing detailed and welcomed feedback.\n"
+"\n"
+"Credits\n"
+"=======\n"
+"\n"
+"Contributors\n"
+"------------\n"
+"\n"
+"* Petar Najman <petar.najman@modoolar.com>\n"
+"* Sladjan Kantar <sladjan.kantar@modoolar.com>\n"
+"\n"
+"\n"
+"Maintainer\n"
+"----------\n"
+"\n"
+".. image:: https://odoo-community.org/logo.png\n"
+"   :alt: Odoo Community Association\n"
+"   :target: https://odoo-community.org\n"
+"\n"
+"This module is maintained by the OCA.\n"
+"\n"
+"OCA, or the Odoo Community Association, is a nonprofit organization whose\n"
+"mission is to support the collaborative development of Odoo features and\n"
+"promote its widespread use.\n"
+"\n"
+"To contribute to this module, please visit https://odoo-community.org.\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_web_ir_actions_act_multi
+msgid ""
+".. image:: https://www.gnu.org/graphics/lgplv3-147x51.png\n"
+"   :target: https://www.gnu.org/licenses/lgpl-3.0.en.html\n"
+"   :alt: License: LGPL-v3\n"
+"\n"
+"=================\n"
+"Web Actions Multi\n"
+"=================\n"
+"\n"
+"This module provides a way to trigger more than one action on ActionManager\n"
+"\n"
+"Usage\n"
+"=====\n"
+"\n"
+"To use this functionality you need to return following action with list of actions to execute:\n"
+"\n"
+".. code-block:: python\n"
+"\n"
+"      @api.multi\n"
+"      def foo():\n"
+"         self.ensure_one()\n"
+"         return {\n"
+"            'type': 'ir.actions.act_multi',\n"
+"            'actions': [\n"
+"                {'type': 'ir.actions.act_window_close'},\n"
+"                {'type': 'ir.actions.act_view_reload'},\n"
+"            ]\n"
+"         }\n"
+"\n"
+"Bug Tracker\n"
+"===========\n"
+"\n"
+"Bugs are tracked on `GitHub Issues\n"
+"<https://github.com/OCA/web/issues>`_. In case of trouble, please\n"
+"check there if your issue has already been reported. If you spotted it first,\n"
+"help us smash it by providing detailed and welcomed feedback.\n"
+"\n"
+"Credits\n"
+"=======\n"
+"\n"
+"Contributors\n"
+"------------\n"
+"\n"
+"* Petar Najman <petar.najman@modoolar.com>\n"
+"* Mladen Meseldzija <mladen.meseldzija@modoolar.com>\n"
+"\n"
+"\n"
+"Maintainer\n"
+"----------\n"
+"\n"
+".. image:: https://odoo-community.org/logo.png\n"
+"   :alt: Odoo Community Association\n"
+"   :target: https://odoo-community.org\n"
+"\n"
+"This module is maintained by the OCA.\n"
+"\n"
+"OCA, or the Odoo Community Association, is a nonprofit organization whose\n"
+"mission is to support the collaborative development of Odoo features and\n"
+"promote its widespread use.\n"
+"\n"
+"To contribute to this module, please visit https://odoo-community.org.\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_web_ir_actions_act_view_reload
+msgid ""
+".. image:: https://www.gnu.org/graphics/lgplv3-147x51.png\n"
+"   :target: https://www.gnu.org/licenses/lgpl-3.0.en.html\n"
+"   :alt: License: LGPL-v3\n"
+"\n"
+"=========================\n"
+"Web Actions Window Reload\n"
+"=========================\n"
+"\n"
+"This module provides a way to trigger reload of the current window on ActionManager\n"
+"\n"
+"Usage\n"
+"=====\n"
+"\n"
+"To use this functionality you need to return following action:\n"
+"\n"
+".. code-block:: python\n"
+"\n"
+"      @api.multi\n"
+"      def foo():\n"
+"         self.ensure_one()\n"
+"         return {\n"
+"            'type': 'ir.actions.act_view_reload',\n"
+"         }\n"
+"\n"
+"Bug Tracker\n"
+"===========\n"
+"\n"
+"Bugs are tracked on `GitHub Issues\n"
+"<https://github.com/OCA/web/issues>`_. In case of trouble, please\n"
+"check there if your issue has already been reported. If you spotted it first,\n"
+"help us smash it by providing detailed and welcomed feedback.\n"
+"\n"
+"Credits\n"
+"=======\n"
+"\n"
+"\n"
+"Contributors\n"
+"------------\n"
+"\n"
+"* Petar Najman <petar.najman@modoolar.com>\n"
 "\n"
 "Maintainer\n"
 "----------\n"
@@ -7352,12 +8120,668 @@ msgid "<u><strong>Views</strong></u>"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,description:base.module_web_responsive
+msgid ""
+"==============\n"
+"Web Responsive\n"
+"==============\n"
+"\n"
+".. !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n"
+"   !! This file is generated by oca-gen-addon-readme !!\n"
+"   !! changes will be overwritten.                   !!\n"
+"   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n"
+"\n"
+".. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png\n"
+"    :target: https://odoo-community.org/page/development-status\n"
+"    :alt: Beta\n"
+".. |badge2| image:: https://img.shields.io/badge/licence-LGPL--3-blue.png\n"
+"    :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html\n"
+"    :alt: License: LGPL-3\n"
+".. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fweb-lightgray.png?logo=github\n"
+"    :target: https://github.com/OCA/web/tree/11.0/web_responsive\n"
+"    :alt: OCA/web\n"
+".. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png\n"
+"    :target: https://translation.odoo-community.org/projects/web-11-0/web-11-0-web_responsive\n"
+"    :alt: Translate me on Weblate\n"
+".. |badge5| image:: https://img.shields.io/badge/runbot-Try%20me-875A7B.png\n"
+"    :target: https://runbot.odoo-community.org/runbot/162/11.0\n"
+"    :alt: Try me on Runbot\n"
+"\n"
+"|badge1| |badge2| |badge3| |badge4| |badge5| \n"
+"\n"
+"This module provides a mobile compliant interface for Odoo Community web.\n"
+"\n"
+"Features:\n"
+"\n"
+" * New navigation with an App drawer\n"
+" * Keyboard shortcuts for easier navigation\n"
+" * Display kanban views for small screens if an action or field One2x\n"
+" * Set chatter side (Optional per user)\n"
+"\n"
+"**Table of contents**\n"
+"\n"
+".. contents::\n"
+"   :local:\n"
+"\n"
+"Usage\n"
+"=====\n"
+"\n"
+"The following keyboard shortcuts are implemented:\n"
+"\n"
+"* Toggle App Drawer - `ActionKey <https://en.wikipedia.org/wiki/Access_key#Access_in_different_browsers>` + ``A``\n"
+"* Navigate Apps Drawer - Arrow Keys\n"
+"* Type to select App Links\n"
+"* ``esc`` to close App Drawer\n"
+"\n"
+"Known issues / Roadmap\n"
+"======================\n"
+"\n"
+"Note: Data added to the footer ``support_branding`` is not shown while using\n"
+"this module.\n"
+"\n"
+"* Provide full menu search feature instead of just App search\n"
+"* Drag drawer from left to open in mobile\n"
+"* Figure out how to test focus on hidden elements for keyboard nav tests\n"
+"* If you resize the window, body gets a wrong ``overflow: auto`` css property\n"
+"  and you need to refresh your view or open/close the app drawer to fix that.\n"
+"* Override LESS styling to allow for responsive widget layouts\n"
+"* Adding ``oe_main_menu_navbar`` ID to the top navigation bar triggers some\n"
+"  great styles, but also `JavaScript that causes issues on mobile\n"
+"  <https://github.com/OCA/web/pull/446#issuecomment-254827880>`_\n"
+"\n"
+"Bug Tracker\n"
+"===========\n"
+"\n"
+"Bugs are tracked on `GitHub Issues <https://github.com/OCA/web/issues>`_.\n"
+"In case of trouble, please check there if your issue has already been reported.\n"
+"If you spotted it first, help us smashing it by providing a detailed and welcomed\n"
+"`feedback <https://github.com/OCA/web/issues/new?body=module:%20web_responsive%0Aversion:%2011.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.\n"
+"\n"
+"Do not contact contributors directly about support or help with technical issues.\n"
+"\n"
+"Credits\n"
+"=======\n"
+"\n"
+"Authors\n"
+"~~~~~~~\n"
+"\n"
+"* LasLabs\n"
+"* Tecnativa\n"
+"* Alexandre Díaz\n"
+"\n"
+"Contributors\n"
+"~~~~~~~~~~~~\n"
+"\n"
+"* Dave Lasley <dave@laslabs.com>\n"
+"* Jairo Llopis <jairo.llopis@tecnativa.com>\n"
+"* Dennis Sluijk <d.sluijk@onestein.nl>\n"
+"* Sergio Teruel <sergio.teruel@tecnativa.com>\n"
+"* Alexandre Díaz <dev@redneboa.es>\n"
+"\n"
+"Maintainers\n"
+"~~~~~~~~~~~\n"
+"\n"
+"This module is maintained by the OCA.\n"
+"\n"
+".. image:: https://odoo-community.org/logo.png\n"
+"   :alt: Odoo Community Association\n"
+"   :target: https://odoo-community.org\n"
+"\n"
+"OCA, or the Odoo Community Association, is a nonprofit organization whose\n"
+"mission is to support the collaborative development of Odoo features and\n"
+"promote its widespread use.\n"
+"\n"
+"This module is part of the `OCA/web <https://github.com/OCA/web/tree/11.0/web_responsive>`_ project on GitHub.\n"
+"\n"
+"You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_web_dialog_size
+msgid ""
+"===============\n"
+"Web Dialog Size\n"
+"===============\n"
+"\n"
+".. !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n"
+"   !! This file is generated by oca-gen-addon-readme !!\n"
+"   !! changes will be overwritten.                   !!\n"
+"   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n"
+"\n"
+".. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png\n"
+"    :target: https://odoo-community.org/page/development-status\n"
+"    :alt: Beta\n"
+".. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png\n"
+"    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html\n"
+"    :alt: License: AGPL-3\n"
+".. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fweb-lightgray.png?logo=github\n"
+"    :target: https://github.com/OCA/web/tree/11.0/web_dialog_size\n"
+"    :alt: OCA/web\n"
+".. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png\n"
+"    :target: https://translation.odoo-community.org/projects/web-11-0/web-11-0-web_dialog_size\n"
+"    :alt: Translate me on Weblate\n"
+".. |badge5| image:: https://img.shields.io/badge/runbot-Try%20me-875A7B.png\n"
+"    :target: https://runbot.odoo-community.org/runbot/162/11.0\n"
+"    :alt: Try me on Runbot\n"
+"\n"
+"|badge1| |badge2| |badge3| |badge4| |badge5| \n"
+"\n"
+"A module that lets the user expand/restore the dialog box size through a button\n"
+"in the upper right corner (imitating most windows managers).\n"
+"It also adds draggable support to the dialogs.\n"
+"\n"
+"**Table of contents**\n"
+"\n"
+".. contents::\n"
+"   :local:\n"
+"\n"
+"Bug Tracker\n"
+"===========\n"
+"\n"
+"Bugs are tracked on `GitHub Issues <https://github.com/OCA/web/issues>`_.\n"
+"In case of trouble, please check there if your issue has already been reported.\n"
+"If you spotted it first, help us smashing it by providing a detailed and welcomed\n"
+"`feedback <https://github.com/OCA/web/issues/new?body=module:%20web_dialog_size%0Aversion:%2011.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.\n"
+"\n"
+"Do not contact contributors directly about support or help with technical issues.\n"
+"\n"
+"Credits\n"
+"=======\n"
+"\n"
+"Authors\n"
+"~~~~~~~\n"
+"\n"
+"* ACSONE SA/NV\n"
+"* Therp BV\n"
+"* Siddharth Bhalgami\n"
+"* Tecnativa\n"
+"* Amaris\n"
+"\n"
+"Contributors\n"
+"~~~~~~~~~~~~\n"
+"\n"
+"* Anthony Muschang <anthony.muschang@acsone.eu>\n"
+"* Stéphane Bidoul <stephane.bidoul@acsone.eu>\n"
+"* Holger Brunn <hbrunn@therp.nl>\n"
+"* Siddharth Bhalgami <siddharth.bhalgami@gmail.com>\n"
+"* Wolfgang Pichler <wpichler@callino.at>\n"
+"* David Vidal <david.vidal@tecnativa.com>\n"
+"* Quentin Theuret <quentin.theuret@amaris.com>\n"
+"* `Tecnativa <https://www.tecnativa.com>`_:\n"
+"\n"
+"  * Pedro M. Baeza <pedro.baeza@tecnativa.com>\n"
+"  * Jairo Llopis <jairo.llopis@tecnativa.com>\n"
+"\n"
+"Maintainers\n"
+"~~~~~~~~~~~\n"
+"\n"
+"This module is maintained by the OCA.\n"
+"\n"
+".. image:: https://odoo-community.org/logo.png\n"
+"   :alt: Odoo Community Association\n"
+"   :target: https://odoo-community.org\n"
+"\n"
+"OCA, or the Odoo Community Association, is a nonprofit organization whose\n"
+"mission is to support the collaborative development of Odoo features and\n"
+"promote its widespread use.\n"
+"\n"
+"This module is part of the `OCA/web <https://github.com/OCA/web/tree/11.0/web_dialog_size>`_ project on GitHub.\n"
+"\n"
+"You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_web_m2x_options
+msgid ""
+"===============\n"
+"web_m2x_options\n"
+"===============\n"
+"\n"
+".. !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n"
+"   !! This file is generated by oca-gen-addon-readme !!\n"
+"   !! changes will be overwritten.                   !!\n"
+"   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n"
+"\n"
+".. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png\n"
+"    :target: https://odoo-community.org/page/development-status\n"
+"    :alt: Beta\n"
+".. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png\n"
+"    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html\n"
+"    :alt: License: AGPL-3\n"
+".. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fweb-lightgray.png?logo=github\n"
+"    :target: https://github.com/OCA/web/tree/11.0/web_m2x_options\n"
+"    :alt: OCA/web\n"
+".. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png\n"
+"    :target: https://translation.odoo-community.org/projects/web-11-0/web-11-0-web_m2x_options\n"
+"    :alt: Translate me on Weblate\n"
+".. |badge5| image:: https://img.shields.io/badge/runbot-Try%20me-875A7B.png\n"
+"    :target: https://runbot.odoo-community.org/runbot/162/11.0\n"
+"    :alt: Try me on Runbot\n"
+"\n"
+"|badge1| |badge2| |badge3| |badge4| |badge5| \n"
+"\n"
+"This modules modifies \"many2one\" and \"many2manytags\" form widgets so as to add some new display\n"
+"control options.\n"
+"\n"
+"Options provided includes possibility to remove \"Create...\" and/or \"Create and\n"
+"Edit...\" entries from many2one drop down. You can also change default number of\n"
+"proposition appearing in the drop-down. Or prevent the dialog box poping in\n"
+"case of validation error.\n"
+"\n"
+"If not specified, the module will avoid proposing any of the create options\n"
+"if the current user has no permission rights to create the related object.\n"
+"\n"
+"**Table of contents**\n"
+"\n"
+".. contents::\n"
+"   :local:\n"
+"\n"
+"Usage\n"
+"=====\n"
+"\n"
+"in the field's options dict\n"
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"
+"\n"
+"``create`` *boolean* (Default: depends if user have create rights)\n"
+"\n"
+"  Whether to display the \"Create...\" entry in dropdown panel.\n"
+"\n"
+"``create_edit`` *boolean* (Default: depends if user have create rights)\n"
+"\n"
+"  Whether to display \"Create and Edit...\" entry in dropdown panel\n"
+"\n"
+"``m2o_dialog`` *boolean* (Default: depends if user have create rights)\n"
+"\n"
+"  Whether to display the many2one dialog in case of validation error.\n"
+"\n"
+"``limit`` *int* (Default: openerp default value is ``7``)\n"
+"\n"
+"  Number of displayed record in drop-down panel\n"
+"\n"
+"``search_more`` *boolean*\n"
+"\n"
+"  Used to force disable/enable search more button.\n"
+"\n"
+"``field_color`` *string*\n"
+"\n"
+"  A string to define the field used to define color.\n"
+"  This option has to be used with colors.\n"
+"\n"
+"``colors`` *dictionary*\n"
+"\n"
+"  A dictionary to link field value with a HTML color.\n"
+"  This option has to be used with field_color.\n"
+"\n"
+"``no_open_edit`` *boolean* (Default: value of ``no_open`` which is ``False`` if not set)\n"
+"\n"
+"  Causes a many2one not to offer to click through in edit mode, but well in read mode\n"
+"\n"
+"``open`` *boolean* (Default: ``False``)\n"
+"\n"
+"  Makes many2many_tags buttons that open the linked resource\n"
+"\n"
+"``no_color_picker`` *boolean* (Default: ``False``)\n"
+"\n"
+"  Deactivates the color picker on many2many_tags buttons to do nothing (ignored if open is set)\n"
+"\n"
+"ir.config_parameter options\n"
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"
+"\n"
+"Now you can disable \"Create...\" and \"Create and Edit...\" entry for all widgets in the odoo instance.\n"
+"If you disable one option, you can enable it for particular field by setting \"create: True\" option directly on the field definition.\n"
+"\n"
+"``web_m2x_options.create`` *boolean* (Default: depends if user have create rights)\n"
+"\n"
+"  Whether to display the \"Create...\" entry in dropdown panel for all fields in the odoo instance.\n"
+"\n"
+"``web_m2x_options.create_edit`` *boolean* (Default: depends if user have create rights)\n"
+"\n"
+"  Whether to display \"Create and Edit...\" entry in dropdown panel for all fields in the odoo instance.\n"
+"\n"
+"``web_m2x_options.m2o_dialog`` *boolean* (Default: depends if user have create rights)\n"
+"\n"
+"  Whether to display the many2one dialog in case of validation error for all fields in the odoo instance.\n"
+"\n"
+"``web_m2x_options.limit`` *int* (Default: openerp default value is ``7``)\n"
+"\n"
+"  Number of displayed record in drop-down panel for all fields in the odoo instance\n"
+"\n"
+"``web_m2x_options.search_more`` *boolean* (Default: default value is ``False``)\n"
+"\n"
+"  Whether the field should always show \"Search more...\" entry or not.\n"
+"\n"
+"To add these parameters go to Configuration -> Technical -> Parameters -> System Parameters and add new parameters like:\n"
+"\n"
+"- web_m2x_options.create: False\n"
+"- web_m2x_options.create_edit: False\n"
+"- web_m2x_options.m2o_dialog: False\n"
+"- web_m2x_options.limit: 10\n"
+"- web_m2x_options.search_more: True\n"
+"\n"
+"\n"
+"Example\n"
+"~~~~~~~\n"
+"\n"
+"Your XML form view definition could contain::\n"
+"\n"
+"    ...\n"
+"    <field name=\"partner_id\" options=\"{'limit': 10, 'create': false, 'create_edit': false, 'search_more':true 'field_color':'state', 'colors':{'active':'green'}}\"/>\n"
+"    ...\n"
+"\n"
+"Known issues / Roadmap\n"
+"======================\n"
+"\n"
+"Double check that you have no inherited view that remove ``options`` you set on a field !\n"
+"If nothing works, add a debugger in the first line of ``_search method`` and enable debug mode in Odoo. When you write something in a many2one field, javascript debugger should pause. If not verify your installation.\n"
+"\n"
+"- Instead of making the tags rectangle clickable, I think it's better to put the text as a clickable link, so we will get a consistent behaviour/aspect with other clickable elements (many2one...).\n"
+"- In edit mode, it would be great to add an icon like the one on many2one fields to allow to open the many2many in a popup window.\n"
+"- Include this feature as a configurable option via parameter to have this behaviour by default in all many2many tags.\n"
+"\n"
+"Bug Tracker\n"
+"===========\n"
+"\n"
+"Bugs are tracked on `GitHub Issues <https://github.com/OCA/web/issues>`_.\n"
+"In case of trouble, please check there if your issue has already been reported.\n"
+"If you spotted it first, help us smashing it by providing a detailed and welcomed\n"
+"`feedback <https://github.com/OCA/web/issues/new?body=module:%20web_m2x_options%0Aversion:%2011.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.\n"
+"\n"
+"Do not contact contributors directly about support or help with technical issues.\n"
+"\n"
+"Credits\n"
+"=======\n"
+"\n"
+"Authors\n"
+"~~~~~~~\n"
+"\n"
+"* ACSONE SA/NV\n"
+"* 0k.io\n"
+"* Tecnativa\n"
+"\n"
+"Contributors\n"
+"~~~~~~~~~~~~\n"
+"\n"
+"* David Coninckx <davconinckx@gmail.com>\n"
+"* Emanuel Cino <ecino@compassion.ch>\n"
+"* Holger Brunn <hbrunn@therp.nl>\n"
+"* Nicolas JEUDY <nicolas@sudokeys.com>\n"
+"* Yannick Vaucher <yannick.vaucher@camptocamp.com>\n"
+"* Zakaria Makrelouf <z.makrelouf@gmail.com>\n"
+"* `Tecnativa <https://www.tecnativa.com>`_:\n"
+"\n"
+"  * Jairo Llopis <jairo.llopis@tecnativa.com>\n"
+"  * David Vidal <david.vidal@tecnativa.com>\n"
+"  * Ernesto Tejeda <ernesto.tejeda87@gmail.com>\n"
+"\n"
+"Maintainers\n"
+"~~~~~~~~~~~\n"
+"\n"
+"This module is maintained by the OCA.\n"
+"\n"
+".. image:: https://odoo-community.org/logo.png\n"
+"   :alt: Odoo Community Association\n"
+"   :target: https://odoo-community.org\n"
+"\n"
+"OCA, or the Odoo Community Association, is a nonprofit organization whose\n"
+"mission is to support the collaborative development of Odoo features and\n"
+"promote its widespread use.\n"
+"\n"
+"This module is part of the `OCA/web <https://github.com/OCA/web/tree/11.0/web_m2x_options>`_ project on GitHub.\n"
+"\n"
+"You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_web_widget_image_download
+msgid ""
+"===========================\n"
+"Web Widget - Image Download\n"
+"===========================\n"
+"\n"
+".. !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n"
+"   !! This file is generated by oca-gen-addon-readme !!\n"
+"   !! changes will be overwritten.                   !!\n"
+"   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n"
+"\n"
+".. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png\n"
+"    :target: https://odoo-community.org/page/development-status\n"
+"    :alt: Beta\n"
+".. |badge2| image:: https://img.shields.io/badge/licence-LGPL--3-blue.png\n"
+"    :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html\n"
+"    :alt: License: LGPL-3\n"
+".. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fweb-lightgray.png?logo=github\n"
+"    :target: https://github.com/OCA/web/tree/11.0/web_widget_image_download\n"
+"    :alt: OCA/web\n"
+".. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png\n"
+"    :target: https://translation.odoo-community.org/projects/web-11-0/web-11-0-web_widget_image_download\n"
+"    :alt: Translate me on Weblate\n"
+".. |badge5| image:: https://img.shields.io/badge/runbot-Try%20me-875A7B.png\n"
+"    :target: https://runbot.odoo-community.org/runbot/162/11.0\n"
+"    :alt: Try me on Runbot\n"
+"\n"
+"|badge1| |badge2| |badge3| |badge4| |badge5| \n"
+"\n"
+"This module was written to extend the functionality of the image widget and\n"
+"allows to download it.\n"
+"\n"
+"**Table of contents**\n"
+"\n"
+".. contents::\n"
+"   :local:\n"
+"\n"
+"Usage\n"
+"=====\n"
+"\n"
+"To use this module, an example path is:\n"
+"\n"
+"#. Go to the section `Contacts`.\n"
+"#. Click on a contact.\n"
+"#. Edit the contact.\n"
+"#. Click the `Download` button (between `Edit` and `Clear`).\n"
+"\n"
+"Bug Tracker\n"
+"===========\n"
+"\n"
+"Bugs are tracked on `GitHub Issues <https://github.com/OCA/web/issues>`_.\n"
+"In case of trouble, please check there if your issue has already been reported.\n"
+"If you spotted it first, help us smashing it by providing a detailed and welcomed\n"
+"`feedback <https://github.com/OCA/web/issues/new?body=module:%20web_widget_image_download%0Aversion:%2011.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.\n"
+"\n"
+"Do not contact contributors directly about support or help with technical issues.\n"
+"\n"
+"Credits\n"
+"=======\n"
+"\n"
+"Authors\n"
+"~~~~~~~\n"
+"\n"
+"* Tecnativa\n"
+"* Kaushal Prajapati\n"
+"\n"
+"Contributors\n"
+"~~~~~~~~~~~~\n"
+"\n"
+"* `Tecnativa <https://www.tecnativa.com>`_:\n"
+"\n"
+"  * Flavio Corpa\n"
+"  * Jairo Llopis\n"
+"  * Pedro M. Baeza\n"
+"  * Ernesto Tejeda\n"
+"\n"
+"* Kaushal Prajapati <kbprajapati@live.com>\n"
+"\n"
+"Maintainers\n"
+"~~~~~~~~~~~\n"
+"\n"
+"This module is maintained by the OCA.\n"
+"\n"
+".. image:: https://odoo-community.org/logo.png\n"
+"   :alt: Odoo Community Association\n"
+"   :target: https://odoo-community.org\n"
+"\n"
+"OCA, or the Odoo Community Association, is a nonprofit organization whose\n"
+"mission is to support the collaborative development of Odoo features and\n"
+"promote its widespread use.\n"
+"\n"
+"This module is part of the `OCA/web <https://github.com/OCA/web/tree/11.0/web_widget_image_download>`_ project on GitHub.\n"
+"\n"
+"You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_barcodes
+msgid ""
+"==============================\n"
+"Barcodes module documentation\n"
+"==============================\n"
+"\n"
+"This module brings barcode encoding logic and client-side barcode scanning utilities.\n"
+"\n"
+"\n"
+"Barcodes encoding\n"
+"==============================\n"
+"\n"
+"The Barcodes module defines barcode nomenclatures whose rules identify specific type \n"
+"of items e.g. products, locations. It contains the following features:\n"
+"\n"
+"- Patterns to identify barcodes containing a numerical value (e.g. weight, price)\n"
+"- Definitin of barcode aliases that allow to identify the same product with different barcodes\n"
+"- Unlimited barcode patterns and definitions,\n"
+"- Support for encodings EAN-13, EAN-8 and UPC-A\n"
+"\n"
+"Barcode encodings\n"
+"-----------------\n"
+"\n"
+"A barcode is an arbitrary long sequence of ASCII characters. An EAN-13 barcode is a 13 digit\n"
+"barcode, whose 13th digit is the checksum. \n"
+"\n"
+"Simple barcodes and rules\n"
+"-------------------------\n"
+"\n"
+"The default nomenclature assumes an EAN-13 encoding for product barcodes. It defines a rule \n"
+"for Unit Products whose encoding is EAN-13, and whose pattern is '.', i.e. any barcode \n"
+"matches this pattern. Scanning the barcode of a product, say '5410013101703', matches this rule. \n"
+"The scanned item is thus identified as a Unit Product, and is retrieved from the product table.\n"
+"\n"
+"Note: the special character '.' in patterns is matched by any character. To explicitely specify \n"
+"the '.' character in a pattern, escape it with '\\'. The '\\' character has to be escaped as well\n"
+"('\\\\') to be explicitely specified.\n"
+"\n"
+"Let us now suppose that we identify other items with barcodes, say stock locations. We define a\n"
+"new rule in the nomenclature with the corresponding type (in our example, the type is 'Location'),\n"
+"and whose pattern is e.g. '414.', that is, any location barcode starts with '414'. Scanning a barcode\n"
+"location, say '41401', matches this Location rule, and the corresponding location is retrieved from\n"
+"the location table.\n"
+"\n"
+"Note: Rules have a sequence field which indicates the order the rules are evaluated (ASC). In our \n"
+"previous examples, the Unit Product rule should have a larger sequence that then Location rule, \n"
+"because we want the latter one to be evaluated first.\n"
+"\n"
+"Barcodes with numerical content\n"
+"--------------------------------\n"
+"\n"
+"Barcodes may encode numerical content, which is decoded by the barcodes module. To that purpose,\n"
+"one have to define a new rule for barcodes with numerical content (e.g. barcodes for Weighted \n"
+"Products). The numerical content in a pattern is specified between braces (special characters '{' and \n"
+"'}'). The content of the braces must be a sequence of 'N's (representing the whole part of the numerical \n"
+"content) followed by a sequence of 'D's (representing the decimal part of the numerical content). \n"
+"For instance, let us define a new rule for Weighted Products whose pattern is '21.....{NNDDD}.'. Since\n"
+"we assume EAN-13 encoding for product barcodes, the encoding of this rule should be EAN-13 as well.\n"
+"\n"
+"Let us now assume that we want to write a barcode for a given Weighted Product, say oranges. We first \n"
+"have to define in product oranges a barcode that will match the Weighted Product rule. This barcode \n"
+"must start with '21' and be a correct EAN-13 barcode (i.e. the 13th digit must be a correct checksum). \n"
+"Moreover, all the numerical content must be set to a '0'. For instance, let us set the barcode to \n"
+"'2100001000004'. \n"
+"\n"
+"We now want to write a barcode for 2.75kg of oranges. This barcode should be '2100001027506' (the \n"
+"numerical content of this barcode is '02750', and the correct checksum is '6'). When scanned, this \n"
+"barcode matches the Weighted Product rule (since is starts with '21'). The numerical content is extracted, \n"
+"and replaced by a sequence of '0's. The correct checksum is then computed for the obtained barcode \n"
+"('2100001000004') and the corresponding product (oranges) is retrieved from product table.\n"
+"\n"
+"Note: the special characters '{' and '}' in patterns are used to identify numerical content. To \n"
+"explicitely specify '{' or '}' in a pattern, they must be escaped.\n"
+"\n"
+"\n"
+"Strict EAN-13 field of barcode nomenclatures\n"
+"--------------------------------------------\n"
+"\n"
+"Many barcode scanners strip the leading zero when scanning EAN-13 barcodes. Barcode nomenclatures\n"
+"have a boolean field \"Use strict EAN13\". If False, when trying to match a scanned barcode with\n"
+"a rule whose encoding is EAN-13, if the barcode is of length 12 and, by prepending it by a 0,\n"
+"the last digit is the correct checksum, we automatically prepend the barcode by 0 and try to\n"
+"find a match with this new barcode. If \"Use strict EAN13\" is set to True, we look for a pattern\n"
+"matching the original, 12-digit long, barcode.\n"
+"\n"
+"\n"
+"\n"
+"Barcodes scanning\n"
+"==============================\n"
+"\n"
+"Scanning\n"
+"--------\n"
+"\n"
+"Use a USB scanner (that mimics keyboard inputs) in order to work with barcodes in Odoo.\n"
+"The scanner must be configured to use no prefix and a carriage return or tab as suffix.\n"
+"The delay between each character input must be less than or equal to 50 milliseconds.\n"
+"Most barcode scanners will work out of the box.\n"
+"However, make sure the scanner uses the same keyboard layout as the device it's plugged in.\n"
+"Either by setting the device's keyboard layout to US QWERTY (default value for most readers)\n"
+"or by changing the scanner's keyboard layout (check the manual).\n"
+"\n"
+"\n"
+"Barcode events\n"
+"------------------------------\n"
+"\n"
+"When the module barcodes is installed, it instanciate a singleton of the javascript class BarcodeEvents.\n"
+"The purpose of this component is to listen to keypresses to detect barcodes, then dispatch those barcodes\n"
+"on core.bus inside a 'barcode_event'.\n"
+"All keypress events are buffered until there is no more keypress during 50ms or a carriage return / tab is\n"
+"inputted (because most barcode scanners use this as a suffix).\n"
+"If the buffered keys looks like a barcode, an event is triggered :\n"
+"core.bus.trigger('barcode_scanned', barcode);\n"
+"Otherwise, the keypresses are 'resent'. However, for security reasons, a keypress event programmatically\n"
+"crafted doesn't trigger native browser behaviors. For this reason, BarcodeEvents doesn't intercept keypresses\n"
+"whose target is an editable element (eg. input) or when ctrl/cmd/alt is pushed.\n"
+"To catch keypresses targetting an editable element, it must have the attribute barcode_events=\"true\".\n"
+"\n"
+"\n"
+"Barcode handlers\n"
+"------------------------------\n"
+"\n"
+"To keep the web client consistent, components that want to listen to barcode events should include BarcodeHandlerMixin.\n"
+"It requires method on_barcode_scanned(barcode) to be implemented and exposes methods start_listening and stop_listening\n"
+"As long as it is the descendant of a View managed by a ViewManager is only listens while the view is attached.\n"
+"\n"
+"\n"
+"Form view barcode handler\n"
+"------------------------------\n"
+"\n"
+"It is possible for a form view to listen to barcode events, handle them client side and/or server-side.\n"
+"When the barcode is handled server-side, it works like an onchange. The relevant model must include the\n"
+"BarcodeEventsMixin and redefine method on_barcode_scanned. This method receives the barcode scanned and\n"
+"the `self` is a pseudo-record representing the content of the form view, just like in @api.onchange methods.\n"
+"Barcodes prefixed with 'O-CMD' or 'O-BTN' are reserved for special features and are never passed to on_barcode_scanned.\n"
+"The form view barcode handler can be extended to add client-side handling. Please refer to the (hopefully\n"
+"well enough) documented file for more informations.\n"
+"\n"
+"\n"
+"Button barcode handler\n"
+"------------------------------\n"
+"\n"
+"Add an attribute 'barcode_trigger' to a button to be able to trigger it by scanning a barcode. Example :\n"
+"<button name=\"validate\" type=\"object\" barcode_trigger=\"validate\"/> will be triggered when a barcode containing\n"
+"\"O-BTN.validate\" is scanned.\n"
+msgstr ""
+
+#. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_A
 msgid "A AGRICULTURE, FORESTRY AND FISHING"
 msgstr ""
 
 #. module: base
-#: code:addons/models.py:2822
+#: code:addons/models.py:2826
 #, python-format
 msgid "A document was modified since you last viewed it (%s:%d)"
 msgstr "Tài liệu đã được chỉnh sửa kể từ lần xem cuối cùng (%s:%d)"
@@ -7433,7 +8857,7 @@ msgid "A small example on how to use `web_widget_x2many_2d_matrix`."
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_qweb/fields.py:385
+#: code:addons/base/ir/ir_qweb/fields.py:399
 #, python-format
 msgid "A unit must be provided to duration widgets"
 msgstr ""
@@ -7532,7 +8956,7 @@ msgstr "Danh sách Kiểm soát Quyền truy cập"
 #. module: base
 #: model:ir.model,name:base.model_res_groups
 msgid "Access Groups"
-msgstr "Nhóm truy cập"
+msgstr "Nhóm Truy cập"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_groups_menu_access
@@ -7564,6 +8988,11 @@ msgid "Access Token"
 msgstr ""
 
 #. module: base
+#: model:res.groups,name:base.group_private_addresses
+msgid "Access to Private Addresses"
+msgstr ""
+
+#. module: base
 #: model:ir.module.category,name:base.module_category_account
 msgid "Account"
 msgstr ""
@@ -7587,6 +9016,11 @@ msgstr ""
 #: model:ir.module.category,name:base.module_category_localization_account_charts
 msgid "Account Charts"
 msgstr "Biểu đồ kế toán"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_to_account_counterpart
+msgid "Account Counterparts"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner_bank_partner_id
@@ -7654,6 +9088,11 @@ msgid "Accounting Reports - Vietnam Accounting"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_to_account_reports_entry_report_flag
+msgid "Accounting Reports with Entry Report Flag"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_account_accountant
 msgid "Accounting and Finance"
 msgstr "Tài chính và kế toán"
@@ -7709,7 +9148,7 @@ msgstr "Hành động"
 #: model:ir.model.fields,field_description:base.field_ir_act_url_help
 #: model:ir.model.fields,field_description:base.field_ir_act_window_help
 #: model:ir.model.fields,field_description:base.field_ir_actions_help
-#: model:ir.model.fields,field_description:base.field_ir_actions_help_272
+#: model:ir.model.fields,field_description:base.field_ir_actions_help_273
 #: model:ir.model.fields,field_description:base.field_ir_cron_help
 msgid "Action Description"
 msgstr "Mô tả hành động"
@@ -7741,7 +9180,7 @@ msgstr "Hành động để thực hiện"
 #: model:ir.model.fields,field_description:base.field_ir_act_url_type
 #: model:ir.model.fields,field_description:base.field_ir_act_window_type
 #: model:ir.model.fields,field_description:base.field_ir_actions_type
-#: model:ir.model.fields,field_description:base.field_ir_actions_type_275
+#: model:ir.model.fields,field_description:base.field_ir_actions_type_270
 #: model:ir.model.fields,field_description:base.field_ir_cron_type
 #: model:ir.ui.view,arch_db:base.view_server_action_search
 msgid "Action Type"
@@ -7864,6 +9303,7 @@ msgid "Add twitter scroller snippet in website builder"
 msgstr ""
 
 #. module: base
+#: model:ir.ui.view,arch_db:base.res_partner_view_form_private
 #: model:ir.ui.view,arch_db:base.view_company_form
 #: model:ir.ui.view,arch_db:base.view_partner_address_form
 #: model:ir.ui.view,arch_db:base.view_partner_form
@@ -7971,8 +9411,8 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:916 code:addons/base/ir/ir_model.py:1028
-#: code:addons/base/ir/ir_model.py:1526
+#: code:addons/base/ir/ir_model.py:922 code:addons/base/ir/ir_model.py:1034
+#: code:addons/base/ir/ir_model.py:1532
 #, python-format
 msgid "Administrator access is required to uninstall a module"
 msgstr "Yêu cầu quyền Quản trị viên để gỡ bỏ một phân hệ"
@@ -8059,6 +9499,11 @@ msgstr "Công ty được cho phép"
 #. module: base
 #: model:ir.model,name:base.model_report_paperformat
 msgid "Allows customization of a report."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_web_widget_image_download
+msgid "Allows to download any image from its widget"
 msgstr ""
 
 #. module: base
@@ -8176,7 +9621,7 @@ msgid "Application"
 msgstr "Ứng dụng"
 
 #. module: base
-#: code:addons/base/res/res_users.py:760
+#: code:addons/base/res/res_users.py:767
 #: model:ir.ui.view,arch_db:base.user_groups_view
 #, python-format
 msgid "Application Accesses"
@@ -8581,6 +10026,7 @@ msgstr "Ngân hàng"
 #: model:ir.actions.act_window,name:base.action_res_partner_bank_account_form
 #: model:ir.model,name:base.model_res_partner_bank
 #: model:ir.model.fields,field_description:base.field_res_company_bank_ids
+#: model:ir.ui.view,arch_db:base.res_partner_view_form_private
 #: model:ir.ui.view,arch_db:base.view_partner_bank_search
 #: model:ir.ui.view,arch_db:base.view_partner_bank_tree
 msgid "Bank Accounts"
@@ -8729,7 +10175,7 @@ msgid "Before Amount"
 msgstr "Trước giá trị"
 
 #. module: base
-#: code:addons/base/res/res_users.py:998
+#: code:addons/base/res/res_users.py:1010
 #, python-format
 msgid ""
 "Before clicking on 'Change Password', you have to write a new password."
@@ -8813,7 +10259,7 @@ msgstr "Nhị phân"
 #: model:ir.model.fields,field_description:base.field_ir_act_url_binding_model_id
 #: model:ir.model.fields,field_description:base.field_ir_act_window_binding_model_id
 #: model:ir.model.fields,field_description:base.field_ir_actions_binding_model_id
-#: model:ir.model.fields,field_description:base.field_ir_actions_binding_model_id_273
+#: model:ir.model.fields,field_description:base.field_ir_actions_binding_model_id_274
 #: model:ir.model.fields,field_description:base.field_ir_cron_binding_model_id
 msgid "Binding Model"
 msgstr ""
@@ -8825,7 +10271,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_ir_act_url_binding_type
 #: model:ir.model.fields,field_description:base.field_ir_act_window_binding_type
 #: model:ir.model.fields,field_description:base.field_ir_actions_binding_type
-#: model:ir.model.fields,field_description:base.field_ir_actions_binding_type_274
+#: model:ir.model.fields,field_description:base.field_ir_actions_binding_type_275
 #: model:ir.model.fields,field_description:base.field_ir_cron_binding_type
 msgid "Binding Type"
 msgstr ""
@@ -9034,7 +10480,7 @@ msgid "Can not upgrade module '%s'. It is not installed."
 msgstr "Không thể nâng cấp mô-đun '%s'. Mô-đun này chưa được cài đặt."
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:675
+#: code:addons/base/ir/ir_model.py:681
 #, python-format
 msgid "Can only rename one field at a time!"
 msgstr ""
@@ -9093,7 +10539,7 @@ msgid "Cannot duplicate configuration!"
 msgstr "Không thể sao chép cấu hình!"
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:575
+#: code:addons/base/ir/ir_model.py:581
 #, python-format
 msgid "Cannot rename/delete fields that are still present in views:"
 msgstr "Không thể đổi tên trường thành %s, bởi vì trường đó đã tồn tại!"
@@ -9177,7 +10623,7 @@ msgid "Change the way addresses are displayed in reports"
 msgstr ""
 
 #. module: base
-#: code:addons/base/res/res_partner.py:338
+#: code:addons/base/res/res_partner.py:345
 #, python-format
 msgid ""
 "Changing the company of a contact should only be done if it was never "
@@ -9193,13 +10639,13 @@ msgstr ""
 "\"Discard\" để bỏ qua sự thay đổi này."
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:662
+#: code:addons/base/ir/ir_model.py:668
 #, python-format
 msgid "Changing the model of a field is forbidden!"
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:665
+#: code:addons/base/ir/ir_model.py:671
 #, python-format
 msgid ""
 "Changing the type of a field is not yet supported. Please drop it and create"
@@ -9317,7 +10763,7 @@ msgid "China"
 msgstr "Trung Quốc"
 
 #. module: base
-#: code:addons/base/ir/ir_actions_report.py:683
+#: code:addons/base/ir/ir_actions_report.py:687
 #, python-format
 msgid "Choose Your Document Layout"
 msgstr "Chọn Bố cục Tài liệu của Bạn"
@@ -9348,6 +10794,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_res_company_city
 #: model:ir.model.fields,field_description:base.field_res_partner_city
 #: model:ir.model.fields,field_description:base.field_res_users_city
+#: model:ir.ui.view,arch_db:base.res_partner_view_form_private
 #: model:ir.ui.view,arch_db:base.view_company_form
 #: model:ir.ui.view,arch_db:base.view_partner_address_form
 #: model:ir.ui.view,arch_db:base.view_partner_form
@@ -9848,7 +11295,7 @@ msgid "Connection Security"
 msgstr "Bảo mật kết nối"
 
 #. module: base
-#: code:addons/base/ir/ir_mail_server.py:164
+#: code:addons/base/ir/ir_mail_server.py:166
 #, python-format
 msgid ""
 "Connection Test Failed! Here is what we got instead:\n"
@@ -9856,7 +11303,7 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_mail_server.py:172
+#: code:addons/base/ir/ir_mail_server.py:174
 #, python-format
 msgid "Connection Test Succeeded! Everything seems properly set up!"
 msgstr "Kiểm tra kết nối thành công! Mọi thứ dường như được cài đặt đúng!"
@@ -10013,7 +11460,7 @@ msgid "Costa Rica - Accounting"
 msgstr ""
 
 #. module: base
-#: code:addons/base/res/res_partner.py:622
+#: code:addons/base/res/res_partner.py:629
 #, python-format
 msgid "Couldn't create contact without email address!"
 msgstr "Không thể tạo liên hệ mà không có địa chỉ email!"
@@ -10021,6 +11468,16 @@ msgstr "Không thể tạo liên hệ mà không có địa chỉ email!"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_count
 msgid "Count (incl. archived)"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_to_account_counterpart_reports
+msgid "Counterpart Account Reports"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_to_account_counterpart_partner_balance
+msgid "Counterpart Partner Balance Reports"
 msgstr ""
 
 #. module: base
@@ -10038,6 +11495,7 @@ msgstr "Quốc gia"
 #: model:ir.model.fields,field_description:base.field_res_partner_country_id
 #: model:ir.model.fields,field_description:base.field_res_users_commercial_partner_country_id
 #: model:ir.model.fields,field_description:base.field_res_users_country_id
+#: model:ir.ui.view,arch_db:base.res_partner_view_form_private
 #: model:ir.ui.view,arch_db:base.view_company_form
 #: model:ir.ui.view,arch_db:base.view_country_tree
 #: model:ir.ui.view,arch_db:base.view_partner_address_form
@@ -10099,7 +11557,6 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_logging_create_date
 #: model:ir.model.fields,field_description:base.field_ir_ui_view_create_date
-#: model:ir.model.fields,field_description:base.field_res_users_create_date
 msgid "Create Date"
 msgstr "Ngày tạo"
 
@@ -10332,6 +11789,7 @@ msgstr "Được tạo bởi"
 #: model:ir.model.fields,field_description:base.field_res_partner_industry_create_date
 #: model:ir.model.fields,field_description:base.field_res_partner_title_create_date
 #: model:ir.model.fields,field_description:base.field_res_request_link_create_date
+#: model:ir.model.fields,field_description:base.field_res_users_create_date
 #: model:ir.model.fields,field_description:base.field_res_users_log_create_date
 #: model:ir.model.fields,field_description:base.field_wizard_ir_model_menu_create_create_date
 msgid "Created on"
@@ -10577,11 +12035,6 @@ msgid "D ELECTRICITY,GAS,STEAM AND AIR CONDITIONING SUPPLY"
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_delivery_dhl
-msgid "DHL Shipping"
-msgstr ""
-
-#. module: base
 #: selection:report.paperformat,format:0
 msgid "DLE 26 110 x 220 mm"
 msgstr ""
@@ -10636,7 +12089,7 @@ msgid "Database Structure"
 msgstr "Cấu trúc Cơ sở dữ liệu"
 
 #. module: base
-#: code:addons/models.py:2745
+#: code:addons/models.py:2749
 #, python-format
 msgid ""
 "Database fetch misses ids ({}) and has extra ids ({}), may be caused by a "
@@ -10770,9 +12223,9 @@ msgid "Default website theme to showcase customization possibilities."
 msgstr "Chủ đề trang web mặc định để thể hiện khả năng tùy chỉnh."
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_account_deferred_revenue
-msgid "Deferred Revenues"
-msgstr "Doanh thu Hoãn lại"
+#: model:ir.module.module,shortdesc:base.module_account_tax_python
+msgid "Define Taxes as Python Code"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_to_account_balance_carry_forward
@@ -11122,7 +12575,7 @@ msgid "Document Template"
 msgstr "Mẫu Tài liệu"
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:1183 code:addons/base/ir/ir_model.py:1186
+#: code:addons/base/ir/ir_model.py:1189 code:addons/base/ir/ir_model.py:1192
 #, python-format
 msgid "Document model"
 msgstr "Mô hình (model) Tài liệu"
@@ -11193,7 +12646,7 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_qweb/fields.py:382
+#: code:addons/base/ir/ir_qweb/fields.py:396
 #, python-format
 msgid "Durations can't be negative"
 msgstr ""
@@ -11269,7 +12722,7 @@ msgid "El Salvador"
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_ui_view.py:641
+#: code:addons/base/ir/ir_ui_view.py:647
 #, python-format
 msgid "Element '%s' cannot be located in parent view"
 msgstr ""
@@ -11281,7 +12734,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_res_users_email
 #: model:ir.ui.menu,name:base.menu_email
 msgid "Email"
-msgstr "Email"
+msgstr ""
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_users_form
@@ -11295,6 +12748,7 @@ msgid "Email Gateway"
 msgstr ""
 
 #. module: base
+#: model:ir.module.category,name:base.module_category_mass_mailing
 #: model:ir.module.module,shortdesc:base.module_mass_mailing
 msgid "Email Marketing"
 msgstr ""
@@ -11334,6 +12788,11 @@ msgid "Employee Documents"
 msgstr "Tài liệu Nhân viên"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_to_hr_employee_relative
+msgid "Employee Relatives"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_to_hr_employee_resign
 msgid "Employee Resignations Management [Experimental]"
 msgstr ""
@@ -11352,15 +12811,45 @@ msgid "Empty dependency in %r"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,summary:base.module_web_ir_actions_act_view_reload
+msgid "Enables reload of the current view via ActionManager"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_web_ir_actions_act_multi
+msgid "Enables triggering of more than one action on ActionManager"
+msgstr ""
+
+#. module: base
 #: model:res.partner.industry,name:base.res_partner_industry_D
 msgid "Energy supply"
 msgstr "Cung cấp Năng lượng"
+
+#. module: base
+#: model:ir.module.module,summary:base.module_web_widget_datepicker_options
+msgid "Enhance customization for datepicker widgets"
+msgstr ""
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_server_action_form
 msgid ""
 "Enter Python code here. Help about Python expression is available in the "
 "help tab of this document."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_to_enterprice_marks_account
+msgid "Enterprise Marks - Accounting"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_to_enterprice_marks_mrp
+msgid "Enterprise Marks - MRP"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_to_enterprise_mobile
+msgid "Enterprise Mobile"
 msgstr ""
 
 #. module: base
@@ -11371,6 +12860,11 @@ msgstr "Giải trí"
 #. module: base
 #: model:res.country,name:base.gq
 msgid "Equatorial Guinea"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_to_equipment_image
+msgid "Equipment Image"
 msgstr ""
 
 #. module: base
@@ -11410,7 +12904,7 @@ msgstr ""
 "trang cụ thể."
 
 #. module: base
-#: code:addons/base/ir/ir_ui_view.py:491
+#: code:addons/base/ir/ir_ui_view.py:497
 #, python-format
 msgid ""
 "Error context:\n"
@@ -11642,7 +13136,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_ir_act_url_xml_id
 #: model:ir.model.fields,field_description:base.field_ir_act_window_xml_id
 #: model:ir.model.fields,field_description:base.field_ir_actions_xml_id
-#: model:ir.model.fields,field_description:base.field_ir_actions_xml_id_271
+#: model:ir.model.fields,field_description:base.field_ir_actions_xml_id_272
 #: model:ir.model.fields,field_description:base.field_ir_cron_xml_id
 #: model:ir.model.fields,field_description:base.field_ir_module_category_xml_id
 #: model:ir.model.fields,field_description:base.field_ir_ui_view_xml_id
@@ -11686,6 +13180,7 @@ msgstr "Mở rộng"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_usability
+#: model:ir.ui.view,arch_db:base.user_groups_view
 msgid "Extra Rights"
 msgstr "Quyền Bổ sung"
 
@@ -11808,7 +13303,7 @@ msgid "Field \"Type\" cannot be modified on models."
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_ui_view.py:1047
+#: code:addons/base/ir/ir_ui_view.py:1053
 #, python-format
 msgid "Field %r used in attributes must be present in view but is missing:"
 msgstr ""
@@ -11840,7 +13335,7 @@ msgid "Field Type"
 msgstr "Kiểu trường"
 
 #. module: base
-#: code:addons/base/ir/ir_ui_view.py:1041
+#: code:addons/base/ir/ir_ui_view.py:1047
 #, python-format
 msgid "Field `%(field_name)s` does not exist"
 msgstr "Trường `%(field_name)s` không tồn tại"
@@ -11875,7 +13370,7 @@ msgid "Fields Description"
 msgstr "Mô tả trường"
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:576
+#: code:addons/base/ir/ir_model.py:582
 #, python-format
 msgid "Fields: %s"
 msgstr ""
@@ -12077,6 +13572,11 @@ msgid "Fleet Stock Picking"
 msgstr ""
 
 #. module: base
+#: model:ir.module.category,name:base.module_category_fleet_transportation
+msgid "Fleet Transportation"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_to_fleet_vehicle_revenue
 msgid "Fleet Vehicle Revenue"
 msgstr ""
@@ -12099,7 +13599,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,help:base.field_res_company_report_footer
 msgid "Footer text displayed at the bottom of all reports."
-msgstr ""
+msgstr "Nội dung chân trang được hiển thị ở chân của tất cả các bản ghi."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_act_report_xml_report_name
@@ -12130,13 +13630,13 @@ msgstr ""
 "Dành cho các trường quan hệ, tên kỹ thuật của model đích (target model)"
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:618
+#: code:addons/base/ir/ir_model.py:624
 #, python-format
 msgid "For selection fields, the Selection Options must be given!"
 msgstr ""
 
 #. module: base
-#: code:addons/models.py:2882
+#: code:addons/models.py:2886
 #, python-format
 msgid ""
 "For this kind of document, you may only access records you created yourself.\n"
@@ -12165,6 +13665,17 @@ msgstr ""
 #: model:ir.ui.view,arch_db:base.view_view_search selection:ir.ui.view,type:0
 msgid "Form"
 msgstr "Mẫu"
+
+#. module: base
+#: selection:ir.actions.act_url,binding_type:0
+#: selection:ir.actions.act_window,binding_type:0
+#: selection:ir.actions.act_window_close,binding_type:0
+#: selection:ir.actions.actions,binding_type:0
+#: selection:ir.actions.client,binding_type:0
+#: selection:ir.actions.report,binding_type:0
+#: selection:ir.actions.server,binding_type:0
+msgid "Form-only"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_partner_email_formatted
@@ -12361,7 +13872,7 @@ msgstr ""
 #. module: base
 #: selection:ir.actions.act_window.view,view_mode:0
 #: selection:ir.ui.view,type:0
-msgid "Gantt"
+msgid "Gantt Chart"
 msgstr ""
 
 #. module: base
@@ -12439,11 +13950,6 @@ msgstr ""
 #: model:res.country,name:base.de
 msgid "Germany"
 msgstr "Đức"
-
-#. module: base
-#: model:ir.module.module,summary:base.module_to_hr_holidays_advanced
-msgid "Get worked day and leaves line"
-msgstr ""
 
 #. module: base
 #: model:res.country,name:base.gh
@@ -12626,6 +14132,11 @@ msgid "Group By"
 msgstr "Nhóm theo"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_web_group_expand
+msgid "Group Expand Buttons"
+msgstr ""
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_res_groups_full_name
 msgid "Group Name"
 msgstr "Tên nhóm"
@@ -12733,6 +14244,11 @@ msgid "HR Employee Advance"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_to_hr_employee_private_fields_access
+msgid "HR Employee Private Fields Access"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_to_hr_training
 #: model:ir.module.module,summary:base.module_to_hr_training
 msgid "HR Employee Training"
@@ -12776,7 +14292,12 @@ msgstr "Mã Kiểu nghỉ cho Phiếu lương"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_to_hr_recruitment_request
 msgid "HR Recruitment Requests"
-msgstr ""
+msgstr "Đề nghị Tuyển dụng Nhân sự"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_to_hr_scheduled_working_days
+msgid "HR Scheduled Working Days"
+msgstr "Quản lý Lịch làm việc"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_to_hr_shift_rotation
@@ -12786,6 +14307,11 @@ msgstr "Luân chuyển ca"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_to_hr_working_time_report
 msgid "HR Working Time Report"
+msgstr "Báo cáo thời gian làm việc"
+
+#. module: base
+#: model:res.country,vat_label:base.ca
+msgid "HST"
 msgstr ""
 
 #. module: base
@@ -12796,7 +14322,7 @@ msgstr ""
 #. module: base
 #: model:ir.model,name:base.model_ir_http
 msgid "HTTP routing"
-msgstr ""
+msgstr "Định tuyến HTTP"
 
 #. module: base
 #: model:res.country,name:base.ht
@@ -12806,7 +14332,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_hw_scanner
 msgid "Hardware Driver for Barcode Scanners"
-msgstr ""
+msgstr "Trình điều khiển Phần cứng cho Máy quét Mã vạch"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hw_blackbox_be
@@ -12816,17 +14342,17 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_hw_escpos
 msgid "Hardware Driver for ESC/POS Printers and Cashdrawers"
-msgstr ""
+msgstr "Trình điều khiển Phần cứng cho Máy in ESC/POS và Két tiền"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hw_scale
 msgid "Hardware Driver for Weighing Scales"
-msgstr ""
+msgstr "Trình điều khiển Phần cứng cho Cân điện tử"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_hardware_drivers
 msgid "Hardware Drivers"
-msgstr ""
+msgstr "Trình điều khiển Phần cứng"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hw_proxy
@@ -12841,7 +14367,7 @@ msgstr ""
 #. module: base
 #: model:res.partner.industry,name:base.res_partner_industry_Q
 msgid "Health/Social"
-msgstr ""
+msgstr "Sức khoẻ/Xã hội"
 
 #. module: base
 #: model:res.country,name:base.hm
@@ -12858,12 +14384,12 @@ msgstr "Trợ giúp"
 #. module: base
 #: model:ir.module.module,summary:base.module_web_planner
 msgid "Help to configure application"
-msgstr ""
+msgstr "Trợ giúp cấu hình ứng dụng"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_server_action_form
 msgid "Help with Python expressions"
-msgstr ""
+msgstr "Trợ giúp với các biểu thức Python"
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_point_of_sale
@@ -12890,32 +14416,32 @@ msgstr "Giúp bạn xử lý báo giá, đơn hàng và hoá đơn."
 #. module: base
 #: model:ir.module.category,description:base.module_category_lead_automation
 msgid "Helps you manage lead of your marketing campaigns step by step."
-msgstr ""
+msgstr "Giúp bạn quản lý tiềm năng của các chiến dịch marketing từng bước từng bước một."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_hr_attendance
 msgid "Helps you manage the attendances."
-msgstr ""
+msgstr "Giúp bản quản lý điểm danh (vào/ra)"
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_hr_gamification
 msgid "Helps you manage the gamification process."
-msgstr ""
+msgstr "Giúp bạn quản lý các tiến trình gamification."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_hr_timesheet
 msgid "Helps you manage the timesheets."
-msgstr ""
+msgstr "Giúp bạn quản lý bảng thời gian."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_event_management
 msgid "Helps you manage your Events."
-msgstr ""
+msgstr "Giúp bạn quản lý các Sự kiện."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_hr_appraisal
 msgid "Helps you manage your appraisals."
-msgstr ""
+msgstr "Giúp bạn quản lý các Đánh giá nhân viên."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_human_resources
@@ -12939,7 +14465,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.category,description:base.module_category_hr_holidays
 msgid "Helps you manage your leaves."
-msgstr ""
+msgstr "Giúp bạn quản lý nghỉ"
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_manufacturing
@@ -13007,24 +14533,19 @@ msgid "History"
 msgstr "Lịch sử"
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_to_hr_holidays_advanced
-msgid "Holidays Advanced"
-msgstr ""
-
-#. module: base
 #: model:ir.module.module,shortdesc:base.module_to_holidays_in_years
 msgid "Holidays in Year"
-msgstr ""
+msgstr "Ngày nghỉ trong Năm"
 
 #. module: base
 #: model:res.country,name:base.va
 msgid "Holy See (Vatican City State)"
-msgstr "Toà Thánh Va-ti-canh"
+msgstr "Toà Thánh Va-ti-căn"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users_action_id
 msgid "Home Action"
-msgstr ""
+msgstr "Hành động Trang Nhà"
 
 #. module: base
 #: model:res.country,name:base.hn
@@ -13034,7 +14555,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_hn
 msgid "Honduras - Accounting"
-msgstr ""
+msgstr "Honduras - Kế toán"
 
 #. module: base
 #: model:res.country,name:base.hk
@@ -13064,7 +14585,7 @@ msgstr "Giờ"
 #. module: base
 #: model:res.partner.industry,name:base.res_partner_industry_T
 msgid "Households"
-msgstr ""
+msgstr "Giúp việc nhà"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_cron_numbercall
@@ -13079,12 +14600,12 @@ msgstr ""
 #: model:ir.ui.view,arch_db:base.view_model_fields_form
 #: model:ir.ui.view,arch_db:base.view_model_form
 msgid "How to define a computed field"
-msgstr ""
+msgstr "Cách định nghĩa một trường kiểu tính toán"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_to_hr_overtime_with_shift_rotation
 msgid "Hr Overtime With Shift Rotation"
-msgstr ""
+msgstr "Tăng ca tích hợp Luân chuyển ca"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_recruitment_survey
@@ -13099,7 +14620,7 @@ msgstr "Khảo sát Nguồn nhân lực"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_hu
 msgid "Hungarian - Accounting"
-msgstr ""
+msgstr "Hungarian - Kế toán"
 
 #. module: base
 #: model:res.country,name:base.hu
@@ -13214,11 +14735,6 @@ msgid "ID"
 msgstr ""
 
 #. module: base
-#: model:ir.model.fields,help:base.field_ir_act_server_xml_id
-msgid "ID of the action if defined in a XML file"
-msgstr ""
-
-#. module: base
 #: model:ir.model.fields,help:base.field_ir_model_data_res_id
 msgid "ID of the target record in the database"
 msgstr ""
@@ -13241,7 +14757,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,help:base.field_base_language_import_code
 msgid "ISO Language and Country code, e.g. en_US"
-msgstr ""
+msgstr "Mã Ngôn ngữ và Quốc gia theo ISO, ví dụ: en_US, vi_VN"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_lang_iso_code
@@ -13256,7 +14772,7 @@ msgstr "Dịch vụ IT"
 #. module: base
 #: model:res.partner.industry,name:base.res_partner_industry_J
 msgid "IT/Communication"
-msgstr ""
+msgstr "IT/Truyền thông"
 
 #. module: base
 #: model:res.country,name:base.is
@@ -13279,11 +14795,13 @@ msgid ""
 "If checked and the action is bound to a model, it will only appear in the "
 "More menu on list views"
 msgstr ""
+"Nếu được đánh dấu, hành động sẽ gắn liền với một model, nó sẽ chỉ xuất hiện ở "
+"menu Thêm ở giao diện Danh sách của model."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_groups_is_portal
 msgid "If checked, this group is usable as a portal."
-msgstr ""
+msgstr "Nếu được đánh dấu, nhóm này có thể được sử dụng như là một nhóm portal"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_mail_server_smtp_debug
@@ -13302,7 +14820,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_property_res_id
 msgid "If not set, acts as a default value for new resources"
-msgstr ""
+msgstr "Nếu không thiết lập, hành xử như một giá trị mới đối với nguồn lực mới"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_act_report_xml_multi
@@ -13500,15 +15018,20 @@ msgid "Inactive Users"
 msgstr "Người dùng bị Vô hiệu"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_to_mail_notif_and_email
+msgid "Inbox Notifications and Emails"
+msgstr "Thông báo trong Hộp thư đến và Email"
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields_index
 msgid "Indexed"
-msgstr ""
+msgstr "Được lập chỉ mục"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_attachment_index_content
 #: model:ir.ui.view,arch_db:base.view_attachment_form
 msgid "Indexed Content"
-msgstr ""
+msgstr "Nội dung Được lập chỉ mục"
 
 #. module: base
 #: model:res.country,name:base.in
@@ -13694,6 +15217,11 @@ msgid "Interaction between rules"
 msgstr "Tương tác giữa các quy tắc"
 
 #. module: base
+#: model:ir.module.module,summary:base.module_web_timeline
+msgid "Interactive visualization chart to show events in time"
+msgstr ""
+
+#. module: base
 #: model:ir.ui.view,arch_db:base.view_groups_search
 msgid "Internal Groups"
 msgstr "Nhóm Nội bộ"
@@ -13701,7 +15229,7 @@ msgstr "Nhóm Nội bộ"
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_partner_form
 msgid "Internal Notes"
-msgstr "Ghi chú nội bộ"
+msgstr "Ghi chú Nội bộ"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner_ref
@@ -13745,7 +15273,7 @@ msgid "Introspection report on objects"
 msgstr ""
 
 #. module: base
-#: code:addons/models.py:3571
+#: code:addons/models.py:3575
 #, python-format
 msgid ""
 "Invalid \"order\" specified. A valid \"order\" specification is a comma-"
@@ -13754,7 +15282,7 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: code:addons/base/res/res_users.py:320
+#: code:addons/base/res/res_users.py:323
 #, python-format
 msgid "Invalid 'group by' parameter"
 msgstr ""
@@ -13787,13 +15315,13 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_actions.py:128 code:addons/base/ir/ir_actions.py:130
+#: code:addons/base/ir/ir_actions.py:129 code:addons/base/ir/ir_actions.py:131
 #, python-format
 msgid "Invalid model name %r in action definition."
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_ui_view.py:632
+#: code:addons/base/ir/ir_ui_view.py:638
 #, python-format
 msgid "Invalid position attribute: '%s'"
 msgstr "Thuộc tính vị trí không hợp lệ: '%s'"
@@ -13805,7 +15333,7 @@ msgid "Invalid prefix or suffix for sequence '%s'"
 msgstr "Tiền tố và hậu tố cho '%s' không hợp lệ"
 
 #. module: base
-#: code:addons/base/res/res_users.py:328
+#: code:addons/base/res/res_users.py:331
 #, python-format
 msgid "Invalid search criterion"
 msgstr "Tiêu chí tìm kiếm không hợp lẹe"
@@ -13849,6 +15377,11 @@ msgid "Inventory, Logistics, Warehousing"
 msgstr "Kiểm kho, Logistics, Quản lý kho"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_to_invoice_partner_vat
+msgid "Invoice Partner VAT"
+msgstr ""
+
+#. module: base
 #: selection:res.partner,type:0
 msgid "Invoice address"
 msgstr "Địa chỉ hoá đơn"
@@ -13882,6 +15415,11 @@ msgstr "I-rắc"
 #. module: base
 #: model:res.country,name:base.ie
 msgid "Ireland"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_account_lock
+msgid "Irreversible Lock Date"
 msgstr ""
 
 #. module: base
@@ -14466,6 +16004,11 @@ msgid "Legal    3   8.5 x 14 inches, 215.9 x 355.6 mm"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_to_legal_invoice_number
+msgid "Legal Invoice Number"
+msgstr ""
+
+#. module: base
 #: model:ir.ui.view,arch_db:base.sequence_view
 msgid "Legend (for prefix, suffix)"
 msgstr "Chú giải (dùng cho tiền tố và hậu tố)"
@@ -14524,6 +16067,11 @@ msgstr "Giới hạn"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_logging_line
 msgid "Line"
+msgstr "Dòng"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_to_lines_count_on_account_move
+msgid "Lines Count on Journal Entries"
 msgstr ""
 
 #. module: base
@@ -14735,6 +16283,16 @@ msgid "MRP Byproducts"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_to_mrp_workorder_manual_time
+msgid "MRP Workoder Manual Time"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_to_mrp_workorder_manual_time_without_quality
+msgid "MRP Workoder Manual Time (Without Quality)"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_quality_mrp
 msgid "MRP features for Quality Control"
 msgstr "Kiểm soát chất lượng trong sản xuất"
@@ -14765,13 +16323,13 @@ msgid "Mail Archive"
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_mail_server.py:467
+#: code:addons/base/ir/ir_mail_server.py:469
 #, python-format
 msgid "Mail Delivery Failed"
 msgstr "Lỗi gửi mail"
 
 #. module: base
-#: code:addons/base/ir/ir_mail_server.py:465
+#: code:addons/base/ir/ir_mail_server.py:467
 #, python-format
 msgid ""
 "Mail delivery failed via SMTP server '%s'.\n"
@@ -14797,6 +16355,11 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_module_maintainer
 msgid "Maintainer"
+msgstr ""
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_maintenance
+msgid "Maintenance"
 msgstr ""
 
 #. module: base
@@ -14961,6 +16524,12 @@ msgid "Manage your employee payroll records"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,summary:base.module_to_mrp_workorder_manual_time
+#: model:ir.module.module,summary:base.module_to_mrp_workorder_manual_time_without_quality
+msgid "Manually input time for Work Orders instead of using auto current time"
+msgstr ""
+
+#. module: base
 #: model:res.partner.category,name:base.res_partner_category_14
 msgid "Manufacturer"
 msgstr "Nhà sản xuất"
@@ -14983,7 +16552,7 @@ msgid "Many2One"
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:629
+#: code:addons/base/ir/ir_model.py:635
 #, python-format
 msgid "Many2one %s on model %s does not exist!"
 msgstr ""
@@ -15027,11 +16596,6 @@ msgid "Martinique"
 msgstr ""
 
 #. module: base
-#: model:ir.module.category,name:base.module_category_mass_mailing
-msgid "Mass Mailing"
-msgstr "Gửi mail hàng loạt"
-
-#. module: base
 #: model:ir.module.module,shortdesc:base.module_mass_mailing_event
 msgid "Mass mailing on attendees"
 msgstr ""
@@ -15046,6 +16610,11 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_mrp_mps
 msgid "Master Production Schedule"
 msgstr "Kế hoạch sản xuất tổng thể"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_backend_theme_v11
+msgid "Material/United Backend Theme"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.mr
@@ -15205,19 +16774,19 @@ msgid "Miss"
 msgstr "Cô"
 
 #. module: base
-#: code:addons/base/ir/ir_mail_server.py:217
+#: code:addons/base/ir/ir_mail_server.py:219
 #, python-format
 msgid "Missing SMTP Server"
 msgstr "Không có SMTP Server"
 
 #. module: base
-#: code:addons/models.py:2851
+#: code:addons/models.py:2855
 #, python-format
 msgid "Missing document(s)"
 msgstr ""
 
 #. module: base
-#: code:addons/models.py:5227
+#: code:addons/models.py:5235
 #, python-format
 msgid "Missing required value for the field '%s' (%s)"
 msgstr "Thiếu có giá trị bắt buộc cho trường '%s' (%s)"
@@ -15277,7 +16846,7 @@ msgid "Model %s does not exist"
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:625
+#: code:addons/base/ir/ir_model.py:631
 #, python-format
 msgid "Model %s does not exist!"
 msgstr "Mô-đun %s không tồn tại!"
@@ -15335,7 +16904,7 @@ msgid "Model name of the object to open in the view window"
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_ui_view.py:771 code:addons/base/ir/ir_ui_view.py:987
+#: code:addons/base/ir/ir_ui_view.py:777 code:addons/base/ir/ir_ui_view.py:993
 #, python-format
 msgid "Model not found: %(model)s"
 msgstr "Mô hình không được tìm thấy: %(model)s"
@@ -15418,7 +16987,7 @@ msgid "Module exclusion"
 msgstr ""
 
 #. module: base
-#: code:addons/convert.py:829
+#: code:addons/convert.py:832
 #, python-format
 msgid ""
 "Module loading %s failed: file %s could not be processed:\n"
@@ -15565,7 +17134,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_act_report_xml_name
 #: model:ir.model.fields,field_description:base.field_ir_actions_name
-#: model:ir.model.fields,field_description:base.field_ir_actions_name_270
+#: model:ir.model.fields,field_description:base.field_ir_actions_name_271
 #: model:ir.model.fields,field_description:base.field_ir_actions_todo_name
 #: model:ir.model.fields,field_description:base.field_ir_cron_cron_name
 #: model:ir.model.fields,field_description:base.field_ir_logging_name
@@ -15734,7 +17303,7 @@ msgid "No gap"
 msgstr "Không có khoảng cách"
 
 #. module: base
-#: code:addons/fields.py:2226
+#: code:addons/fields.py:2229
 #, python-format
 msgid "No inverse field %r found for %r"
 msgstr ""
@@ -15900,6 +17469,11 @@ msgstr "Quan hệ đối tượng"
 #: model:ir.ui.view,arch_db:base.report_irmodulereference
 msgid "Object:"
 msgstr "Đối tượng:"
+
+#. module: base
+#: model:ir.module.module,summary:base.module_backend_theme_v11
+msgid "Odoo 11.0 community backend theme"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_blog
@@ -17035,7 +18609,7 @@ msgid "On delete property for many2one fields"
 msgstr "Khi xoá thuộc tính của trường many2one"
 
 #. module: base
-#: code:addons/models.py:2851
+#: code:addons/models.py:2855
 #, python-format
 msgid ""
 "One of the documents you are trying to access has been deleted, please try "
@@ -17045,7 +18619,7 @@ msgstr ""
 " khi nạp lại dữ liệu"
 
 #. module: base
-#: code:addons/models.py:3189
+#: code:addons/models.py:3193
 #, python-format
 msgid ""
 "One of the records you are trying to modify has already been deleted "
@@ -17054,7 +18628,7 @@ msgstr ""
 "Một trong những bảng ghi bạn muốn chỉnh sửa đã bị xóa (Loại tài liệu: %s)."
 
 #. module: base
-#: code:addons/base/res/res_partner.py:392
+#: code:addons/base/res/res_partner.py:399
 #, python-format
 msgid ""
 "One2Many fields cannot be synchronized as part of `commercial_fields` or "
@@ -17113,7 +18687,7 @@ msgid "Only one currency rate per day allowed!"
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:1183
+#: code:addons/base/ir/ir_model.py:1189
 #, python-format
 msgid ""
 "Only users with the following access level are currently allowed to do that"
@@ -17239,7 +18813,7 @@ msgstr ""
 #: model:ir.model.fields,help:base.field_ir_act_url_help
 #: model:ir.model.fields,help:base.field_ir_act_window_help
 #: model:ir.model.fields,help:base.field_ir_actions_help
-#: model:ir.model.fields,help:base.field_ir_actions_help_272
+#: model:ir.model.fields,help:base.field_ir_actions_help_273
 #: model:ir.model.fields,help:base.field_ir_cron_help
 msgid ""
 "Optional help text for the users with a description of the target view, such"
@@ -17446,7 +19020,8 @@ msgid "Original View"
 msgstr "Giao diện Gốc"
 
 #. module: base
-#: code:addons/base/res/res_users.py:774 code:addons/base/res/res_users.py:939
+#: code:addons/base/res/res_users.py:781 code:addons/base/res/res_users.py:951
+#: model:ir.ui.view,arch_db:base.user_groups_view
 #, python-format
 msgid "Other"
 msgstr "Khác"
@@ -17745,7 +19320,7 @@ msgid "Partners Geolocation"
 msgstr ""
 
 #. module: base
-#: code:addons/base/res/res_partner.py:765
+#: code:addons/base/res/res_partner.py:774
 #, python-format
 msgid "Partners: "
 msgstr "Đối tác: "
@@ -17946,7 +19521,7 @@ msgid "Plano de contas SNC para Portugal"
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:1186
+#: code:addons/base/ir/ir_model.py:1192
 #, python-format
 msgid ""
 "Please contact your system administrator if you think this is an error."
@@ -17954,7 +19529,7 @@ msgstr ""
 "Xin hãy liên hệ với quản trị hệ thống nếu bạn cho rằng đây là một lỗi."
 
 #. module: base
-#: code:addons/base/ir/ir_mail_server.py:218
+#: code:addons/base/ir/ir_mail_server.py:220
 #, python-format
 msgid ""
 "Please define at least one SMTP server, or provide the SMTP parameters "
@@ -17975,7 +19550,7 @@ msgid "Please specify a valid model for the object relation"
 msgstr ""
 
 #. module: base
-#: code:addons/base/res/res_users.py:252
+#: code:addons/base/res/res_users.py:255
 #, python-format
 msgid ""
 "Please use the change password wizard (in User Preferences or User menu) to "
@@ -18168,6 +19743,16 @@ msgid "Priority"
 msgstr "Mức ưu tiên"
 
 #. module: base
+#: selection:res.partner,type:0
+msgid "Private Address"
+msgstr ""
+
+#. module: base
+#: model:ir.ui.view,arch_db:base.res_partner_view_form_private
+msgid "Private Address Form"
+msgstr ""
+
+#. module: base
 #: code:addons/models.py:112
 #, python-format
 msgid "Private methods (such as %s) cannot be called remotely."
@@ -18275,6 +19860,11 @@ msgstr "Giáo sư"
 #: model:ir.module.module,shortdesc:base.module_project
 msgid "Project"
 msgstr "Dự án"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_project_gantt
+msgid "Project Gantt"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_project
@@ -18387,7 +19977,7 @@ msgid "Properties"
 msgstr "Thuộc tính"
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:657
+#: code:addons/base/ir/ir_model.py:663
 #, python-format
 msgid ""
 "Properties of base fields cannot be altered in this manner! Please modify "
@@ -18590,11 +20180,6 @@ msgid "Quotations, Sales Orders, Invoicing"
 msgstr "Báo giá, Đơn hàng, Hoá đơn"
 
 #. module: base
-#: model:ir.ui.view,arch_db:base.user_groups_view
-msgid "Quyền Bổ sung"
-msgstr ""
-
-#. module: base
 #: code:addons/base/ir/ir_ui_view.py:350
 #, python-format
 msgid ""
@@ -18605,6 +20190,16 @@ msgstr ""
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_R
 msgid "R ARTS, ENTERTAINMENT AND RECREATION"
+msgstr ""
+
+#. module: base
+#: model:res.country,vat_label:base.mx
+msgid "RFC"
+msgstr ""
+
+#. module: base
+#: model:res.country,vat_label:base.do
+msgid "RNC"
 msgstr ""
 
 #. module: base
@@ -18673,7 +20268,7 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_actions.py:233 code:addons/models.py:3966
+#: code:addons/base/ir/ir_actions.py:234 code:addons/models.py:3970
 #, python-format
 msgid "Record does not exist or has been deleted."
 msgstr ""
@@ -18701,13 +20296,13 @@ msgid "Recursion error in modules dependencies !"
 msgstr "Lỗi đệ quy trong việc phụ thuộc các module!"
 
 #. module: base
-#: code:addons/base/ir/ir_actions.py:392
+#: code:addons/base/ir/ir_actions.py:393
 #, python-format
 msgid "Recursion found in child server actions"
 msgstr ""
 
 #. module: base
-#: code:addons/models.py:3295
+#: code:addons/models.py:3299
 #, python-format
 msgid "Recursivity Detected."
 msgstr ""
@@ -19203,6 +20798,11 @@ msgid "Sales Expense"
 msgstr "Chi phí bán"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_to_sale_line_numbering
+msgid "Sales Lines Numbering"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_management
 msgid "Sales Management"
 msgstr "Quản lý Bán"
@@ -19621,7 +21221,7 @@ msgstr "Đặt là Cần làm"
 #: model:ir.model.fields,help:base.field_ir_act_url_binding_model_id
 #: model:ir.model.fields,help:base.field_ir_act_window_binding_model_id
 #: model:ir.model.fields,help:base.field_ir_actions_binding_model_id
-#: model:ir.model.fields,help:base.field_ir_actions_binding_model_id_273
+#: model:ir.model.fields,help:base.field_ir_actions_binding_model_id_274
 #: model:ir.model.fields,help:base.field_ir_cron_binding_model_id
 msgid ""
 "Setting a value makes this action available in the sidebar for the given "
@@ -19629,7 +21229,7 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: code:addons/base/res/res_users.py:560
+#: code:addons/base/res/res_users.py:567
 #, python-format
 msgid "Setting empty passwords is not allowed for security reasons!"
 msgstr "Mật khẩu không được để trống vì lý do bảo mật!"
@@ -19824,25 +21424,25 @@ msgstr "Đôi khi được gọi là BIC hoặc Swift."
 
 #. module: base
 #: code:addons/base/ir/ir_attachment.py:342
-#: code:addons/base/ir/ir_model.py:1177
+#: code:addons/base/ir/ir_model.py:1183
 #, python-format
 msgid "Sorry, you are not allowed to access this document."
 msgstr "Rất tiếc, bạn không được phép truy cập tài liệu này."
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:1179
+#: code:addons/base/ir/ir_model.py:1185
 #, python-format
 msgid "Sorry, you are not allowed to create this kind of document."
 msgstr "Rất tiếc, bạn không được phép tạo loại tài liệu này."
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:1180
+#: code:addons/base/ir/ir_model.py:1186
 #, python-format
 msgid "Sorry, you are not allowed to delete this document."
 msgstr "Rất tiếc, bạn không được phép xóa tài liệu này."
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:1178
+#: code:addons/base/ir/ir_model.py:1184
 #, python-format
 msgid "Sorry, you are not allowed to modify this document."
 msgstr "Rất tiếc, bạn không được phép chỉnh sửa tài liệu này."
@@ -19853,7 +21453,7 @@ msgid "Sort"
 msgstr "Sắp xếp"
 
 #. module: base
-#: code:addons/models.py:3704
+#: code:addons/models.py:3708
 #, python-format
 msgid "Sorting field %s not found on model %s"
 msgstr "Trường Sắp xếp %s không được tìm thấy ở model %s"
@@ -19968,12 +21568,9 @@ msgstr "Bắt đầu cấu hình"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_language_export_state
-msgid "State"
-msgstr "Trạng thái"
-
-#. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner_state_id
 #: model:ir.model.fields,field_description:base.field_res_users_state_id
+#: model:ir.ui.view,arch_db:base.res_partner_view_form_private
 #: model:ir.ui.view,arch_db:base.view_company_form
 #: model:ir.ui.view,arch_db:base.view_country_state_form
 #: model:ir.ui.view,arch_db:base.view_country_state_tree
@@ -20095,6 +21692,7 @@ msgid "Street"
 msgstr "Đường phố"
 
 #. module: base
+#: model:ir.ui.view,arch_db:base.res_partner_view_form_private
 #: model:ir.ui.view,arch_db:base.view_company_form
 #: model:ir.ui.view,arch_db:base.view_partner_address_form
 #: model:ir.ui.view,arch_db:base.view_partner_form
@@ -20104,6 +21702,7 @@ msgid "Street 2..."
 msgstr "Địa chỉ dòng 2..."
 
 #. module: base
+#: model:ir.ui.view,arch_db:base.res_partner_view_form_private
 #: model:ir.ui.view,arch_db:base.view_company_form
 #: model:ir.ui.view,arch_db:base.view_partner_address_form
 #: model:ir.ui.view,arch_db:base.view_partner_form
@@ -20412,11 +22011,12 @@ msgstr "Tên Kỹ thuật"
 #. module: base
 #: model:ir.module.category,name:base.module_category_hidden
 #: model:ir.module.category,name:base.module_category_technical_settings
+#: model:ir.ui.view,arch_db:base.user_groups_view
 msgid "Technical Settings"
 msgstr "Thiết lập Kỹ thuật"
 
 #. module: base
-#: code:addons/base/ir/ir_translation.py:765
+#: code:addons/base/ir/ir_translation.py:766
 #, python-format
 msgid "Technical Translations"
 msgstr "Dịch Kỹ thuật"
@@ -20488,7 +22088,7 @@ msgid "Thailand - Accounting"
 msgstr ""
 
 #. module: base
-#: code:addons/base/res/res_users.py:292
+#: code:addons/base/res/res_users.py:295
 #, python-format
 msgid "The \"App Switcher\" action cannot be selected as home action."
 msgstr ""
@@ -20547,7 +22147,7 @@ msgid "The active field allows you to hide the category without removing it."
 msgstr ""
 
 #. module: base
-#: code:addons/base/res/res_users.py:285
+#: code:addons/base/res/res_users.py:288
 #, python-format
 msgid "The chosen company is not in the allowed companies for this user"
 msgstr ""
@@ -20603,7 +22203,7 @@ msgid "The database object this attachment will be attached to."
 msgstr "Đối tượng cơ sở dữ liệu tệp đính kèm này sẽ được đính kèm."
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:563
+#: code:addons/base/ir/ir_model.py:561
 #, python-format
 msgid "The field '%s' cannot be removed because the field '%s' depends on it."
 msgstr ""
@@ -20714,7 +22314,7 @@ msgid "The name of the country must be unique !"
 msgstr "Tên quốc gia phải duy nhất!"
 
 #. module: base
-#: code:addons/base/res/res_users.py:154
+#: code:addons/base/res/res_users.py:157
 #, python-format
 msgid "The name of the group can not start with \"-\""
 msgstr "Tên nhóm không thể bắt đầu bằng \"-\""
@@ -20810,7 +22410,7 @@ msgid "The record id this is attached to."
 msgstr "Id bản ghi này được đính kèm."
 
 #. module: base
-#: code:addons/models.py:2752
+#: code:addons/models.py:2756
 #, python-format
 msgid ""
 "The requested operation cannot be completed due to record rules: Document "
@@ -20818,8 +22418,8 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: code:addons/models.py:2547 code:addons/models.py:2756
-#: code:addons/models.py:2841
+#: code:addons/models.py:2551 code:addons/models.py:2760
+#: code:addons/models.py:2845
 #, python-format
 msgid ""
 "The requested operation cannot be completed due to security restrictions. Please contact your system administrator.\n"
@@ -20884,7 +22484,7 @@ msgstr ""
 "người."
 
 #. module: base
-#: code:addons/models.py:5259
+#: code:addons/models.py:5267
 #, python-format
 msgid ""
 "The value for the field '%s' already exists (this is probably '%s' in the "
@@ -20892,7 +22492,7 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: code:addons/models.py:5265
+#: code:addons/models.py:5273
 #, python-format
 msgid ""
 "The values for the fields '%s' already exist (they are probably '%s' in the "
@@ -20930,7 +22530,7 @@ msgid "This Window"
 msgstr "Cửa sổ này"
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:591
+#: code:addons/base/ir/ir_model.py:597
 #, python-format
 msgid "This column contains module data and cannot be removed!"
 msgstr "Cột này chứa dữ liệu module và không thể loại bỏ!"
@@ -21005,6 +22605,11 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,summary:base.module_web_widget_image_url
+msgid "This module provides web widget for displaying image from URL"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,summary:base.module_to_employee_changes_tracking
 msgid ""
 "This module to track changes on important fields of the employee model. "
@@ -21027,11 +22632,6 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_web_widget_bokeh_chart
 msgid "This widget allows to display charts using Bokeh library."
-msgstr ""
-
-#. module: base
-#: model:ir.ui.view,arch_db:base.user_groups_view
-msgid "Thiết lập Kỹ thuật"
 msgstr ""
 
 #. module: base
@@ -21280,7 +22880,7 @@ msgid "Translation comments"
 msgstr "Bình luận dịch"
 
 #. module: base
-#: code:addons/base/ir/ir_translation.py:643
+#: code:addons/base/ir/ir_translation.py:644
 #, python-format
 msgid ""
 "Translation features are unavailable until you install an extra translation."
@@ -21292,7 +22892,7 @@ msgid "Translation in Progress"
 msgstr "Việc dịch đang trong quá trình"
 
 #. module: base
-#: code:addons/base/ir/ir_translation.py:564
+#: code:addons/base/ir/ir_translation.py:565
 #, python-format
 msgid ""
 "Translation is not valid:\n"
@@ -21453,7 +23053,7 @@ msgid "Ukraine"
 msgstr ""
 
 #. module: base
-#: code:addons/models.py:2917
+#: code:addons/models.py:2921
 #, python-format
 msgid ""
 "Unable to delete this document because it is used as a default property"
@@ -21462,7 +23062,7 @@ msgstr ""
 "định"
 
 #. module: base
-#: code:addons/base/ir/ir_actions_report.py:622
+#: code:addons/base/ir/ir_actions_report.py:626
 #, python-format
 msgid "Unable to find Wkhtmltopdf on this system. The PDF can not be created."
 msgstr ""
@@ -21699,6 +23299,11 @@ msgstr "Cách dùng"
 #: code:addons/base/ir/ir_fields.py:166
 #, python-format
 msgid "Use '1' for yes and '0' for no"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_web_search_with_and
+msgid "Use AND conditions on omnibar search"
 msgstr ""
 
 #. module: base
@@ -22076,13 +23681,18 @@ msgid "Vietnam Driver License Classes"
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_to_wh_vn_legal_reports
+#: model:ir.module.module,shortdesc:base.module_to_l10n_vn_stock_reports
 msgid "Vietnam Legal WH Reports"
 msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_to_vietnam_states
 msgid "Vietnam Provinces & Cities"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_to_l10n_vn_qweb_layout
+msgid "Vietnam QWeb Layouts"
 msgstr ""
 
 #. module: base
@@ -22152,7 +23762,7 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:577
+#: code:addons/base/ir/ir_model.py:583
 #, python-format
 msgid "View: %s"
 msgstr "Giao diện: %s"
@@ -22240,14 +23850,14 @@ msgid "Warehouse Orderpoint Mail Thread"
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,summary:base.module_to_wh_vn_legal_reports
+#: model:ir.module.module,summary:base.module_to_l10n_vn_stock_reports
 msgid "Warehouse Vietnam Legal Reports"
-msgstr "Báo cáo Kho Luật định Việt Nam"
+msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_mail_server.py:477
+#: code:addons/base/ir/ir_mail_server.py:479
 #: code:addons/base/ir/ir_model.py:415 code:addons/base/ir/ir_model.py:497
-#: code:addons/base/res/res_partner.py:337
+#: code:addons/base/res/res_partner.py:344
 #, python-format
 msgid "Warning"
 msgstr "Cảnh báo"
@@ -22259,7 +23869,7 @@ msgid "Warning!"
 msgstr "Cảnh báo!"
 
 #. module: base
-#: code:addons/models.py:4975
+#: code:addons/models.py:4983
 #, python-format
 msgid "Warnings"
 msgstr "Cảnh báo"
@@ -22268,11 +23878,6 @@ msgstr "Cảnh báo"
 #: model:res.partner.industry,name:base.res_partner_industry_E
 msgid "Water supply"
 msgstr "Cung cấp Nước"
-
-#. module: base
-#: model:ir.module.module,shortdesc:base.module_l10_vn_waypoint_areas
-msgid "Waypoint Areas in Vietnam"
-msgstr ""
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_base_module_upgrade_install
@@ -22295,6 +23900,16 @@ msgid "Web - Numpad Dot as decimal separator"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_web_ir_actions_act_multi
+msgid "Web Actions Multi"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_web_ir_actions_act_view_reload
+msgid "Web Actions View Reload"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_web_dialog_size
 msgid "Web Dialog Size"
 msgstr ""
@@ -22310,6 +23925,11 @@ msgid "Web Environment Ribbon"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_web_gantt
+msgid "Web Gantt"
+msgstr ""
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_ir_ui_menu_web_icon
 msgid "Web Icon File"
 msgstr ""
@@ -22317,6 +23937,11 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_ui_menu_web_icon_data
 msgid "Web Icon Image"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_web_widget_image_url
+msgid "Web Image URL"
 msgstr ""
 
 #. module: base
@@ -22347,6 +23972,11 @@ msgid "Web Thousand Separators"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_web_widget_image_download
+msgid "Web Widget - Image Download"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_web_widget_bokeh_chart
 msgid "Web Widget Bokeh Chart"
 msgstr ""
@@ -22354,6 +23984,16 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_widget_color
 msgid "Web Widget Color"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_web_timeline
+msgid "Web timeline"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_web_widget_datepicker_options
+msgid "Web widget datepicker options"
 msgstr ""
 
 #. module: base
@@ -22652,7 +24292,7 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: code:addons/base/res/res_partner.py:506
+#: code:addons/base/res/res_partner.py:513
 #, python-format
 msgid ""
 "You can not change the company as the partner/user has multiple user linked "
@@ -22667,7 +24307,7 @@ msgid "You can not have two users with the same login !"
 msgstr "Bạn không thể có hai người sử dụng với cùng tên đăng nhập"
 
 #. module: base
-#: code:addons/base/res/res_users.py:388
+#: code:addons/base/res/res_users.py:391
 #, python-format
 msgid ""
 "You can not remove the admin user as it is used internally for resources "
@@ -22678,7 +24318,7 @@ msgstr ""
 "nhật, cài module, v.v.)"
 
 #. module: base
-#: code:addons/base/res/res_partner.py:320
+#: code:addons/base/res/res_partner.py:325
 #, python-format
 msgid "You cannot create recursive Partner hierarchies."
 msgstr ""
@@ -22690,13 +24330,13 @@ msgid "You cannot create recursive inherited views."
 msgstr ""
 
 #. module: base
-#: code:addons/base/res/res_users.py:345
+#: code:addons/base/res/res_users.py:348
 #, python-format
 msgid "You cannot deactivate the admin user."
 msgstr "Bạn không thể vô hiệu tài khoản admin"
 
 #. module: base
-#: code:addons/base/res/res_users.py:347
+#: code:addons/base/res/res_users.py:350
 #, python-format
 msgid "You cannot deactivate the user you're currently logged in as."
 msgstr "Bạn không thể vô hiệu tài khoản người dùng mà bạn đang đăng nhập."
@@ -22777,7 +24417,7 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_mail_server.py:224
+#: code:addons/base/ir/ir_mail_server.py:226
 #, python-format
 msgid ""
 "Your Odoo Server does not support SMTP-over-SSL. You could use STARTTLS "
@@ -22786,7 +24426,7 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_mail_server.py:478
+#: code:addons/base/ir/ir_mail_server.py:480
 #, python-format
 msgid ""
 "Your server does not seem to support SSL, you may want to try STARTTLS "
@@ -22795,6 +24435,7 @@ msgstr ""
 "Máy chủ của bạn dường như không hỗ trợ SSL, có thể bạn muốn thử STARTTLS"
 
 #. module: base
+#: model:ir.ui.view,arch_db:base.res_partner_view_form_private
 #: model:ir.ui.view,arch_db:base.view_company_form
 #: model:ir.ui.view,arch_db:base.view_partner_address_form
 #: model:ir.ui.view,arch_db:base.view_partner_form
@@ -22838,7 +24479,7 @@ msgid "_unknown"
 msgstr ""
 
 #. module: base
-#: code:addons/base/res/res_currency.py:116
+#: code:addons/base/res/res_currency.py:117
 #, python-format
 msgid "and"
 msgstr ""
@@ -23303,7 +24944,7 @@ msgid "monetary"
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_ui_view.py:488
+#: code:addons/base/ir/ir_ui_view.py:494
 #, python-format
 msgid "n/a"
 msgstr ""
@@ -23469,6 +25110,11 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_action_conditionable
 msgid "web_action_conditionable"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_web_m2x_options
+msgid "web_m2x_options"
 msgstr ""
 
 #. module: base
