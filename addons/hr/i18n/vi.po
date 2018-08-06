@@ -487,7 +487,7 @@ msgstr "Giới tính"
 #. module: hr
 #: model:hr.job,website_description:hr.job_developer
 msgid "Good knowledge of HTML and Javascript"
-msgstr ""
+msgstr "Có hiểu biết sâu sắc về HTML và Javascript"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_cto
@@ -1492,22 +1492,22 @@ msgstr ""
 #: model:hr.job,website_description:hr.job_developer
 #: model:hr.job,website_description:hr.job_trainee
 msgid "You will report to the head of R&amp;D"
-msgstr ""
+msgstr "Bạn sẽ báo cáo cho trường bộ phận R&amp;D"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_developer
 msgid "You will work closely with all developers"
-msgstr ""
+msgstr "Bạn sẽ làm việc gần gũi với tất cả các nhà phát triển"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_cto
 msgid "You will work closely with all technical officer"
-msgstr ""
+msgstr "Bạn sẽ làm việc gần gũi với các cán bộ kỹ thuật"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_trainee
 msgid "You will work closely with all trainees"
-msgstr ""
+msgstr "Bạn sẽ làm việc gần gũi với tất cả các thực tập sinh"
 
 #. module: hr
 #: model:mail.template,subject:hr.mail_template_data_unknown_employee_email_address
