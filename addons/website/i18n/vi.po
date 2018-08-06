@@ -129,7 +129,7 @@ msgstr ", cập nhật:"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "- The Odoo Team"
-msgstr ""
+msgstr "- The ERPOnline Team"
 
 #. module: website
 #. openerp-web
@@ -479,7 +479,7 @@ msgstr "<small>Tác giả của câu trích dẫn này</small>"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_parallax_slider
 msgid "<small>John Doe, CEO</small>"
-msgstr ""
+msgstr "<small>Trần Ngọc Tuấn, CEO</small>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.user_navbar
@@ -679,6 +679,9 @@ msgid ""
 "                                social proofs about your products or services; customer quotes, videos,\n"
 "                                photos of your products in actions, twitter quotes, etc."
 msgstr ""
+"<strong>Hiển thị minh chứng ở mạng xã hội</strong><br/>\n"
+"                                Phía dưới banner chính hoặc call-to-action, thực nghiệm tốt là, hãy đưa các minh chứng ở mạng xã hội về sản phẩm và\n"
+"                                dịch vụ của bạn; trích dẫn lời nói của khách hàng, videos,                                hình ảnh sản phẩm thực tế của bạn, trích dẫn từ Twitter, v.v."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.http_error_debug
@@ -691,6 +694,8 @@ msgid ""
 "<strong>Find 3 websites that you like</strong> and write down what you like "
 "about them."
 msgstr ""
+"<strong>Hãy tìm 3 website mà bạn thích</strong> và viết ra điều gì làm bạn "
+"thích chúng."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner

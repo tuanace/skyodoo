@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * resource
-# 
+#
 # Translators:
 # Martin Trigaux, 2017
 # Duy BQ <duybq86@gmail.com>, 2017
@@ -18,10 +18,10 @@ msgstr ""
 "PO-Revision-Date: 2017-09-20 09:53+0000\n"
 "Last-Translator: thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: resource
@@ -361,6 +361,9 @@ msgid ""
 "in a specific project phase. You can also set their efficiency level and "
 "workload based on their weekly working hours."
 msgstr ""
+"Các nguồn lực cho phép bạn tạo và quản lý các nguồn lực mà liên quan đến một"
+" giai đoạn dự án cụ thể. Bạn có thể đặt mức độ Hiệu suất của chúng và áp lực"
+" (workload) dựa trên lịch làm việc theo tuần của chúng."
 
 #. module: resource
 #: selection:resource.calendar.attendance,dayofweek:0

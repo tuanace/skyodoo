@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * account
-# 
+#
 # Translators:
 # fanha99 <fanha99@hotmail.com>, 2017
 # Duy BQ <duybq86@gmail.com>, 2017
@@ -29,10 +29,10 @@ msgstr ""
 "PO-Revision-Date: 2018-07-27 11:55+0000\n"
 "Last-Translator: Thư Lê <thu.ltv@komit-consulting.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: account
@@ -2343,7 +2343,9 @@ msgstr "Tự động nhận diện"
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Automate deferred revenues entries for multi-year contracts"
-msgstr "Tự động hoá các bút toán phân bổ doanh thu trả trước cho các hợp đồng nhiều năm"
+msgstr ""
+"Tự động hoá các bút toán phân bổ doanh thu trả trước cho các hợp đồng nhiều "
+"năm"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -2992,8 +2994,7 @@ msgstr "Thay đổi"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_writeoff_label
 msgid "Change label of the counterpart that will hold the payment difference"
-msgstr ""
-"Thay đổi tên của đối ứng mà sẽ giữ khoản chênh lệch thanh toán"
+msgstr "Thay đổi tên của đối ứng mà sẽ giữ khoản chênh lệch thanh toán"
 
 #. module: account
 #: code:addons/account/controllers/portal.py:146
@@ -3581,7 +3582,8 @@ msgstr "Chi phí Bán hàng Trực tiếp"
 msgid ""
 "Could not install new chart of account as there are already accounting "
 "entries existing"
-msgstr "Không thể cài đặt hệ thống tài khoản mới vì đã có bút toán kế toán tồn tại"
+msgstr ""
+"Không thể cài đặt hệ thống tài khoản mới vì đã có bút toán kế toán tồn tại"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_counterpart
@@ -4086,8 +4088,8 @@ msgid ""
 "Date from which the accounting is managed in Odoo. It is the date of the "
 "opening entry."
 msgstr ""
-"Ngày kể từ khi kế toán được quản lý bởi Odoo. Nó là ngày của bút toán "
-"đầu kì."
+"Ngày kể từ khi kế toán được quản lý bởi Odoo. Nó là ngày của bút toán đầu "
+"kì."
 
 #. module: account
 #. openerp-web
@@ -5162,8 +5164,7 @@ msgstr "Cung cấp trình tự cho dòng này khi hiển thị trên hóa đơn.
 #: model:ir.model.fields,help:account.field_account_bank_statement_line_sequence
 msgid ""
 "Gives the sequence order when displaying a list of bank statement lines."
-msgstr ""
-"Cung cấp trình tự hiển thị cho danh sách các dòng sao kê ngân hàng."
+msgstr "Cung cấp trình tự hiển thị cho danh sách các dòng sao kê ngân hàng."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_tax_sequence
@@ -6025,8 +6026,7 @@ msgid ""
 "It adds the currency column on report if the currency differs from the "
 "company currency."
 msgstr ""
-"Nó thêm cột tiền tệ vào báo cáo nếu tiền tệ khác với tiền tệ của công "
-"ty."
+"Nó thêm cột tiền tệ vào báo cáo nếu tiền tệ khác với tiền tệ của công ty."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_reconciled
@@ -6048,7 +6048,8 @@ msgstr "Chỉ ra rằng hoá đơn này đã được gửi."
 msgid ""
 "It is mandatory to specify an account and a journal to create a write-off."
 msgstr ""
-"Bắt buộc phải chỉ ra một tài khoản kế toán và một sổ nhật ký để ghi nhận xoá sổ (write-off)."
+"Bắt buộc phải chỉ ra một tài khoản kế toán và một sổ nhật ký để ghi nhận xoá"
+" sổ (write-off)."
 
 #. module: account
 #: code:addons/account/models/account_payment.py:450
@@ -6329,7 +6330,8 @@ msgstr "Giữ ở trạng thái Mở"
 #: model:ir.model.fields,help:account.field_product_template_property_account_income_id
 msgid ""
 "Keep this field empty to use the default value from the product category."
-msgstr "Để trống trường này để dùng giá trị mặc định thiết lập từ nhóm sản phẩm."
+msgstr ""
+"Để trống trường này để dùng giá trị mặc định thiết lập từ nhóm sản phẩm."
 
 #. module: account
 #. openerp-web
@@ -6753,7 +6755,9 @@ msgstr "Tiền tệ chính của công ty."
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Main currency of your company"
-msgstr "Tiền tệ chính của công ty. Mọi bút toán kế toán sẽ được quy đổi về tiền tệ này."
+msgstr ""
+"Tiền tệ chính của công ty. Mọi bút toán kế toán sẽ được quy đổi về tiền tệ "
+"này."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -7107,7 +7111,8 @@ msgstr "Thuyết minh"
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Navigate easily through reports and see what is behind the numbers"
-msgstr "Di chuyển qua lại giữa các báo cáo và xem sự thật đằng sau những con số"
+msgstr ""
+"Di chuyển qua lại giữa các báo cáo và xem sự thật đằng sau những con số"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_tax
@@ -7797,7 +7802,8 @@ msgstr "Quá khứ"
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Pay your bills in one-click using Euro SEPA service"
-msgstr "Thanh toán hoá đơn nhà cung cấp chỉ với một click sử dụng dịch vụ Euro SEPA"
+msgstr ""
+"Thanh toán hoá đơn nhà cung cấp chỉ với một click sử dụng dịch vụ Euro SEPA"
 
 #. module: account
 #: model:account.account.type,name:account.data_account_type_payable
@@ -7960,7 +7966,8 @@ msgstr "Điều khoản thanh toán: 30 Ngày Net"
 #. module: account
 #: model:account.payment.term,note:account.account_payment_term_advance
 msgid "Payment terms: 30% Advance End of Following Month"
-msgstr "Điều khoản thanh toán: Ứng trước 30%, Kết thúc ngày cuối tháng kế tiếp"
+msgstr ""
+"Điều khoản thanh toán: Ứng trước 30%, Kết thúc ngày cuối tháng kế tiếp"
 
 #. module: account
 #: model:account.payment.term,note:account.account_payment_term
@@ -8129,8 +8136,8 @@ msgid ""
 "Please install a chart of accounts or create a miscellaneous journal before "
 "proceeding."
 msgstr ""
-"Vui lòng cài đặt một hệ thống tài khoản kế toán hoặc tạo mới một số nhật ký chung trước "
-"khi tiếp tục."
+"Vui lòng cài đặt một hệ thống tài khoản kế toán hoặc tạo mới một số nhật ký "
+"chung trước khi tiếp tục."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_form
@@ -8229,6 +8236,8 @@ msgstr "Đảo dấu giá trị"
 msgid ""
 "Preset to create journal entries during a invoices and payments matching"
 msgstr ""
+"Đặt trước để tạo các bút toán sổ nhật ký trong khi đối chiếu các hoá đơn và "
+"các khoản thanh toán"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_aged_balance_view
@@ -9060,8 +9069,7 @@ msgstr "Chọn 1 đối tác hoặc 1 đối ứng"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_term_line_value
 msgid "Select here the kind of valuation related to this payment terms line."
-msgstr ""
-"Chọn ở đây loại giá trị liên quan đến dòng điều khoản thanh toán này."
+msgstr "Chọn ở đây loại giá trị liên quan đến dòng điều khoản thanh toán này."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -10112,15 +10120,15 @@ msgid ""
 "The journal entry containing the initial balance of all this company's "
 "accounts."
 msgstr ""
-"Bút toán sổ nhật ký chứa số dử đầu kỳ của tất cả các tài khoản của công ty này."
+"Bút toán sổ nhật ký chứa số dử đầu kỳ của tất cả các tài khoản của công ty "
+"này."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op_fiscalyear_last_day
 #: model:ir.model.fields,help:account.field_account_financial_year_op_fiscalyear_last_month
 msgid ""
 "The last day of the month will be taken if the chosen day doesn't exist."
-msgstr ""
-"Ngày cuối cùng tháng sẽ được chọn nếu ngày được chọn không tồn tại."
+msgstr "Ngày cuối cùng tháng sẽ được chọn nếu ngày được chọn không tồn tại."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_payment_term_form
@@ -10255,7 +10263,9 @@ msgstr ""
 msgid ""
 "The selected unit of measure is not compatible with the unit of measure of "
 "the product."
-msgstr "Đơn vị Đo lường được chọn không tương thích với Đơn vị Đo lường của sản phẩm."
+msgstr ""
+"Đơn vị Đo lường được chọn không tương thích với Đơn vị Đo lường của sản "
+"phẩm."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_sequence
@@ -10546,8 +10556,8 @@ msgid ""
 "This move's amount is higher than the transaction's amount. Click to "
 "register a partial payment and keep the payment balance open."
 msgstr ""
-"Giá trị của bút toán lớn hơn số tiền giao của khoản giao dịch. Bấm để thanh toán một "
-"phần và giữ số tiền còn lại phải thanh toán vẫn mở."
+"Giá trị của bút toán lớn hơn số tiền giao của khoản giao dịch. Bấm để thanh "
+"toán một phần và giữ số tiền còn lại phải thanh toán vẫn mở."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_accounting_report_debit_credit
@@ -11496,7 +11506,8 @@ msgstr "Bạn không thể xoá một khoản thanh toán mà đã vào sổ r�
 #: code:addons/account/models/account_invoice.py:1633
 #, python-format
 msgid "You can only delete an invoice line if the invoice is in draft state."
-msgstr "Bạn chỉ có thể xóa các dòng trong hóa đơn nếu nó ở trạng thái dự thảo."
+msgstr ""
+"Bạn chỉ có thể xóa các dòng trong hóa đơn nếu nó ở trạng thái dự thảo."
 
 #. module: account
 #: code:addons/account/models/account_payment.py:141
@@ -11649,7 +11660,8 @@ msgstr ""
 #: code:addons/account/models/account.py:518
 #, python-format
 msgid "You cannot empty the bank account once set."
-msgstr "Bạn không thể làm trống tài khoản ngân hàng một khi đã được thiết lập rồi."
+msgstr ""
+"Bạn không thể làm trống tài khoản ngân hàng một khi đã được thiết lập rồi."
 
 #. module: account
 #: code:addons/account/models/account.py:55

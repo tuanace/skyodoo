@@ -1069,6 +1069,8 @@ msgid ""
 "                                    But what really makes it stand out is its size. At 7.9 inches,\n"
 "                                    it’s perfectly sized to deliver an experience every bit as big as iPad."
 msgstr ""
+"Everything you love about iPad — the beautiful\n"
+"       "
 
 #. module: product
 #: model:product.product,website_description:product.product_product_4
@@ -1678,7 +1680,7 @@ msgstr "Chuột, Quang"
 #: model:product.product,name:product.product_product_12
 #: model:product.template,name:product.product_product_12_product_template
 msgid "Mouse, Wireless"
-msgstr ""
+msgstr "Chuột, chuột quang"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
@@ -1769,7 +1771,7 @@ msgstr ""
 #: model:product.template,website_description:product.product_product_11_product_template
 #: model:product.template,website_description:product.product_product_11b_product_template
 msgid "Playlists. The perfect mix for every mood."
-msgstr ""
+msgstr "P"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
@@ -2299,7 +2301,7 @@ msgstr "Trình tự"
 #: model:product.product,name:product.consu_delivery_01
 #: model:product.template,name:product.consu_delivery_01_product_template
 msgid "Server"
-msgstr ""
+msgstr "Máy chủ"
 
 #. module: product
 #: code:addons/product/models/product_template.py:51
@@ -2487,7 +2489,7 @@ msgstr "Hợp đồng Hỗ trợ (theo bảng chấm công)"
 #: model:product.product,name:product.product_delivery_01
 #: model:product.template,name:product.product_delivery_01_product_template
 msgid "Switch, 24 ports"
-msgstr ""
+msgstr "s"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11

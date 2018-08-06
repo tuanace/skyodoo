@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * point_of_sale
-# 
+#
 # Translators:
 # Duy BQ <duybq86@gmail.com>, 2017
 # Martin Trigaux, 2017
@@ -23,10 +23,10 @@ msgstr ""
 "PO-Revision-Date: 2018-01-08 10:30+0000\n"
 "Last-Translator: Tri Bui <tribd@trobz.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: point_of_sale
@@ -410,8 +410,9 @@ msgid ""
 "the Sales Journal set on this point of sale if you use the Accounting "
 "application."
 msgstr ""
-"Tất cả các bảng giá khả dụng cho PoS phải có cùng tiền tệ với tiền tệ của công ty hoặc "
-"Sổ Nhật ký Bán hàng của PoS này nếu hệ thống của bạn bạn cài phân hệ kế toán."
+"Tất cả các bảng giá khả dụng cho PoS phải có cùng tiền tệ với tiền tệ của "
+"công ty hoặc Sổ Nhật ký Bán hàng của PoS này nếu hệ thống của bạn bạn cài "
+"phân hệ kế toán."
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_config.py:243
@@ -420,8 +421,8 @@ msgid ""
 "All payment methods must be in the same currency as the Sales Journal or the"
 " company currency if that is not set."
 msgstr ""
-"Tất cả các phương thức thanh toán phải được thiết lập cùng tiền tệ với Sổ Nhật "
-"ký Bán hàng hoặc Công ty nếu chưa thiết lập sổ."
+"Tất cả các phương thức thanh toán phải được thiết lập cùng tiền tệ với Sổ "
+"Nhật ký Bán hàng hoặc Công ty nếu chưa thiết lập sổ."
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_all_sales_lines
@@ -1706,8 +1707,8 @@ msgstr "Nhập Đơn bán"
 #: model:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "Improve navigation for imprecise industrial touchscreens"
 msgstr ""
-"Cải tiện việc điều hướng đối với các màn hình cảm ứng công nghiệp thiếu "
-"tính chính xác"
+"Cải tiện việc điều hướng đối với các màn hình cảm ứng công nghiệp thiếu tính"
+" chính xác"
 
 #. module: point_of_sale
 #: model:product.product,name:point_of_sale.tomate_en_grappe
@@ -4239,6 +4240,8 @@ msgid ""
 "You cannot change the partner of a POS order for which an invoice has "
 "already been issued."
 msgstr ""
+"Bạn không được thay đổi đối tác trên đơn hàng ở Điểm bán lẻ (PoS) mà đã xuất"
+" hoá đơn."
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_session.py:33
@@ -4253,6 +4256,7 @@ msgstr ""
 #, python-format
 msgid "You cannot create two active sessions with the same responsible!"
 msgstr ""
+"Bạn không thể tạo hai phiên làm việc cho cùng một người chịu trách nhiệm!"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/product.py:21
@@ -4261,6 +4265,8 @@ msgid ""
 "You cannot delete a product saleable in point of sale while a session is "
 "still opened."
 msgstr ""
+"Bạn không được xoá một sản phẩm bán được ở Điểm bán lẻ (PoS) khi mà có tồn "
+"tại một phiên chưa đóng."
 
 #. module: point_of_sale
 #. openerp-web
