@@ -684,7 +684,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_invoice_id
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 msgid "Invoice"
-msgstr "hoá đơn"
+msgstr "Hoá đơn"
 
 #. module: account_asset
 #: model:ir.model,name:account_asset.model_account_invoice_line

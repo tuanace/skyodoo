@@ -90,7 +90,7 @@ msgstr "Tháng Tám"
 #. module: report_intrastat
 #: model:ir.ui.view,arch_db:report_intrastat.report_intrastatinvoice_document
 msgid "Cancelled Invoice"
-msgstr "hoá đơn đã hủy"
+msgstr "Hoá đơn đã hủy"
 
 #. module: report_intrastat
 #: model:ir.model.fields,field_description:report_intrastat.field_report_intrastat_company_id
@@ -140,7 +140,7 @@ msgstr "Tên hiển thị"
 #. module: report_intrastat
 #: model:ir.ui.view,arch_db:report_intrastat.report_intrastatinvoice_document
 msgid "Draft Invoice"
-msgstr "hoá đơn dự thảo"
+msgstr "Hoá đơn dự thảo"
 
 #. module: report_intrastat
 #: selection:report.intrastat,type:0
@@ -209,7 +209,7 @@ msgstr ""
 #. module: report_intrastat
 #: model:ir.ui.view,arch_db:report_intrastat.report_intrastatinvoice_document
 msgid "Invoice"
-msgstr "hoá đơn"
+msgstr "Hoá đơn"
 
 #. module: report_intrastat
 #: selection:report.intrastat,month:0

@@ -315,7 +315,7 @@ msgstr "Bị Vô hiệu"
 #: model:ir.model,name:membership.model_account_invoice
 #: model:ir.model.fields,field_description:membership.field_membership_membership_line_account_invoice_id
 msgid "Invoice"
-msgstr "hoá đơn"
+msgstr "Hoá đơn"
 
 #. module: membership
 #: model:ir.model,name:membership.model_account_invoice_line

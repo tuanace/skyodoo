@@ -294,7 +294,7 @@ msgstr ""
 #. module: l10n_be_intrastat
 #: model:ir.model,name:l10n_be_intrastat.model_account_invoice
 msgid "Invoice"
-msgstr "hoá đơn"
+msgstr "Hoá đơn"
 
 #. module: l10n_be_intrastat
 #: model:ir.model,name:l10n_be_intrastat.model_account_invoice_line

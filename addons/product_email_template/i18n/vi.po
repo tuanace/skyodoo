@@ -634,7 +634,7 @@ msgstr "Mẫu Email"
 #. module: product_email_template
 #: model:ir.model,name:product_email_template.model_account_invoice
 msgid "Invoice"
-msgstr "hoá đơn"
+msgstr "Hoá đơn"
 
 #. module: product_email_template
 #: model:mail.template,subject:product_email_template.product_online_training_email_template

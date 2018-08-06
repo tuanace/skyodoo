@@ -345,7 +345,7 @@ msgstr "Biên lai đã vào sổ"
 #. module: account_voucher
 #: selection:account.voucher,state:0
 msgid "Pro-forma"
-msgstr "hoá đơn tạm"
+msgstr "Hoá đơn chiếu lệ"
 
 #. module: account_voucher
 #: model:ir.model.fields,field_description:account_voucher.field_account_voucher_line_product_id
