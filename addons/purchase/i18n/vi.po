@@ -181,12 +181,12 @@ msgstr "${object.subject}"
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "3-way matching"
-msgstr "khớp 3 chiều"
+msgstr "Khớp 3 chiều"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings_module_account_3way_match
 msgid "3-way matching: purchases, receptions and bills"
-msgstr "khớp 3 chiều: Mua hàng, nhận hàng và hoá đơn nhà cung cấp"
+msgstr "Khớp 3 chiều: Mua hàng, nhận hàng và hoá đơn nhà cung cấp"
 
 #. module: purchase
 #: model:mail.template,body_html:purchase.mail_template_data_notification_email_purchase_order
