@@ -153,7 +153,7 @@ msgstr ""
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_project_rating_status
 msgid "Customer(s) Ratings"
-msgstr ""
+msgstr "Đánh giá bởi Khách hàng"
 
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
@@ -166,6 +166,8 @@ msgid ""
 "Edit project's stages and set an email template\n"
 "                            on the stages on which you want to activate the rating."
 msgstr ""
+"Điều chỉnh các giai đoạn của dự án và thiết lập Mẫu Email Đánh giá\n"
+"                            cho giai đoạn mà bạn cần kích hoạt việc đánh giá."
 
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_project_percentage_satisfaction_project
@@ -186,6 +188,10 @@ msgid ""
 "\n"
 "Don't forget to set up the mail templates on the stages for which you want to get the customer's feedbacks."
 msgstr ""
+"Làm thế nào để nhận phản hồi của khách hàng?"
+"- Đánh giá khi thay đổi giai đoạn: Email sẽ được gửi cho khách hàng khi một nhiệm vụ được chuyển sang một giai đoạn định trước nào đó\n"
+"- Đánh giá Định kỳ: Email sẽ được gửi định kỳ để mời khách hàng đánh giá các nhiệm vụ\n"
+"\n"
 
 #. module: rating_project
 #: model:ir.model.fields,help:rating_project.field_project_task_type_rating_template_id
@@ -218,12 +224,12 @@ msgstr ""
 #. module: rating_project
 #: selection:project.project,rating_status:0
 msgid "No rating"
-msgstr ""
+msgstr "Không đánh giá"
 
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
 msgid "Once a Month"
-msgstr ""
+msgstr "Một tháng một lần"
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_kanban
@@ -235,7 +241,7 @@ msgstr ""
 #. module: rating_project
 #: selection:project.project,rating_status:0
 msgid "Periodical Rating"
-msgstr ""
+msgstr "Đánh giá Định kỳ"
 
 #. module: rating_project
 #: model:ir.model,name:rating_project.model_project_project
@@ -258,7 +264,7 @@ msgstr "Hàng Quý"
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.project_task_view_search
 msgid "Rated tasks"
-msgstr ""
+msgstr "Nhiệm vụ đã được Đánh giá"
 
 #. module: rating_project
 #: model:ir.actions.act_window,name:rating_project.rating_rating_action_view_project_rating

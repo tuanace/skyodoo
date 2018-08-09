@@ -2673,7 +2673,7 @@ msgstr "Tên"
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
 msgid "Name of the tasks :"
-msgstr ""
+msgstr "Gọi nhiệm vụ là: "
 
 #. module: project
 #: model:project.task,legend_blocked:project.project_task_10
