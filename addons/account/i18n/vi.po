@@ -3129,7 +3129,7 @@ msgstr "Đánh dấu nếu bạn muốn người dùng đối soát trên tài k
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Checks"
-msgstr "Đánh giá"
+msgstr "Séc"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_children_tax_ids
