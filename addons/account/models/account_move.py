@@ -1459,8 +1459,9 @@ class AccountMoveLine(models.Model):
             an analytic account. This method is intended to be extended in other modules.
         """
         amount = (self.credit or 0.0) - (self.debit or 0.0)
+        default_name = self.name or (self.ref or '/' + ' -- ' + (self.partner_id and self.partner_id.name or '/'))
         return {
-            'name': self.name,
+            'name': default_name,
             'date': self.date,
             'account_id': self.analytic_account_id.id,
             'tag_ids': [(6, 0, self.analytic_tag_ids.ids)],
@@ -1540,6 +1541,21 @@ class AccountMoveLine(models.Model):
                 ids.append(aml.id)
         action['domain'] = [('id', 'in', ids)]
         return action
+
+    @api.multi
+    def _payment_invoice_match(self):
+        '''
+        If a partial reconciliation involves payments and invoices
+        mark the invoices as paid by the payments
+        Specifically made for len(self) == 2
+        '''
+        if not self:
+            return
+        invoice_ids = self.mapped('invoice_id')
+        payment_ids = self.mapped('payment_id')
+
+        if payment_ids and invoice_ids:
+            payment_ids.write({'invoice_ids': [(4, inv.id, False) for inv in invoice_ids]})
 
 
 class AccountPartialReconcile(models.Model):
@@ -1829,6 +1845,7 @@ class AccountPartialReconcile(models.Model):
             aml.append(vals['credit_move_id'])
         # Get value of matched percentage from both move before reconciliating
         lines = self.env['account.move.line'].browse(aml)
+        lines._payment_invoice_match()
         if lines[0].account_id.internal_type in ('receivable', 'payable'):
             percentage_before_rec = lines._get_matched_percentage()
         # Reconcile
