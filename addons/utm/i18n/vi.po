@@ -178,7 +178,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:utm.utm_medium_view_tree
 #: model:ir.ui.view,arch_db:utm.utm_source_view_tree
 msgid "Medium"
-msgstr "Trung bình"
+msgstr "Phương tiện"
 
 #. module: utm
 #: model:utm.source,name:utm.utm_source_newsletter
