@@ -442,13 +442,13 @@ msgstr "<strong>Nhân viên bán hàng</strong>"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.portal_order_page
 msgid "<strong>Shipping Address</strong>"
-msgstr "<strong>Địa chỉ Giao hàng</strong>"
+msgstr "<strong>Địa chỉ Bàn giao</strong>"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_invoice_document_inherit_sale
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "<strong>Shipping address:</strong>"
-msgstr "<strong>Địa chỉ giao hàng</strong>"
+msgstr "<strong>Địa chỉ Bàn giao:</strong>"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_invoice_layouted
