@@ -18625,7 +18625,7 @@ msgid ""
 "One of the records you are trying to modify has already been deleted "
 "(Document type: %s)."
 msgstr ""
-"Một trong những bảng ghi bạn muốn chỉnh sửa đã bị xóa (Loại tài liệu: %s)."
+"Một trong những bản ghi bạn muốn chỉnh sửa đã bị xóa (Loại tài liệu: %s)."
 
 #. module: base
 #: code:addons/base/res/res_partner.py:399
