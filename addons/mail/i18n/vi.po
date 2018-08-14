@@ -3144,7 +3144,7 @@ msgstr "Dẫn chiếu Thông điệp, ví dụ như ID của thông điệp trư
 #: code:addons/mail/static/src/xml/client_action.xml:124
 #, python-format
 msgid "Message sent in \""
-msgstr "Thông điệp được gửi trong \""
+msgstr "Thông điệp được gửi vào \""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_message_subtype_name
