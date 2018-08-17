@@ -3574,7 +3574,7 @@ msgstr "Kiểm soát Truy cập"
 #. module: account
 #: model:account.account.type,name:account.data_account_type_direct_costs
 msgid "Cost of Revenue"
-msgstr "Chi phí Bán hàng Trực tiếp"
+msgstr "Giá vốn Hàng bán"
 
 #. module: account
 #: code:addons/account/models/chart_template.py:862
@@ -6936,7 +6936,7 @@ msgstr "Thông điệp cho Hoá đơn"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_form
 msgid "Minus Cost of Revenue"
-msgstr "Trừ đi Giá vốn hàng bán"
+msgstr "Trừ đi Giá vốn Hàng bán"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_form
