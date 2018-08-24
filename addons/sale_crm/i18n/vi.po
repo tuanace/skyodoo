@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * sale_crm
-#
+# 
 # Translators:
 # son dang <son.dang@doda100.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
@@ -40,7 +40,7 @@ msgstr "Hoá đơn"
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_target_sales_invoiced
 msgid "Invoiced in Sales Orders Target"
-msgstr ""
+msgstr "Đã xuất hoá đơn trong Mục tiêu Đơn bán"
 
 #. module: sale_crm
 #: model:ir.model,name:sale_crm.model_crm_lead
@@ -50,7 +50,7 @@ msgstr "Tiềm năng/Cơ hội"
 #. module: sale_crm
 #: model:ir.ui.view,arch_db:sale_crm.sale_view_inherit123
 msgid "Log in the chatter from which opportunity the order originates"
-msgstr ""
+msgstr "Ghi chú cuộc trò chuyện mà từ đó cơ hội bắt nguồn"
 
 #. module: sale_crm
 #: model:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
@@ -92,7 +92,7 @@ msgstr "Báo giá"
 #. module: sale_crm
 #: model:ir.actions.act_window,name:sale_crm.sale_action_orders
 msgid "Sale orders"
-msgstr ""
+msgstr "Đơn bán"
 
 #. module: sale_crm
 #: model:ir.model,name:sale_crm.model_crm_team
@@ -102,7 +102,7 @@ msgstr "Kênh bán hàng"
 #. module: sale_crm
 #: model:ir.model,name:sale_crm.model_sale_order
 msgid "Sales Order"
-msgstr "Đơn hàng Bán"
+msgstr "Đơn Bán"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_crm_lead_sale_amount_total
@@ -117,7 +117,7 @@ msgstr "Thẻ"
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_crm_lead_sale_amount_total
 msgid "Untaxed Total of Confirmed Orders"
-msgstr ""
+msgstr "Tổng trước thuế của các Đơn đã Xác nhận"
 
 #. module: sale_crm
 #: model:ir.model,name:sale_crm.model_res_users

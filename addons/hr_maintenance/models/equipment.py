@@ -9,7 +9,7 @@ class MaintenanceEquipment(models.Model):
     employee_id = fields.Many2one('hr.employee', string='Assigned to Employee', track_visibility='onchange')
     department_id = fields.Many2one('hr.department', string='Assigned to Department', track_visibility='onchange')
     equipment_assign_to = fields.Selection(
-        [('department', 'Department'), ('employee', 'Employee') , ('other', 'Other')],
+        [('department', 'Department'), ('employee', 'Employee'), ('other', 'Other')],
         string='Used By',
         required=True,
         default='employee')

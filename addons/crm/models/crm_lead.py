@@ -166,7 +166,7 @@ class Lead(models.Model):
     @api.depends('date_open')
     def _compute_day_open(self):
         """ Compute difference between create date and open date """
-        for lead in self.filtered(lambda l: l.date_open):
+        for lead in self.filtered(lambda l: l.date_open and l.create_date):
             date_create = fields.Datetime.from_string(lead.create_date)
             date_open = fields.Datetime.from_string(lead.date_open)
             lead.day_open = abs((date_open - date_create).days)
@@ -174,7 +174,7 @@ class Lead(models.Model):
     @api.depends('date_closed')
     def _compute_day_close(self):
         """ Compute difference between current date and log date """
-        for lead in self.filtered(lambda l: l.date_closed):
+        for lead in self.filtered(lambda l: l.date_closed and l.create_date):
             date_create = fields.Datetime.from_string(lead.create_date)
             date_close = fields.Datetime.from_string(lead.date_closed)
             lead.day_close = abs((date_close - date_create).days)
@@ -700,7 +700,7 @@ class Lead(models.Model):
     def _get_duplicated_leads_by_emails(self, partner_id, email, include_lost=False):
         """ Search for opportunities that have the same partner and that arent done or cancelled """
         if not email:
-            return []
+            return self.env['crm.lead']
         partner_match_domain = []
         for email in set(email_split(email) + [email]):
             partner_match_domain.append(('email_from', '=ilike', email))

@@ -983,7 +983,7 @@ msgstr "Mục tiêu các hoạt động được hoàn thành"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Activities Todo"
-msgstr ""
+msgstr "Hoạt động Cần làm"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_kanban_state
@@ -1040,7 +1040,7 @@ msgstr "Miền bí danh"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team_alias_model_id
 msgid "Aliased Model"
-msgstr ""
+msgstr "Bí danh Model"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1195,7 +1195,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Basic, Premium"
-msgstr ""
+msgstr "Cơ bản, Nâng cao"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -2121,7 +2121,7 @@ msgstr "Đóng ở trong Pipeline"
 #. module: crm
 #: model:mail.activity.type,name:crm.mail_activity_demo_followup_quote
 msgid "Follow-up Quote"
-msgstr ""
+msgstr "Theo sát Báo giá"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3322,7 +3322,7 @@ msgstr "Khác"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Overdue Opportunities"
-msgstr ""
+msgstr "Cơ hội Quá hạn"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_opportunity_report_delay_expected
@@ -4163,6 +4163,10 @@ msgid ""
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
+"Model (Kiểu Tài liệu Hệ thống) mà bí danh này ứng với nó. Bất kỳ thông điệp "
+"email mà không đáp lại (reply) một bản ghi có sẵn sẽ làm cho Hệ thống tự "
+"động tạo một bản ghi mới cho model này (vd: tạo mới một Nhiệm vụ Dự án nếu "
+"model là project.task)"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_alias_name
@@ -4291,6 +4295,8 @@ msgstr "Đây là cấu hình mặc định, không có gì để cài đặt c�
 msgid ""
 "This opportunity has <b>no activity planned</b>. <i>Click to check them.</i>"
 msgstr ""
+"Cơ hội này không có <b>hoạt động được lên kế hoạch</b>. <i>Bấm để kiểm "
+"tra.</i>"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_stage_probability
@@ -4510,6 +4516,7 @@ msgstr ""
 #, python-format
 msgid "Use the <b>implementation guide</b> to setup the CRM in your company."
 msgstr ""
+"Sử dụng <b>hướng dẫn triển khai</b> để thiết lập CRM trong công ty của bạn."
 
 #. module: crm
 #. openerp-web
@@ -4692,7 +4699,7 @@ msgstr ""
 msgid ""
 "When sending mails, the default email address is taken from the sales "
 "channel."
-msgstr ""
+msgstr "Khi gửi mail, địa chỉ gửi mail mặc định sẽ được lấy từ kệnh bán hàng."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -4918,7 +4925,7 @@ msgstr "vd: 15% chiết khấu khi mua nhiều hơn 3 áo sơ mi"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_create_opportunity_simplified
 msgid "e.g. Customer Deal"
-msgstr ""
+msgstr "ví dụ. Giao dịch khách hàng"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_oppor

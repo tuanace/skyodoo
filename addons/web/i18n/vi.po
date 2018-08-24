@@ -915,7 +915,7 @@ msgstr "Hủy bỏ"
 #: code:addons/web/static/src/js/widgets/data_export.js:336
 #, python-format
 msgid "Do you really want to delete this export template?"
-msgstr ""
+msgstr "Bạn có thực sự muốn xóa mẫu xuất này không?"
 
 #. module: web
 #. openerp-web
@@ -1554,7 +1554,7 @@ msgstr "Quản lý các bộ lọc"
 #: code:addons/web/static/src/xml/base.xml:634
 #, python-format
 msgid "Match"
-msgstr ""
+msgstr "Khớp"
 
 #. module: web
 #. openerp-web
@@ -1961,7 +1961,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:web.external_layout_boxed
 #: model:ir.ui.view,arch_db:web.external_layout_standard
 msgid "Page: <span class=\"page\"/> / <span class=\"topage\"/>"
-msgstr ""
+msgstr "Trang: <span class=\"page\"/>/<span class=\"topage\"/>"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login
@@ -2112,7 +2112,7 @@ msgstr "Quý"
 #: code:addons/web/static/src/js/widgets/model_field_selector.js:455
 #, python-format
 msgid "Relation not allowed"
-msgstr ""
+msgstr "Quan hệ không được phép"
 
 #. module: web
 #. openerp-web
@@ -3015,7 +3015,7 @@ msgstr "khoảng một giờ trước"
 #: code:addons/web/static/src/xml/base.xml:634
 #, python-format
 msgid "all records"
-msgstr ""
+msgstr "tất cả bản ghi"
 
 #. module: web
 #: model:ir.model,name:web.model_base

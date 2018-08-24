@@ -26,26 +26,26 @@ msgstr ""
 #: code:addons/website_links/static/src/js/website_links_charts.js:53
 #, python-format
 msgid " clicks"
-msgstr ""
+msgstr " bấm"
 
 #. module: website_links
 #. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:104
 #, python-format
 msgid " countries"
-msgstr ""
+msgstr " quốc gia"
 
 #. module: website_links
 #. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:57
 #, python-format
 msgid "# of clicks"
-msgstr ""
+msgstr "Số lần bấm"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.share_page_menu
 msgid "<span title=\"Track this page to count clicks\">Track this Page</span>"
-msgstr ""
+msgstr "<span title=\"Theo vết trang này để đếm số lần bấm\">Theo vết trang này</span>"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
@@ -55,17 +55,17 @@ msgstr "<strong>Chiến dịch</strong>"
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "<strong>Medium</strong>"
-msgstr ""
+msgstr "<strong>Phương tiện</strong>"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "<strong>Original URL</strong>"
-msgstr ""
+msgstr "<strong>URL Gốc</strong>"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "<strong>Redirected URL</strong>"
-msgstr ""
+msgstr "<strong>URL được chuyển hướng</strong>"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
@@ -75,7 +75,7 @@ msgstr "<strong>Nguồn</strong>"
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "<strong>Tracked Link</strong>"
-msgstr "<strong>Link được theo dõi</strong>"
+msgstr "<strong>Link được theo vết</strong>"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
@@ -102,12 +102,12 @@ msgstr ""
 #: code:addons/website_links/static/src/js/website_links.js:358
 #, python-format
 msgid "Generating link..."
-msgstr ""
+msgstr "Tạo liên kết..."
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid "Get tracked link"
-msgstr ""
+msgstr "Lấy liên kết theo dõi"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs

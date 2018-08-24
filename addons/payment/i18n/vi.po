@@ -377,7 +377,7 @@ msgstr "Cấu hình"
 #: code:addons/payment/static/src/js/payment_form.js:322
 #, python-format
 msgid "Confirm Deletion"
-msgstr ""
+msgstr "Xác nhận Xóa"
 
 #. module: payment
 #: model:ir.model,name:payment.model_res_partner
@@ -477,7 +477,7 @@ msgstr "Hoàn thành"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_done_msg
 msgid "Done Message"
-msgstr ""
+msgstr "Thông điệp Hoàn tất"
 
 #. module: payment
 #: selection:payment.transaction,state:0
@@ -520,7 +520,7 @@ msgstr "Thông điệp lỗi"
 #: code:addons/payment/static/src/js/payment_form.js:372
 #, python-format
 msgid "Error: "
-msgstr ""
+msgstr "Lỗi: "
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_fees
@@ -580,7 +580,7 @@ msgstr "Nhóm theo"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_pre_msg
 msgid "Help Message"
-msgstr ""
+msgstr "Thông điệp trợ giúp"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_id
@@ -606,7 +606,7 @@ msgstr "Hình ảnh"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_icon_image_payment_form
 msgid "Image displayed on the payment form"
-msgstr ""
+msgstr "Hình ảnh hiển thị trên form Thanh toán"
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_ogone
@@ -676,17 +676,17 @@ msgstr ""
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay_methods
 msgid "Manage your Payment Methods"
-msgstr ""
+msgstr "Quản lý Phương thức Thanh toán của bạn"
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay_meth_link
 msgid "Manage your payment methods"
-msgstr ""
+msgstr "Quản lý phương thức thanh toán của bạn"
 
 #. module: payment
 #: selection:payment.acquirer,provider:0
 msgid "Manual Configuration"
-msgstr ""
+msgstr "Cấu hình thủ công"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_image_medium
@@ -1095,14 +1095,14 @@ msgstr "Lỗi Máy chủ"
 #. module: payment
 #: selection:payment.transaction,type:0
 msgid "Server To Server"
-msgstr ""
+msgstr "Máy chủ đến Máy chủ"
 
 #. module: payment
 #. openerp-web
 #: code:addons/payment/static/src/js/payment_form.js:266
 #, python-format
 msgid "Server error"
-msgstr ""
+msgstr "Lỗi máy chủ"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_token_short_name
@@ -1254,12 +1254,12 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_token_verified
 msgid "Verified"
-msgstr ""
+msgstr "Đã thẩm định"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_website_published
 msgid "Visible in Portal / Website"
-msgstr ""
+msgstr "Thấy được ở Portal / Website"
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.transaction_form
