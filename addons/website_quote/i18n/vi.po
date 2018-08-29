@@ -1101,6 +1101,18 @@ msgid "Optional Products Lines"
 msgstr "Chi tiết Sản phẩm tuỳ chọn"
 
 #. module: website_quote
+#: code:addons/website_quote/models/order.py:294
+#, python-format
+msgid "Order paid by %s. Transaction: %s. Amount: %s."
+msgstr "Đơn bán được thanh toán bởi %s. Giao dịch: %s. Tổng tiền: %s."
+
+#. module: website_quote
+#: code:addons/website_quote/controllers/main.py:94
+#, python-format
+msgid "Order signed by %s"
+msgstr "Đơn đặt hàng được ký bởi %s"
+
+#. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_default
 msgid "Our Offer"
 msgstr "Cung cấp"

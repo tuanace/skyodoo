@@ -1683,7 +1683,7 @@ msgstr "Đơn đặt hàng được ký bởi %s"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.crm_team_salesteams_view_kanban
 msgid "Order to Invoice"
-msgstr ""
+msgstr "Đơn chờ Xuất Hoá đơn"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
