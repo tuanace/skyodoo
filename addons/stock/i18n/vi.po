@@ -506,7 +506,7 @@ msgstr "<strong>Ngày</strong>"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_delivery_document
 msgid "<strong>Delivered Quantity</strong>"
-msgstr "<strong>Số lượng Được Giao</strong>"
+msgstr "<strong>Số lượng đã giao</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner

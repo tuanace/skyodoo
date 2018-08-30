@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
 # file aio <fileaio@gmail.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
@@ -82,7 +83,7 @@ msgstr "Chân bàn 18″ x 2½″"
 #: model:product.product,description:mrp.product_product_laptop_charger
 #: model:product.template,description:mrp.product_product_laptop_charger_product_template
 msgid "19v,5.5 x 2.5 mm Pin Type Adapter (Power Cord Included)"
-msgstr ""
+msgstr "Bộ chuyển đổi loại pin 19v, 5,5 x 2,5 mm (bao gồm dây nguồn)"
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_bom.py:293
@@ -114,7 +115,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_view
 msgid "<span class=\"o_stat_text\">Lost</span>"
-msgstr "<span class=\"o_stat_text\">Mất</span>"
+msgstr "<span class=\"o_stat_text\">Hao hụt</span>"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_view
@@ -1499,6 +1500,8 @@ msgid ""
 "Lines need to be deleted, but can not as you still have some quantities to "
 "consume in them. "
 msgstr ""
+"Các dòng cần phải được xóa, nhưng không được vì bạn vẫn có một số lượng để "
+"tiêu thụ trong chúng."
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild_location_id

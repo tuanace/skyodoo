@@ -61,8 +61,9 @@ msgstr "<i>Huỷ,</i> Khoản thanh toán của bạn đã bị huỷ."
 msgid ""
 "<i>Done,</i> Your online payment has been successfully processed. Thank you "
 "for your order."
-msgstr "<i>Hoàn thành,</i> Khoản thanh toán trực tuyến của bạn đã được xử lý. Cám ơn "
-"bạn đã mua."
+msgstr ""
+"<i>Hoàn tất,</i> Thanh toán trực tuyến của bạn đã được xử lý thành công. Cảm"
+" ơn bạn đã đặt mua."
 
 #. module: payment
 #: code:addons/payment/models/payment_acquirer.py:116
@@ -72,6 +73,9 @@ msgid ""
 " The order has been confirmed but will not be paid. Do not hesitate to "
 "contact us if you have any questions on the status of your order."
 msgstr ""
+"<i>Lỗi,</i> Xin lưu ý rằng đã xảy ra lỗi trong giao dịch. Đơn mua đã "
+"được xác nhận nhưng sẽ không chuyển sang trạng thái đã thanh toán. Đừng ngần ngại liên hệ với "
+"chúng tôi nếu bạn có bất kỳ câu hỏi về tình trạng đơn của bạn."
 
 #. module: payment
 #: code:addons/payment/models/payment_acquirer.py:104
@@ -80,13 +84,15 @@ msgid ""
 "<i>Pending,</i> Your online payment has been successfully processed. But "
 "your order is not validated yet."
 msgstr ""
+"<i>Tạm dừng,</i> Thanh toán trực tuyến của bạn đã được xử lý thành công. "
+"Nhưng đơn đặt hàng của bạn chưa được thẩm định."
 
 #. module: payment
 #. openerp-web
 #: code:addons/payment/static/src/js/payment_form.js:349
 #, python-format
 msgid "<p>This card is currently linked to the following records:<p/>"
-msgstr ""
+msgstr "<p>Thẻ này hiện được liên kết với các bản ghi sau:<p/>"
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
@@ -349,7 +355,7 @@ msgstr ""
 #. module: payment
 #: model:ir.actions.act_window,help:payment.action_payment_icon
 msgid "Click to create a payment icon."
-msgstr ""
+msgstr "Bấm để tạo một biểu tượng thanh toán."
 
 #. module: payment
 #: model:payment.acquirer,post_msg:payment.payment_acquirer_custom
@@ -710,22 +716,23 @@ msgstr "Thông điệp"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_post_msg
 msgid "Message displayed after having done the payment process."
-msgstr ""
+msgstr "Thông báo được hiển thị sau khi thực hiện quy trình thanh toán."
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_pre_msg
 msgid "Message displayed to explain and help the payment process."
-msgstr ""
+msgstr "Thông báo được hiển thị để giải thích và giúp quá trình thanh toán."
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_error_msg
 msgid "Message displayed, if error is occur during the payment process."
-msgstr ""
+msgstr "Thông báo được hiển thị, nếu xảy ra lỗi trong quá trình thanh toán."
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_cancel_msg
 msgid "Message displayed, if order is cancel during the payment process."
 msgstr ""
+"Thông báo được hiển thị, nếu đơn đặt hàng bị hủy trong quá trình thanh toán."
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_done_msg
@@ -733,6 +740,8 @@ msgid ""
 "Message displayed, if order is done successfully after having done the "
 "payment process."
 msgstr ""
+"Thông báo được hiển thị, nếu lệnh được thực hiện thành công sau khi thực "
+"hiện quy trình thanh toán."
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_pending_msg
@@ -740,6 +749,8 @@ msgid ""
 "Message displayed, if order is in pending state after having done the "
 "payment process."
 msgstr ""
+"Thông báo được hiển thị, nếu đơn đặt hàng đang ở trạng thái chờ xử lý sau "
+"khi đã thực hiện quy trình thanh toán."
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
@@ -997,7 +1008,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:payment.confirm
 #: model:ir.ui.view,arch_db:payment.pay
 msgid "Processed by"
-msgstr ""
+msgstr "Được Xử lý bởi"
 
 #. module: payment
 #: selection:payment.acquirer,environment:0
@@ -1031,12 +1042,12 @@ msgstr ""
 #. module: payment
 #: selection:payment.transaction,state:0
 msgid "Refunded"
-msgstr ""
+msgstr "Đã hoàn tiền"
 
 #. module: payment
 #: selection:payment.transaction,state:0
 msgid "Refunding"
-msgstr ""
+msgstr "Đang hoàn tiền"
 
 #. module: payment
 #: constraint:payment.acquirer:0
@@ -1458,4 +1469,4 @@ msgstr ""
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
 msgid "user: current user browse record"
-msgstr "user: người dùng hiện hành mà truy cập bản ghi"
+msgstr "người dùng: là người dùng hiện hành mà truy cập bản ghi"

@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * website_customer
-#
+# 
 # Translators:
 # fanha99 <fanha99@hotmail.com>, 2017
 # Martin Trigaux, 2017
@@ -18,10 +18,10 @@ msgstr ""
 "PO-Revision-Date: 2017-09-20 09:54+0000\n"
 "Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
-"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: website_customer
@@ -44,7 +44,7 @@ msgstr "Tất cả Quốc gia"
 #: code:addons/website_customer/controllers/main.py:61
 #, python-format
 msgid "All Sectors of Activity"
-msgstr ""
+msgstr "Tất cả các Phân khúc Hoạt động"
 
 #. module: website_customer
 #: model:ir.model.fields,help:website_customer.field_res_partner_tag_classname

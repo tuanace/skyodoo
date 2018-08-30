@@ -1399,6 +1399,8 @@ msgid ""
 "Invalid database name. Only alphanumerical characters, underscore, hyphen "
 "and dot are allowed."
 msgstr ""
+"Tên cơ sở dữ liệu không hợp lệ. Chỉ cho phép các ký tự chữ và số, dấu gạch "
+"dưới, gạch nối và dấu chấm."
 
 #. module: web
 #. openerp-web
@@ -1568,7 +1570,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:639
 #, python-format
 msgid "Match records with the following rule:"
-msgstr ""
+msgstr "Khớp các bản ghi với quy tắc sau:"
 
 #. module: web
 #. openerp-web
@@ -2461,7 +2463,7 @@ msgstr "Điện thoại:"
 #: code:addons/web/static/src/js/widgets/domain_selector.js:567
 #, python-format
 msgid "The domain you entered is not properly formed"
-msgstr ""
+msgstr "Miền bạn đã nhập không được định dạng đúng"
 
 #. module: web
 #. openerp-web
@@ -2535,6 +2537,8 @@ msgid ""
 "There are too many rows (%s rows, limit: 65535) to export as Excel 97-2003 "
 "(.xls) format. Consider splitting the export."
 msgstr ""
+"Có quá nhiều hàng (%shàng, giới hạn: 65.535) để xuất dưới dạng định dạng "
+"Excel 97-2003 (.xls). Cân nhắc việc tách xuất."
 
 #. module: web
 #. openerp-web
@@ -2659,6 +2663,9 @@ msgid ""
 "system. The report will be shown in html.<br><br><a href=\"http://wkhtmltopdf.org/\" target=\"_blank\">\n"
 "wkhtmltopdf.org</a>"
 msgstr ""
+"Không thể tìm thấy Wkhtmltopdf trong\n"
+"hệ thống này. Báo cáo sẽ được hiển thị bằng html.<br><br><a href=\"http://wkhtmltopdf.org/\" target=\"_blank\">\n"
+"wkhtmltopdf.org"
 
 #. module: web
 #. openerp-web
@@ -2806,12 +2813,12 @@ msgstr ""
 #. module: web
 #: model:ir.ui.view,arch_db:web.qunit_mobile_suite
 msgid "Web Mobile Tests"
-msgstr ""
+msgstr "Kiểm tra Web Mobile"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.qunit_suite
 msgid "Web Tests"
-msgstr ""
+msgstr "Kiểm tra Web"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.external_layout_boxed
@@ -2934,6 +2941,8 @@ msgid ""
 "You need to start OpenERP with at least two \n"
 "workers to print a pdf version of the reports."
 msgstr ""
+"Bạn cần bắt đầu Hệ thống với ít nhất hai\n"
+"công nhân để in phiên bản pdf của báo cáo."
 
 #. module: web
 #. openerp-web
@@ -2945,6 +2954,10 @@ msgid ""
 "support for table-breaking between pages.<br><br><a href=\"http://wkhtmltopdf.org/\" \n"
 "target=\"_blank\">wkhtmltopdf.org</a>"
 msgstr ""
+"Bạn nên nâng cấp phiên bản của Wkhtmltopdf\n"
+"đến ít nhất 0.12.0 để hiển thị chính xác các đầu trang và chân trang cũng như\n"
+"hỗ trợ cho việc liên kết bảng giữa các trang. <br><br><a href=\"http://wkhtmltopdf.org/\" \n"
+"target=\"_blank\">wkhtmltopdf.org</a>"
 
 #. module: web
 #. openerp-web
@@ -3247,14 +3260,14 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:643
 #, python-format
 msgid "of the following rules:"
-msgstr ""
+msgstr "của các quy tắc sau:"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:658
 #, python-format
 msgid "of:"
-msgstr ""
+msgstr "của:"
 
 #. module: web
 #. openerp-web
@@ -3269,7 +3282,7 @@ msgstr "hoặc"
 #: code:addons/web/static/src/js/widgets/domain_selector.js:29
 #, python-format
 msgid "parent of"
-msgstr ""
+msgstr "cấp cha của"
 
 #. module: web
 #. openerp-web
@@ -3283,7 +3296,7 @@ msgstr "bản ghi"
 #: code:addons/web/static/src/xml/kanban.xml:41
 #, python-format
 msgid "remaining)"
-msgstr ""
+msgstr "còn lại)"
 
 #. module: web
 #. openerp-web
