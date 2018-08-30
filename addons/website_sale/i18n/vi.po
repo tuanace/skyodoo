@@ -1957,7 +1957,7 @@ msgstr "Tháng Trước"
 #: model:ir.model.fields,field_description:website_sale.field_res_partner_last_website_so_id
 #: model:ir.model.fields,field_description:website_sale.field_res_users_last_website_so_id
 msgid "Last Online Sales Order"
-msgstr "Đơn hàng Bán trực tuyến Cuối"
+msgstr "Đơn Bán trực tuyến Cuối"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image_write_uid

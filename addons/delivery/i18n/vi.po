@@ -717,7 +717,7 @@ msgstr "Giá bán"
 #. module: delivery
 #: model:ir.model,name:delivery.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Chi tiết Đơn hàng Bán"
+msgstr "Chi tiết Đơn Bán"
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.choose_delivery_package_view_form

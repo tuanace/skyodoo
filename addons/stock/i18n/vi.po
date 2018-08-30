@@ -6541,7 +6541,7 @@ msgstr "Quy tắc đẩy mà đã tạo ra dịch chuyển kho này"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "The quotation becomes a Sales Order and a Transfer Order is created"
-msgstr "Báo giá trở thành một Đơn hàng Bán và một Lệnh Giao hàng được tạo"
+msgstr "Báo giá trở thành một Đơn Bán và một Lệnh Giao hàng được tạo"
 
 #. module: stock
 #: code:addons/stock/models/stock_move.py:266

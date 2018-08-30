@@ -166,7 +166,7 @@ msgstr "Sản phẩm"
 #. module: account_analytic_default
 #: model:ir.model,name:account_analytic_default.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Chi tiết Đơn hàng Bán"
+msgstr "Chi tiết Đơn Bán"
 
 #. module: account_analytic_default
 #: model:ir.model.fields,help:account_analytic_default.field_account_analytic_default_company_id

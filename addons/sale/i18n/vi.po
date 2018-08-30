@@ -1615,7 +1615,7 @@ msgstr "Hoạt động không được phép"
 #: model:ir.ui.view,arch_db:sale.portal_order_page
 #: model:ir.ui.view,arch_db:sale.view_sales_order_line_filter
 msgid "Order"
-msgstr "Đơn hàng Bán"
+msgstr "Đơn Bán"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
@@ -1734,7 +1734,7 @@ msgstr "Chờ xuất Hoá đơn"
 #: model:ir.actions.act_window,name:sale.action_orders_upselling
 #: model:ir.ui.menu,name:sale.menu_sale_order_upselling
 msgid "Orders to Upsell"
-msgstr "Đơn hàng Bán gia tăng"
+msgstr "Đơn Bán gia tăng"
 
 #. module: sale
 #: model:ir.actions.act_window,help:sale.action_orders_upselling
@@ -2193,7 +2193,7 @@ msgstr "Đơn hàng được Xác nhận"
 #: model:ir.model.fields,field_description:sale.field_product_product_sale_line_warn
 #: model:ir.model.fields,field_description:sale.field_product_template_sale_line_warn
 msgid "Sales Order Line"
-msgstr "Chi tiết Đơn hàng Bán"
+msgstr "Chi tiết Đơn Bán"
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_product_sale_list
@@ -2229,12 +2229,12 @@ msgstr "Các chi tiết Kinh doanh liên quan đến một Đơn bán hàng củ
 #: model:ir.ui.view,arch_db:sale.view_sale_order_pivot
 #, python-format
 msgid "Sales Orders"
-msgstr "Đơn hàng Bán"
+msgstr "Đơn Bán"
 
 #. module: sale
 #: model:ir.model,name:sale.model_sale_report
 msgid "Sales Orders Statistics"
-msgstr "Thống kê Đơn hàng Bán"
+msgstr "Thống kê Đơn Bán"
 
 #. module: sale
 #: selection:product.template,expense_policy:0

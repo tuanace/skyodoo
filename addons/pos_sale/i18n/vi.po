@@ -23,7 +23,7 @@ msgstr ""
 #. module: pos_sale
 #: model:ir.model,name:pos_sale.model_report_all_channels_sales
 msgid "All sales orders grouped by sales channels"
-msgstr "Tất cả các Đơn hàng Bán được nhóm theo Kênh bán hàng"
+msgstr "Tất cả các Đơn Bán được nhóm theo Kênh bán hàng"
 
 #. module: pos_sale
 #: code:addons/pos_sale/models/crm_team.py:103

@@ -322,7 +322,7 @@ msgstr ""
 #. module: sale_timesheet
 #: model:ir.ui.view,arch_db:sale_timesheet.view_sale_service_inherit_form2
 msgid "Sales Order"
-msgstr "Đơn hàng Bán"
+msgstr "Đơn Bán"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_task_sale_line_id

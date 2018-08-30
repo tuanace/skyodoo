@@ -374,14 +374,14 @@ msgstr "Hết mở bán"
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_sale_order_id
 msgid "Sales Order"
-msgstr "Đơn hàng Bán"
+msgstr "Đơn Bán"
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_sale_order_line
 #: model:ir.model.fields,field_description:event_sale.field_event_registration_sale_order_line_id
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line_sale_order_line_id
 msgid "Sales Order Line"
-msgstr "Chi tiết Đơn hàng Bán"
+msgstr "Chi tiết Đơn Bán"
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_ticket_seats_used

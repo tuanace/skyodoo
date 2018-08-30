@@ -3109,7 +3109,7 @@ msgstr "Sổ nhật ký Bán hàng"
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
 msgid "Sales Orders"
-msgstr "Đơn hàng Bán"
+msgstr "Đơn Bán"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_user_id

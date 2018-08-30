@@ -142,7 +142,7 @@ msgstr "Báo giá"
 #. module: website_sale_options
 #: model:ir.model,name:website_sale_options.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Chi tiết Đơn hàng Bán"
+msgstr "Chi tiết Đơn Bán"
 
 #. module: website_sale_options
 #: model:ir.ui.view,arch_db:website_sale_options.modal
