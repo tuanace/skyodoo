@@ -278,24 +278,28 @@ class IrQWeb(models.AbstractModel, QWeb):
     # compatibility to remove after v11 - DEPRECATED
     @tools.conditional(
         'xml' not in tools.config['dev_mode'],
-        tools.ormcache_context('xmlid', 'options.get("lang", "en_US")', 'css', 'js', 'debug', 'async', keys=("website_id",)),
+        tools.ormcache_context('xmlid', 'options.get("lang", "en_US")', 'css', 'js', 'debug', 'kw.get("async")', 'async_load', keys=("website_id",)),
     )
-    def _get_asset(self, xmlid, options, css=True, js=True, debug=False, async=False, values=None):
+    def _get_asset(self, xmlid, options, css=True, js=True, debug=False, async_load=False, values=None, **kw):
+        if 'async' in kw:
+            async_load = kw['async']
         files, remains = self._get_asset_content(xmlid, options)
         asset = self.get_asset_bundle(xmlid, files, remains, env=self.env)
-        return asset.to_html(css=css, js=js, debug=debug, async=async, url_for=(values or {}).get('url_for', lambda url: url))
+        return asset.to_html(css=css, js=js, debug=debug, async_load=async_load, url_for=(values or {}).get('url_for', lambda url: url))
 
     @tools.conditional(
         # in non-xml-debug mode we want assets to be cached forever, and the admin can force a cache clear
         # by restarting the server after updating the source code (or using the "Clear server cache" in debug tools)
         'xml' not in tools.config['dev_mode'],
-        tools.ormcache_context('xmlid', 'options.get("lang", "en_US")', 'css', 'js', 'debug', 'async', keys=("website_id",)),
+        tools.ormcache_context('xmlid', 'options.get("lang", "en_US")', 'css', 'js', 'debug', 'kw.get("async")', 'async_load', keys=("website_id",)),
     )
-    def _get_asset_nodes(self, xmlid, options, css=True, js=True, debug=False, async=False, values=None):
+    def _get_asset_nodes(self, xmlid, options, css=True, js=True, debug=False, async_load=False, values=None, **kw):
+        if 'async' in kw:
+            async_load = kw['async']
         files, remains = self._get_asset_content(xmlid, options)
         asset = self.get_asset_bundle(xmlid, files, env=self.env)
         remains = [node for node in remains if (css and node[0] == 'link') or (js and node[0] != 'link')]
-        return remains + asset.to_node(css=css, js=js, debug=debug, async=async)
+        return remains + asset.to_node(css=css, js=js, debug=debug, async_load=async_load)
 
     @tools.ormcache_context('xmlid', 'options.get("lang", "en_US")', keys=("website_id",))
     def _get_asset_content(self, xmlid, options):
@@ -340,7 +344,7 @@ class IrQWeb(models.AbstractModel, QWeb):
                     files.append({'atype': atype, 'url': href, 'filename': filename, 'content': el.text, 'media': media})
                 elif can_aggregate(src) and el.tag == 'script':
                     atype = 'text/javascript'
-                    path = [segment for segment in href.split('/') if segment]
+                    path = [segment for segment in src.split('/') if segment]
                     filename = get_resource_path(*path) if path else None
                     files.append({'atype': atype, 'url': src, 'filename': filename, 'content': el.text, 'media': media})
                 else:

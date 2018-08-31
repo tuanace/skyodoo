@@ -3,30 +3,27 @@
 # * purchase
 # 
 # Translators:
+# Duy BQ <duybq86@gmail.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
 # Martin Trigaux, 2017
-# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017
 # Duy Pham <phamduy1812@gmail.com>, 2017
 # Thong Dong <thongdong7@gmail.com>, 2017
-# Vu Khanh Thuy <vukhanhthuy@gmail.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
 # Su Pham Nghiep Vu <nghiepvusupham58@gmail.com>, 2017
 # sao sang <saosangmo@yahoo.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
 # file aio <fileaio@gmail.com>, 2017
 # Jean-Charles Drubay <jcdrubay@gmail.com>, 2017
 # ThuND <thu.nd@komit-consulting.com>, 2017
 # Duc Dao <blakice12@gmail.com>, 2017
-# Dang Hanh <hanh.dtm@komit-consulting.com>, 2017
-# Duy BQ <duybq86@gmail.com>, 2018
+# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 14:51+0000\n"
 "PO-Revision-Date: 2018-04-27 14:51+0000\n"
-"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
+"Last-Translator: thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,6 +61,32 @@ msgid ""
 "% endif\n"
 "</p>\n"
 msgstr ""
+"\n"
+"<p>Gửi\n"
+"% if object.partner_id.is_company and object.partner_id.child_ids:\n"
+"    ${object.partner_id.child_ids[0].name}\n"
+"% else :\n"
+"    ${object.partner_id.name}\n"
+"% endif\n"
+",</p><p>\n"
+"Tập tin đính kèm tại đây, là một ${object.state in ('draft', 'sent') and 'đề nghị báo giá' or 'xác nhận mua hàng'} <strong>${object.name}</strong>\n"
+"% if object.partner_ref:\n"
+"    với tham chiếu: ${object.partner_ref}\n"
+"% endif\n"
+"% if object.origin:\n"
+"    (Báo giá ban đầu: ${object.origin})\n"
+"% endif\n"
+"tổng giá trị  <strong>${format_amount(object.amount_total, object.currency_id)}</strong>\n"
+"từ ${object.company_id.name}.\n"
+"</p>\n"
+"\n"
+"<p>Đừng ngại ngùng liên hệ chúng tôi, khi bạn có bất kỳ câu hỏi nào.</p>\n"
+"<p>Chân thành cảm ơn,</p>\n"
+"<p style=\"color:#888888;\">\n"
+"% if object.user_id and object.user_id.signature:\n"
+"    ${object.user_id.signature | safe}\n"
+"% endif\n"
+"</p>\n"
 
 #. module: purchase
 #: model:mail.template,body_html:purchase.email_template_edi_purchase_done
@@ -90,7 +113,7 @@ msgid ""
 "<p>Thank you,</p>\n"
 msgstr ""
 "\n"
-"<p>Dear ${object.partner_id.name} \n"
+"<p>Gửi ${object.partner_id.name} \n"
 "% if object.partner_id.parent_id:\n"
 "    (<i>${object.partner_id.parent_id.name}</i>)\n"
 "% endif\n"
@@ -103,7 +126,7 @@ msgstr ""
 "% if object.origin:\n"
 "    (Yêu cần báo giá ban đầu: ${object.origin})\n"
 "% endif\n"
-"tổng giá trị <strong>${object.amount_total} ${object.currency_id.name}</strong>\n"
+"tổng giá trị <strong>${format_amount(object.amount_total, object.currency_id)}</strong>\n"
 "từ ${object.company_id.name}.\n"
 "</p>\n"
 "\n"
@@ -158,12 +181,12 @@ msgstr "${object.subject}"
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "3-way matching"
-msgstr "khớp 3 chiều"
+msgstr "Khớp 3 chiều"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings_module_account_3way_match
 msgid "3-way matching: purchases, receptions and bills"
-msgstr "khớp 3 chiều: Mua hàng, nhận hàng và hoá đơn nhà cung cấp"
+msgstr "Khớp 3 chiều: Mua hàng, nhận hàng và hoá đơn nhà cung cấp"
 
 #. module: purchase
 #: model:mail.template,body_html:purchase.mail_template_data_notification_email_purchase_order
@@ -240,6 +263,77 @@ msgid ""
 "                </html>\n"
 "            "
 msgstr ""
+"<html>\n"
+"                <head></head>\n"
+"                % set company = record and record.company_id or ctx.get('company')\n"
+"                <body style=\"margin: 0; padding: 0;\">\n"
+"                <table border=\"0\" width=\"100%\" cellpadding=\"0\" bgcolor=\"#ededed\" style=\"padding: 20px; background-color: #ededed\" summary=\"o_mail_notification\">\n"
+"                    <tbody>\n"
+"\n"
+"                      <!-- HEADER -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px;\">\n"
+"                            <tr>\n"
+"                              <td valign=\"middle\">\n"
+"                                  <span style=\"font-size:20px; color:white; font-weight: bold;\">\n"
+"                                      ${object.record_name}\n"
+"                                  </span>\n"
+"                              </td>\n"
+"                              <td valign=\"middle\" align=\"right\">\n"
+"                                  <img src=\"/logo.png?company=${company.id}\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${company.name}\">\n"
+"                              </td>\n"
+"                            </tr>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"\n"
+"                      <!-- CONTENT -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#ffffff\" style=\"min-width: 590px; background-color: rgb(255, 255, 255); padding: 20px;\">\n"
+"                            <tbody>\n"
+"                              <td valign=\"top\" style=\"font-family:Arial,Helvetica,sans-serif; color: #555; font-size: 14px;\">\n"
+"                                ${object.body | safe}\n"
+"                              </td>\n"
+"                            </tbody>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"\n"
+"                      <!-- FOOTER -->\n"
+"                      <tr>\n"
+"                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                          <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px;\">\n"
+"                            <tr>\n"
+"                              <td valign=\"middle\" align=\"left\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"                                ${company.name}<br/>\n"
+"                                ${company.phone or ''}\n"
+"                              </td>\n"
+"                              <td valign=\"middle\" align=\"right\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"                                % if company.email:\n"
+"                                <a href=\"mailto:${company.email}\" style=\"text-decoration:none; color: white;\">${company.email}</a><br/>\n"
+"                                % endif\n"
+"                                % if company.website:\n"
+"                                    <a href=\"${company.website}\" style=\"text-decoration:none; color: white;\">\n"
+"                                        ${company.website}\n"
+"                                    </a>\n"
+"                                % endif\n"
+"                              </td>\n"
+"                            </tr>\n"
+"                          </table>\n"
+"                        </td>\n"
+"                      </tr>\n"
+"                      <tr>\n"
+"                        <td align=\"center\">\n"
+"                            Hỗ trợ bởi <a href=\"https://www.odoo.com\">Odoo</a>.\n"
+"                        </td>\n"
+"                      </tr>\n"
+"                    </tbody>\n"
+"                </table>\n"
+"                </body>\n"
+"                </html>\n"
+"            "
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
@@ -247,8 +341,8 @@ msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-remove\"/> "
 "Cancelled</span>"
 msgstr ""
-"<span class=\"label label-default\"><i class=\"fa fa-fw fa-remove\"/> "
-"Đã hủy</span>"
+"<span class=\"label label-default\"><i class=\"fa fa-fw fa-remove\"/> Đã "
+"hủy</span>"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
@@ -352,8 +446,7 @@ msgid ""
 "A sale order that generated this purchase order has been deleted. Check if "
 "an action is needed."
 msgstr ""
-"Một lệnh bán đã tạo ra đơn đặt hàng này đã bị xóa. Kiểm tra xem"
-"cần làm gì."
+"Một lệnh bán đã tạo ra đơn đặt hàng này đã bị xóa. Kiểm tra xem cần làm gì."
 
 #. module: purchase
 #: model:res.groups,name:purchase.group_warning_purchase
@@ -425,7 +518,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.filters,name:purchase.filter_purchase_order_average_delivery_time
 msgid "Average Delivery Time"
-msgstr "Thời gian bàn giao trung bình"
+msgstr "Thời gian Giao Trung bình"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_price_average
@@ -492,6 +585,10 @@ msgid ""
 " your vendors provide you with pricelist files, this option allows you to "
 "easily import them into the system from ‘Purchase > Vendor Pricelists’ menu."
 msgstr ""
+"Theo mặc định, giá nhà cung cấp có thể được đặt theo cách thủ công trong "
+"biểu mẫu chi tiết sản phẩm. Nếu nhà cung cấp của bạn cung cấp cho bạn các "
+"tệp bảng giá, tùy chọn này cho phép bạn dễ dàng nhập chúng vào hệ thống từ "
+"trình đơn ‘Mua hàng> Bảng giá nhà cung cấp’."
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_calendar
@@ -506,6 +603,11 @@ msgid ""
 "product if you directly do a Request for Quotation to one vendor or if you "
 "want a Call for Tenders to compare offers from several vendors."
 msgstr ""
+"Các cuộc gọi đấu thầu được sử dụng khi bạn muốn tạo các yêu cầu trích dẫn "
+"cho một số nhà cung cấp cho một tập hợp các sản phẩm nhất định. Bạn có thể "
+"định cấu hình cho mỗi sản phẩm nếu bạn trực tiếp thực hiện Yêu cầu báo giá "
+"cho một nhà cung cấp hoặc nếu bạn muốn một cuộc gọi cho người đấu giá để so "
+"sánh phiếu mua hàng từ một số nhà cung cấp."
 
 #. module: purchase
 #: code:addons/purchase/models/stock.py:76
@@ -739,7 +841,7 @@ msgstr "Dịch chuyển Đầu ra"
 #. module: purchase
 #: selection:purchase.report,state:0
 msgid "Draft RFQ"
-msgstr "Yêu cầu báo giá Dự thảo"
+msgstr "Y/c Báo giá Dự thảo"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_dest_address_id
@@ -762,11 +864,13 @@ msgid ""
 "Encoding help. When selected, the associated purchase order lines are added "
 "to the vendor bill. Several PO can be selected."
 msgstr ""
+"Trợ giúp mã hóa. Khi được chọn, các dòng đơn đặt hàng được liên kết sẽ được "
+"thêm vào hóa đơn của nhà cung cấp. Có thể chọn một số PO."
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Expected Date"
-msgstr "Ngày dự kiến"
+msgstr "Ngày Mong đợi"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
@@ -777,7 +881,7 @@ msgstr "Bộ lọc mở rộng..."
 #: code:addons/purchase/models/purchase.py:577
 #, python-format
 msgid "Extra line with %s "
-msgstr ""
+msgstr "Dòng bổ sung với %s"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_fiscal_position_id
@@ -821,7 +925,7 @@ msgstr "Ẩn các dòng đã hủy"
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "How to import"
-msgstr "Nhập thế nào"
+msgstr "Hướng dẫn nhập hàng loạt"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_id
@@ -836,17 +940,19 @@ msgid ""
 "If enabled, activates 3-way matching on vendor bills : the items must be "
 "received in order to pay the invoice."
 msgstr ""
+"Nếu được bật, kích hoạt khớp 3 chiều trên hóa đơn của nhà cung cấp: các mặt "
+"hàng phải được nhận để thanh toán hóa đơn"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Import vendor pricelists"
-msgstr "Nhập bảng giá đối tác"
+msgstr "Nhập bảng giá nhà cung cấp"
 
 #. module: purchase
 #: code:addons/purchase/models/purchase.py:206
 #, python-format
 msgid "In order to delete a purchase order, you must cancel it first."
-msgstr "để xóa một đơn hàng, bạn phải hủy nó trước tiên."
+msgstr "Để xóa một đơn mua, bạn phải hủy nó trước tiên."
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_action_picking_tree_in_move
@@ -861,7 +967,7 @@ msgstr "Lô hàng săp về"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_incoterm_id
 msgid "Incoterm"
-msgstr "Incoterm"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_incoterm_id
@@ -875,12 +981,12 @@ msgstr ""
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_invoice
 msgid "Invoice"
-msgstr "hoá đơn"
+msgstr "Hoá đơn"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_invoice_line
 msgid "Invoice Line"
-msgstr "Chi tiết hoá đơn"
+msgstr "Chi tiết Hoá đơn"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -900,7 +1006,7 @@ msgstr "Đã giao"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings_is_installed_sale
 msgid "Is the Sale Module Installed"
-msgstr "Module Kinh doanh đã cài đặt"
+msgstr "Module Quản lý Bán đã cài đặt"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order___last_update
@@ -963,6 +1069,7 @@ msgstr ""
 msgid ""
 "Make sure you only pay bills for which you received the goods you ordered"
 msgstr ""
+"Chắc chắn rằng bạn chỉ thanh toán các hoá đơn cho hàng hoá mà bạn đã nhận"
 
 #. module: purchase
 #: model:res.groups,name:purchase.group_manage_vendor_price
@@ -972,7 +1079,7 @@ msgstr "Quản lý Giá nhà cung cấp"
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Manage your purchase agreements (call for tenders, blanket orders)"
-msgstr ""
+msgstr "Quản lý các thỏa ước mua hàng của bạn (gọi thầu, đơn đặt hàng)"
 
 #. module: purchase
 #: model:res.groups,name:purchase.group_purchase_manager
@@ -1009,6 +1116,9 @@ msgid ""
 "Orders for reordering products,they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
 msgstr ""
+"Biên độ lỗi cho thời gian chờ của nhà cung cấp. Khi hệ thống tạo Đơn đặt "
+"hàng để cung ứng lại các sản phẩm, chúng sẽ được lên lịch trước đó nhiều "
+"ngày để đối phó với sự chậm trễ của nhà cung cấp không mong muốn."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_partner_purchase_warn_msg
@@ -1077,7 +1187,7 @@ msgstr "Mới nhất"
 #. module: purchase
 #: selection:purchase.order,invoice_status:0
 msgid "No Bill to Receive"
-msgstr "Chưa nhận được thanh toán"
+msgstr "Không còn Hoá đơn cần Nhận"
 
 #. module: purchase
 #: selection:product.template,purchase_line_warn:0
@@ -1096,6 +1206,8 @@ msgid ""
 "Non-stored related field to allow portal user to see the image of the "
 "product he has ordered"
 msgstr ""
+"Trường liên quan không được lưu trữ để cho phép người dùng cổng thông tin "
+"xem hình ảnh của sản phẩm mà anh ta đã đặt hàng"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -1156,7 +1268,7 @@ msgstr "Tháng đặt hàng"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_name
 #: model:ir.ui.view,arch_db:purchase.purchase_order_line_search
 msgid "Order Reference"
-msgstr "Tham chiếu đơn hàng"
+msgstr "Tham chiếu Đơn hàng"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_state
@@ -1166,22 +1278,22 @@ msgstr "Trạng thái Đơn hàng"
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Order of Day"
-msgstr "Đơn hàng trong ngày"
+msgstr "Đơn Mua của Ngày"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.track_po_line_template
 msgid "Ordered Quantity:"
-msgstr "Số lượng đơn hàng:"
+msgstr "Số lượng đặt hàng:"
 
 #. module: purchase
 #: selection:res.config.settings,default_purchase_method:0
 msgid "Ordered quantities"
-msgstr "Số lượng đơn hàng"
+msgstr "Số lượng đặt hàng"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_orderpoint_id
 msgid "Orderpoint"
-msgstr "Điểm đặt hàng"
+msgstr "Quy tắc tái cung ứng"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
@@ -1212,7 +1324,7 @@ msgstr "Quốc gia của Đối tác"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_payment_term_id
 msgid "Payment Terms"
-msgstr "Điều khoản thanh toán"
+msgstr "Điều khoản Thanh toán"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_product_category_property_account_creditor_price_difference_categ
@@ -1345,12 +1457,12 @@ msgstr ""
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_account
 msgid "Purchase Analytics"
-msgstr "Phân tích mua hàng"
+msgstr "Phân tích Mua"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_product_supplier_inherit
 msgid "Purchase Bills"
-msgstr "Thanh toán mua hàng"
+msgstr "Hoá đơn Mua"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_company_po_lead
@@ -1379,12 +1491,12 @@ msgstr "Đơn hàng Mua"
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "Purchase Order Confirmation #"
-msgstr "Xác nhận Đơn hàng Mua #"
+msgstr "Xác nhận Đơn Mua #"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Purchase Order Fiscal Position"
-msgstr "Vị thế Tài khoá Đơn hàng"
+msgstr "Vị thế Tài khoá Đơn Mua"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_purchase_order_line
@@ -1395,23 +1507,23 @@ msgstr "Vị thế Tài khoá Đơn hàng"
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 #: model:ir.ui.view,arch_db:purchase.purchase_order_line_form2
 msgid "Purchase Order Line"
-msgstr "Dòng hàng Đơn hàng Mua"
+msgstr "Dòng Đơn Mua"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 #: model:ir.ui.view,arch_db:purchase.purchase_order_line_tree
 msgid "Purchase Order Lines"
-msgstr "Chi tiết đơn hàng"
+msgstr "Chi tiết Đơn Mua"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_company_po_lock
 msgid "Purchase Order Modification"
-msgstr "Điều chỉnh Đơn hàng mua"
+msgstr "Điều chỉnh Đơn Mua"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings_po_lock
 msgid "Purchase Order Modification *"
-msgstr "Điều chỉnh Đơn hàng mua *"
+msgstr "Điều chỉnh Đơn Mua *"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_company_po_lock
@@ -1434,28 +1546,28 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Purchase Orders"
-msgstr "Đơn hàng Mua"
+msgstr "Đơn Mua"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
 msgid "Purchase Orders #"
-msgstr "SL đơn mua hàng"
+msgstr "Đơn mua #"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_graph
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_pivot
 msgid "Purchase Orders Statistics"
-msgstr "Thống kê đơn hàng"
+msgstr "Thống kê Đơn Mua"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Purchase orders that have been invoiced."
-msgstr "Các đơn hàng mua mà đã có hoá đơn nhà cung cấp xuất."
+msgstr "Các đơn mua mà đã có hoá đơn được xuất."
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Purchase orders that include lines not invoiced."
-msgstr "Đơn hàng bao gồm hạng mục chưa xuất hoá đơn"
+msgstr "Đơn hàng bao gồm hạng mục chưa  có hoá đơn được xuất."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_stock_warehouse_buy_to_resupply
@@ -1465,7 +1577,7 @@ msgstr "Mua để tái cung cấp cho kho này"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_negociation
 msgid "Purchase-Standard Price"
-msgstr "Giá Tiêu chuẩn mua"
+msgstr "Giá Tiêu chuẩn Mua"
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.action_purchase_line_product_tree
@@ -1479,7 +1591,7 @@ msgstr "Mua sắm"
 #. module: purchase
 #: model:ir.model,name:purchase.model_purchase_report
 msgid "Purchases Orders"
-msgstr "Đơn hàng Mua"
+msgstr "Đơn Mua"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_dest_address_id
@@ -1493,7 +1605,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Quantities billed by vendors"
-msgstr "Số lượng thanh toán theo nhà cung cấp"
+msgstr "Số lượng xuất hoá đơn theo nhà cung cấp"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_product_qty
@@ -1559,7 +1671,7 @@ msgstr "SL Đã nhận"
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.track_po_line_template
 msgid "Received Quantity:"
-msgstr "SL đã nhận"
+msgstr "Số lượng Đã nhận"
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.purchase_open_picking
@@ -1585,6 +1697,8 @@ msgid ""
 "Reference of the document that generated this purchase order request (e.g. a"
 " sales order)"
 msgstr ""
+"Tham chiếu tài liệu mà sinh ra yêu cầu mua sắm này (vd: một đơn bán, một quy"
+" tắc tái cung ứng, v.v.)"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_partner_ref
@@ -1674,16 +1788,19 @@ msgid ""
 "Selecting \"Blocking Message\" will throw an exception with the message and "
 "block the flow. The Message has to be written in the next field."
 msgstr ""
+"Chọn tùy chọn \"Cảnh báo\" sẽ hiển thị thông điệp cho người dùng, Chọn "
+"\"Cảnh báo đóng\" sẽ thoát ra ngoài kèm cảnh báo và chặn luồng. Cảnh báo sẽ "
+"được điền ở phần thông tin dưới đây."
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Send PO by Email"
-msgstr "Gửi Đơn hàng"
+msgstr "Gửi Đơn hàng bằng Email"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Send RFQ by Email"
-msgstr "Gửi RFQ"
+msgstr "Gửi Y/c báo giá"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_sequence
@@ -1719,7 +1836,8 @@ msgstr "Lô hàng"
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Show all records which has next action date is before today"
-msgstr "Hiển thị tất cả hồ sơ có ngày hành động tiếp theo là trước ngày hôm nay"
+msgstr ""
+"Hiển thị tất cả các bản ghi mà có ngày hành động tiếp theo trước ngày hôm nay"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_origin
@@ -1775,7 +1893,7 @@ msgstr "Các loại thuế:"
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_default_location_dest_id_usage
 msgid "Technical field used to display the Drop Ship Address"
-msgstr ""
+msgstr "Trường thuật được sử dụng để hiển thị Địa chỉ Drop Ship"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_notes
@@ -1816,6 +1934,8 @@ msgid ""
 "The quantities on your purchase order indicate less than billed. You should "
 "ask for a refund. "
 msgstr ""
+"Số lượng trên đơn mua cho thấy ít hơn số lượng được xuất hoá đơn. Bạn nên đề "
+"nghị hoàn tiền."
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_rfq
@@ -1844,8 +1964,8 @@ msgid ""
 "There is no vendor associated to the product %s. Please define a vendor for "
 "this product."
 msgstr ""
-"Chưa có nhà cung cấp được thiết lập cho sản phẩm %s. Vui lòng xác định một nhà "
-"cung cấp cho sản phẩm này."
+"Chưa có nhà cung cấp được thiết lập cho sản phẩm %s. Vui lòng xác định một "
+"nhà cung cấp cho sản phẩm này."
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_product_category_property_account_creditor_price_difference_categ
@@ -1900,8 +2020,8 @@ msgid ""
 "This default value is applied to any new product created. This can be "
 "changed in the product detail form."
 msgstr ""
-"Giá trị mặc định này được áp dụng cho bất kỳ sản phẩm mới nào được tạo ra. Điều "
-"này có thể thay đổi trong sản phẩm mẫu."
+"Giá trị mặc định này được áp dụng cho bất kỳ sản phẩm mới nào được tạo ra. "
+"Điều này có thể thay đổi trong sản phẩm mẫu."
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_product_supplier_inherit
@@ -2041,7 +2161,7 @@ msgid ""
 "            or received quantities."
 msgstr ""
 "Sử dụng trình đơn (menu) này để tìm kiếm trong phạm vi các hoá đơn từ nhà cung cấp.\n"
-"            Khi tạo một hoá đơn mới, chỉ cần chọn đơn hàng mua và Odoo sẽ tự động\n"
+"            Khi tạo một hoá đơn mới, chỉ cần chọn đơn hàng mua và Hệ thống sẽ tự động\n"
 "            điền các thông tin liên quan căn cứ trên đơn hàng hoặc trên số lượng hàng\n"
 "            bạn đã nhận."
 
@@ -2207,7 +2327,7 @@ msgstr ""
 #: code:addons/purchase/models/purchase.py:395
 #, python-format
 msgid "You must set a Vendor Location for this partner %s"
-msgstr "Bạn phải thiết lập Địa điểm Nhà cung cấp cho đối tác này %s"
+msgstr "Bạn phải thiết lập Địa điểm Nhà cung cấp cho đối tác %s này"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_stock

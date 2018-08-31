@@ -3,8 +3,8 @@
 # * website_hr_recruitment
 #
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
-# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017
+# Martin Trigaux, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
 msgid ""
 msgstr ""
@@ -192,12 +192,12 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou_page_ir_ui_view
 #: model:website.page,arch_db:website_hr_recruitment.thankyou_page
 msgid "Congratulations!"
-msgstr ""
+msgstr "Chúc mừng!"
 
 #. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.index
 msgid "Contact us"
-msgstr ""
+msgstr "Liên hệ"
 
 #. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou

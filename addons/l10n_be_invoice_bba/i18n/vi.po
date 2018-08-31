@@ -54,7 +54,7 @@ msgstr ""
 #. module: l10n_be_invoice_bba
 #: model:ir.model,name:l10n_be_invoice_bba.model_account_invoice
 msgid "Invoice"
-msgstr "hoá đơn"
+msgstr "Hoá đơn"
 
 #. module: l10n_be_invoice_bba
 #: model:ir.model,name:l10n_be_invoice_bba.model_res_partner

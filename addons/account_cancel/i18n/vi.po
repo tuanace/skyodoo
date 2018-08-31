@@ -3,7 +3,8 @@
 # * account_cancel
 #
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
+# Martin Trigaux, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
 msgid ""
 msgstr ""

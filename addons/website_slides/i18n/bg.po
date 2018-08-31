@@ -7,13 +7,14 @@
 # aleksandar ivanov, 2018
 # Albena Mincheva <albena_vicheva@abv.bg>, 2018
 # Kaloyan Naumov <kaloyan@lumnus.net>, 2018
+# Maria Boyadjieva <marabo2000@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:27+0000\n"
 "PO-Revision-Date: 2017-10-02 11:27+0000\n"
-"Last-Translator: Kaloyan Naumov <kaloyan@lumnus.net>, 2018\n"
+"Last-Translator: Maria Boyadjieva <marabo2000@gmail.com>, 2018\n"
 "Language-Team: Bulgarian (https://www.transifex.com/odoo/teams/41243/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -366,6 +367,8 @@ msgstr ""
 msgid ""
 "Channel contains the given title, please change before Save or Publish."
 msgstr ""
+"Каналът съдържа даденото заглавие, моля, променете прези да запазите и "
+"публикувате"
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_slide_channel
@@ -926,7 +929,7 @@ msgstr ""
 #. module: website_slides
 #: model:slide.channel,name:website_slides.channel_partial
 msgid "Partner Channel"
-msgstr ""
+msgstr "Канал на контрагент"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_social_email
@@ -1036,7 +1039,7 @@ msgstr ""
 #: code:addons/website_slides/static/src/xml/website_slides.xml:69
 #, python-format
 msgid "Save as Draft"
-msgstr ""
+msgstr "Запазете като чернова"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_slide_search
@@ -1292,6 +1295,7 @@ msgstr ""
 #: model:slide.channel,description:website_slides.channel_partial
 msgid "Used to publish slides in partner network privately."
 msgstr ""
+"Използван, за да публикува поверително слайдове в мрежата на контрагента."
 
 #. module: website_slides
 #: selection:slide.slide,slide_type:0

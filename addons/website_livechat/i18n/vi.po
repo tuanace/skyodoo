@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * website_livechat
-#
+# 
 # Translators:
 # Martin Trigaux, 2017
 # Duy BQ <duybq86@gmail.com>, 2018
@@ -37,7 +37,7 @@ msgstr "Mô tả của kênh được hiển thị trên trang web"
 #. module: website_livechat
 #: model:ir.ui.view,arch_db:website_livechat.res_config_settings_view_form
 msgid "Live Chat"
-msgstr ""
+msgstr "Chat Trực tuyến"
 
 #. module: website_livechat
 #: model:ir.ui.view,arch_db:website_livechat.res_config_settings_view_form

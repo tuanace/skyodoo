@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * web_settings_dashboard
-#
+# 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux, 2017
 # Thang Duong Bao <nothingctrl@gmail.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
-# Su Pham Nghiep Vu <nghiepvusupham58@gmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017
 msgid ""
 msgstr ""
@@ -153,7 +153,7 @@ msgstr ""
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:37
 #, python-format
 msgid "Installed App"
-msgstr "Ứng dụng đã cài"
+msgstr "Ứng dụng Đã cài"
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -216,7 +216,7 @@ msgstr "Odoo"
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:186
 #, python-format
 msgid "Odoo Enterprise"
-msgstr "Odoo cho Doanh nghiệp"
+msgstr "Odoo Enterprise"
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -247,8 +247,8 @@ msgid ""
 "Send your documents in your partner's language or set up a language for your"
 " users"
 msgstr ""
-"Gửi tài liệu cho đối tác của bạn theo ngôn ngữ của đối tác hoặc thiết lập ngôn"
-" ngữ cho người dùng của bạn"
+"Gửi tài liệu cho đối tác của bạn theo ngôn ngữ của đối tác hoặc thiết lập "
+"ngôn ngữ cho người dùng của bạn"
 
 #. module: web_settings_dashboard
 #. openerp-web

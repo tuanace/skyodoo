@@ -358,7 +358,7 @@ class Escpos:
             else:
                 self._raw(string)
        
-        raw += S_RASTER_N
+        raw += S_RASTER_N.encode('utf-8')
         buffer = "%02X%02X%02X%02X" % (int((size[0]/size[1])/8), 0, size[1], 0)
         raw += codecs.decode(buffer, 'hex')
         buffer = ""
@@ -528,7 +528,7 @@ class Escpos:
             # https://github.com/python-escpos/python-escpos/pull/98/files#diff-a0b1df12c7c67e38915adbe469051e2dR444
             self._raw('\x00')
         else:
-            raise exception.BarcodeCodeError()
+            raise BarcodeCodeError()
 
     def receipt(self,xml):
         """

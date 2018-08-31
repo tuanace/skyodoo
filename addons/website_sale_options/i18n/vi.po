@@ -3,15 +3,16 @@
 # * website_sale_options
 #
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
-"Last-Translator: fanha99 <fanha99@hotmail.com>, 2017\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,26 +45,28 @@ msgid ""
 "<i class=\"fa fa-shopping-cart fa-fw\"/> <span class=\"hidden-xs\">Proceed "
 "to Checkout</span><span class=\"visible-xs-inline\">Checkout</span>"
 msgstr ""
+"<i class=\"fa fa-shopping-cart fa-fw\"/> <span class=\"hidden-xs\">Tiến hành"
+" Thanh toán</span><span class=\"visible-xs-inline\">Thanh toán</span>"
 
 #. module: website_sale_options
 #: model:ir.ui.view,arch_db:website_sale_options.modal
 msgid "<small>Remove <span class=\"hidden-xs\"> from Cart</span></small>"
-msgstr ""
+msgstr "<small>Xóa khỏi <span class=\"hidden-xs\">Giỏ hàng</span></small>"
 
 #. module: website_sale_options
 #: model:ir.ui.view,arch_db:website_sale_options.modal
 msgid "<span class=\"js_item\">1 </span><span class=\"js_items hidden\">5 </span>"
-msgstr ""
+msgstr "<span class=\"js_item\">1 </span><span class=\"js_items hidden\">5 </span>"
 
 #. module: website_sale_options
 #: model:ir.ui.view,arch_db:website_sale_options.modal
 msgid "<strong>Add<span class=\"hidden-xs\"> to Cart</span></strong>"
-msgstr ""
+msgstr "<strong>Thêm vào<span class=\"hidden-xs\"> Giỏ hàng</span></strong>"
 
 #. module: website_sale_options
 #: model:ir.ui.view,arch_db:website_sale_options.modal
 msgid "Add to Cart"
-msgstr ""
+msgstr "Thêm vào giỏ hàng"
 
 #. module: website_sale_options
 #: model:product.attribute,name:website_sale_options.product_attribute_1
@@ -73,7 +76,7 @@ msgstr "Khoảng thời gian"
 #. module: website_sale_options
 #: model:ir.model.fields,field_description:website_sale_options.field_sale_order_line_linked_line_id
 msgid "Linked Order Line"
-msgstr ""
+msgstr "Liên kết đến Đơn hàng chi tiết"
 
 #. module: website_sale_options
 #: code:addons/website_sale_options/models/sale_order.py:46
@@ -104,7 +107,7 @@ msgstr ""
 #. module: website_sale_options
 #: model:ir.model.fields,field_description:website_sale_options.field_sale_order_line_option_line_ids
 msgid "Options Linked"
-msgstr ""
+msgstr "Tùy chọn liên kết"
 
 #. module: website_sale_options
 #: model:ir.ui.view,arch_db:website_sale_options.modal
@@ -139,7 +142,7 @@ msgstr "Báo giá"
 #. module: website_sale_options
 #: model:ir.model,name:website_sale_options.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Chi tiết Đơn hàng Bán"
+msgstr "Chi tiết Đơn Bán"
 
 #. module: website_sale_options
 #: model:ir.ui.view,arch_db:website_sale_options.modal

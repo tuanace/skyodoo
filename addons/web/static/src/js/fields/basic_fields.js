@@ -417,7 +417,7 @@ var FieldDate = InputField.extend({
             this.datewidget = this._makeDatePicker();
             this.datewidget.on('datetime_changed', this, function () {
                 var value = this._getValue();
-                if ((!value && this.value) || (value && !value.isSame(this.value))) {
+                if ((!value && this.value) || (value && !this._isSameValue(value))) {
                     this._setValue(value);
                 }
             });
@@ -1759,7 +1759,7 @@ var StatInfo = AbstractField.extend({
      */
     _render: function () {
         var options = {
-            value: this.value || 0,
+            value: this._formatValue(this.value || 0),
         };
         if (! this.attrs.nolabel) {
             if (this.nodeOptions.label_field && this.recordData[this.nodeOptions.label_field]) {

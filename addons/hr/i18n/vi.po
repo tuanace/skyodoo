@@ -4,22 +4,19 @@
 # 
 # Translators:
 # Martin Trigaux, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
-# lam nguyen <lamev.inc@gmail.com>, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
-# Tuan Tran <tmtuan.projects@gmail.com>, 2017
 # Duc Dao <blakice12@gmail.com>, 2017
-# Duy BQ <duybq86@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 13:43+0000\n"
-"PO-Revision-Date: 2018-02-19 13:43+0000\n"
-"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
+"POT-Creation-Date: 2018-07-27 11:55+0000\n"
+"PO-Revision-Date: 2018-07-27 11:55+0000\n"
+"Last-Translator: Duc Dao <blakice12@gmail.com>, 2017\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -154,6 +151,10 @@ msgid ""
 "source project in a friendly and cooperative atmosphere sounds like fun to "
 "you, read on..."
 msgstr ""
+"Vì sự phát triển không ngừng nghỉ, chúng tôi hiện đang tìm kiếm người để "
+"củng cố đội ngũ nhân viên kỹ thuật nhiệt tình với hoài bão lớn của chúng "
+"tôi. Vì vậy, nếu làm một dự án lớn trong một môi trường thân thiện"
+" và hợp tác có vẻ giống như niềm vui đối với bạn, hãy đọc tiếp ..."
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
@@ -288,7 +289,7 @@ msgstr "Thông tin liên hệ"
 #: model:hr.job,website_description:hr.job_developer
 #: model:hr.job,website_description:hr.job_trainee
 msgid "Contributions to open source projects"
-msgstr ""
+msgstr "Đóng góp vào các dự án mã nguồn mở"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_create_uid
@@ -326,7 +327,7 @@ msgstr "Tạo 1 chiến lược giao tiếp rõ ràng"
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
 msgid "Deliver generic Odoo functional training sessions"
-msgstr ""
+msgstr "Cung cấp các buổi đào tạo tính năng Odoo"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_department_id
@@ -365,7 +366,7 @@ msgstr "Ly hôn"
 #. module: hr
 #: model:ir.model,name:hr.model_mail_alias
 msgid "Email Aliases"
-msgstr ""
+msgstr "Bí danh Email"
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_employee
@@ -434,13 +435,13 @@ msgid ""
 msgstr ""
 
 #. module: hr
-#: code:addons/hr/models/hr.py:303
+#: code:addons/hr/models/hr.py:310
 #, python-format
 msgid "Error! You cannot create recursive departments."
 msgstr "Lỗi! Bạn không thể tạo các phòng/ban đệ quy lẫn nhau."
 
 #. module: hr
-#: code:addons/hr/models/hr.py:184
+#: code:addons/hr/models/hr.py:187
 #, python-format
 msgid "Error! You cannot create recursive hierarchy of Employee(s)."
 msgstr "Lỗi! Bạn không thể tạo cấu trúc phả hệ đệ quy cho cùng một nhân viên."
@@ -490,7 +491,7 @@ msgstr "Giới tính"
 #. module: hr
 #: model:hr.job,website_description:hr.job_developer
 msgid "Good knowledge of HTML and Javascript"
-msgstr ""
+msgstr "Có hiểu biết sâu sắc về HTML và Javascript"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_cto
@@ -536,7 +537,7 @@ msgstr "Nhóm theo"
 #. module: hr
 #: model:ir.model,name:hr.model_hr_department
 msgid "HR Department"
-msgstr ""
+msgstr "Phòng/Ban (HR)"
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
@@ -551,12 +552,12 @@ msgstr "Giúp đỡ cấu hình phần mềm"
 #. module: hr
 #: model:hr.job,website_description:hr.job_hrm
 msgid "Hire a team of great Human Resources people"
-msgstr ""
+msgstr "Thuê một đội ngũ nhân sự tuyệt vời"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
 msgid "Hire a team of great executive people"
-msgstr ""
+msgstr "Thuê một đội ngũ những người điều hành tuyệt vời"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_marketing
@@ -713,7 +714,12 @@ msgstr "Triển khai sản phẩm mới, chiến dịch nhân sự"
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
 msgid "Launch new products, marketing campaigns and offers"
-msgstr ""
+msgstr "Ra mắt sản phẩm mới, chiến dịch tiếp thị và ưu đãi"
+
+#. module: hr
+#: selection:hr.employee,marital:0
+msgid "Legal Cohabitant"
+msgstr "Đồng giới"
 
 #. module: hr
 #: selection:hr.employee,gender:0
@@ -740,8 +746,8 @@ msgstr "Quản lý Marketing và Cộng đồng"
 
 #. module: hr
 #: selection:hr.employee,marital:0
-msgid "Married (or similar)"
-msgstr ""
+msgid "Married"
+msgstr "Đã kết hôn"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_cto
@@ -903,7 +909,7 @@ msgstr "Ảnh"
 #: model:hr.job,website_description:hr.job_marketing
 #: model:hr.job,website_description:hr.job_trainee
 msgid "Pictures of smart and enthusiastic people"
-msgstr ""
+msgstr "Hình ảnh của những người thông minh và nhiệt tình"
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
@@ -1006,15 +1012,14 @@ msgid ""
 "Set default calendar used to compute time allocation for leaves, timesheets,"
 " ..."
 msgstr ""
-"Thiết lập lịch làm việc mặc định để sử dụng trong việc tính toán giờ làm việc, ngày nghỉ, chấm công,"
-" ..."
+"Thiết lập lịch làm việc mặc định để sử dụng trong việc tính toán giờ làm "
+"việc, ngày nghỉ, chấm công, ..."
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job_state
 msgid ""
 "Set whether the recruitment process is open or closed for this job position."
-msgstr ""
-"Thiết lập quy trình tuyển dụng mở hay đóng cho vị trí công việc này."
+msgstr "Thiết lập quy trình tuyển dụng mở hay đóng cho vị trí công việc này."
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_config_settings_action
@@ -1267,7 +1272,7 @@ msgstr "Goá"
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
 msgid "Will report to the Head of Professional Services"
-msgstr ""
+msgstr "Sẽ báo cáo cho Giám đốc Dịch vụ Chuyên nghiệp"
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.act_employee_from_department
@@ -1379,7 +1384,7 @@ msgstr ""
 #: model:hr.job,website_description:hr.job_hrm
 #: model:hr.job,website_description:hr.job_marketing
 msgid "You are creative"
-msgstr ""
+msgstr "Bạn thật sáng tạo"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
@@ -1404,7 +1409,7 @@ msgstr ""
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
 msgid "You have 2 or 3 years of experience"
-msgstr ""
+msgstr "Bạn có 2 đến 3 năm kinh nghiệm"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
@@ -1496,22 +1501,22 @@ msgstr ""
 #: model:hr.job,website_description:hr.job_developer
 #: model:hr.job,website_description:hr.job_trainee
 msgid "You will report to the head of R&amp;D"
-msgstr ""
+msgstr "Bạn sẽ báo cáo cho trường bộ phận R&amp;D"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_developer
 msgid "You will work closely with all developers"
-msgstr ""
+msgstr "Bạn sẽ làm việc gần gũi với tất cả các nhà phát triển"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_cto
 msgid "You will work closely with all technical officer"
-msgstr ""
+msgstr "Bạn sẽ làm việc gần gũi với các cán bộ kỹ thuật"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_trainee
 msgid "You will work closely with all trainees"
-msgstr ""
+msgstr "Bạn sẽ làm việc gần gũi với tất cả các thực tập sinh"
 
 #. module: hr
 #: model:mail.template,subject:hr.mail_template_data_unknown_employee_email_address

@@ -60,6 +60,8 @@ msgid ""
 "<i class=\"text-muted oe_edit_only\">Use [Reference] as a subject prefix for"
 " incoming receipts</i>"
 msgstr ""
+"<i class=\"text-muted oe_edit_only\">Използвайте [Референция] като префикс "
+"на тема за входящи касови бележки</i>"
 
 #. module: hr_expense
 #. openerp-web
@@ -108,6 +110,9 @@ msgid ""
 "<p>The accountant receive approved expense reports.</p><p>He can post "
 "journal entries in one click if taxes and accounts are right.</p>"
 msgstr ""
+"<p>Счетоводителят получава одобрени отчети за разходите.</p><p>Той може да "
+"публикува статии в журнала с едно натискане на бутона, ако данъците и "
+"сметките са правилни.</p>"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -247,6 +252,8 @@ msgid ""
 "A payment of %s %s with the reference <a href='/mail/view?%s'>%s</a> related"
 " to your expense %s has been made."
 msgstr ""
+"Плащане на %s %s с референцията, <a href='/mail/view?%s'>%s</a> свързана с "
+"Вашия разход, %s е извършено."
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_account_id
@@ -346,7 +353,7 @@ msgstr "Банков счетоводен регистър"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_reference
 msgid "Bill Reference"
-msgstr ""
+msgstr "Референция за фактура за покупка"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
@@ -531,7 +538,7 @@ msgstr "Не се колебайте да"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_register_payment_view_form
 msgid "Draft Payment"
-msgstr ""
+msgstr "Чернова плащане"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
@@ -597,7 +604,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_journal_id
 msgid "Expense Journal"
-msgstr ""
+msgstr "Журнал за разходите"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_expense_line_ids
@@ -793,6 +800,8 @@ msgid ""
 "Expenses must have an expense journal specified to generate accounting "
 "entries."
 msgstr ""
+"Разходите дрябва да имат журнал за разходите, упоменат да създава счетоводни"
+" записи."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:442
@@ -1073,7 +1082,7 @@ msgstr ""
 #: code:addons/hr_expense/models/hr_expense.py:210
 #, python-format
 msgid "No credit account found for the %s journal, please configure one."
-msgstr ""
+msgstr "Не е открита кредитна сметка за %s журнала, моля конфигурирайте една."
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_my_refused
@@ -1537,7 +1546,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.hr_expense_actions_all
 msgid "The accountant validates journal entries and reimburse you."
-msgstr ""
+msgstr "Счетоводителят валидира записите в дневника и Ви възстановява сума."
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -1547,7 +1556,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet_journal_id
 msgid "The journal used when the expense is done."
-msgstr ""
+msgstr "Журналът, използван при направени разходи. "
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner

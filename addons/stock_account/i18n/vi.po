@@ -1,21 +1,20 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * stock_account
-#
+# 
 # Translators:
 # fanha99 <fanha99@hotmail.com>, 2017
-# Phạm Lân <phamquanglan@gmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # Martin Trigaux, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
-# Duy BQ <duybq86@gmail.com>, 2018
+# Phạm Lân <phamquanglan@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:11+0000\n"
 "PO-Revision-Date: 2017-11-30 13:11+0000\n"
-"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
+"Last-Translator: Phạm Lân <phamquanglan@gmail.com>, 2017\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,6 +54,8 @@ msgid ""
 "Affect landed costs on receipt operations and split them among products to "
 "update their cost price."
 msgstr ""
+"Ảnh hưởng đến chi phí đã bốc dỡ trên các hoạt động nhận và phân chia chúng "
+"giữa các sản phẩm để cập nhật giá thành của chúng."
 
 #. module: stock_account
 #: selection:product.category,property_valuation:0
@@ -114,8 +115,8 @@ msgid ""
 "Changing your cost method is an important change that will impact your "
 "inventory valuation. Are you sure you want to make that change?"
 msgstr ""
-"Thay đổi phương thức giá vốn là một thay đổi quan trọng mà sẽ ảnh hưởng "
-"đến giá trị tồn kho. Bạn có chắc chắn bạn muốn có sự thay đổi này?"
+"Thay đổi phương thức giá vốn là một thay đổi quan trọng mà sẽ ảnh hưởng đến "
+"giá trị tồn kho. Bạn có chắc chắn bạn muốn có sự thay đổi này?"
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_stock_inventory_accounting_date
@@ -258,7 +259,7 @@ msgstr "Chi tiết hoá đơn"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_res_config_settings_module_stock_landed_costs
 msgid "Landed Costs"
-msgstr ""
+msgstr "Chi phí Về kho"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_change_standard_price___last_update
@@ -303,7 +304,7 @@ msgstr ""
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.view_move_tree_valuation
 msgid "Moves"
-msgstr ""
+msgstr "Dịch chuyển"
 
 #. module: stock_account
 #: code:addons/stock_account/models/product.py:128
@@ -500,8 +501,8 @@ msgid ""
 "The cost of %s is currently equal to 0. Change the cost or the configuration"
 " of your product to avoid an incorrect valuation."
 msgstr ""
-"Giá vốn của %s thì hiện tại bằng 0. Thay đổi giá vốn hoặc cấu hình của sản phẩm"
-" để tránh việc sai giá vốn."
+"Giá vốn của %s thì hiện tại bằng 0. Thay đổi giá vốn hoặc cấu hình của sản "
+"phẩm để tránh việc sai giá vốn."
 
 #. module: stock_account
 #: code:addons/stock_account/models/stock.py:309
@@ -510,6 +511,8 @@ msgid ""
 "The move lines are not in a consistent state: some are entering and other "
 "are leaving the company. "
 msgstr ""
+"Các đường di chuyển không ở trạng thái nhất quán: một số đang vào và một số "
+"khác sẽ rời khỏi công ty."
 
 #. module: stock_account
 #: code:addons/stock_account/models/stock.py:320
@@ -519,6 +522,9 @@ msgid ""
 "intercompany in a single step while they should go through the intercompany "
 "transit location."
 msgstr ""
+"Các đường di chuyển không ở trạng thái nhất quán: chúng đang thực hiện một "
+"công ty liên kết trong một bước duy nhất trong khi chúng phải đi qua vị trí "
+"trung chuyển liên công ty."
 
 #. module: stock_account
 #: code:addons/stock_account/models/stock.py:318
@@ -527,12 +533,14 @@ msgid ""
 "The move lines are not in a consistent states: they do not share the same "
 "origin or destination company."
 msgstr ""
+"Các dòng di chuyển không ở trong trạng thái nhất quán: chúng không có cùng "
+"nguồn gốc hoặc công ty đích."
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_move_to_refund
 #: model:ir.model.fields,field_description:stock_account.field_stock_return_picking_line_to_refund
 msgid "To Refund (update SO/PO)"
-msgstr ""
+msgstr "Hoàn trả (cập nhật SO/PO)"
 
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.product_valuation_tree
@@ -546,6 +554,8 @@ msgid ""
 "Trigger a decrease of the delivered/received quantity in the associated Sale"
 " Order/Purchase Order"
 msgstr ""
+"Kích hoạt giảm số lượng đã Giao/Nhận được trong Đơn bán/mua hàng được liên "
+"kết"
 
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.view_move_tree_valuation
@@ -706,4 +716,4 @@ msgstr "res.config.settings"
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_return_picking_line
 msgid "stock.return.picking.line"
-msgstr ""
+msgstr "stock.return.picking.line"

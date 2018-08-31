@@ -5,17 +5,15 @@
 # Translators:
 # Martin Trigaux, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
-# Phạm Lân <phamquanglan@gmail.com>, 2017
 # Support W360s <support@w360s.com>, 2017
 # W360S CORP <contact@w360s.com>, 2017
 # Thang Duong Bao <nothingctrl@gmail.com>, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
 # Tuan Tran <tmtuan.projects@gmail.com>, 2017
-# lam nguyen <lamev.inc@gmail.com>, 2017
+# Phạm Lân <phamquanglan@gmail.com>, 2017
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017
 # Dang Hanh <hanh.dtm@komit-consulting.com>, 2017
-# Duy BQ <duybq86@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
@@ -170,7 +168,7 @@ msgstr ""
 "            style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:10px 0;\">\n"
 "        % if ctx.get('subtype') and ctx.get('subtype').internal:\n"
 "        <p style=\"background-color: #f2dede; padding: 5px; margin-bottom: 16px;\">\n"
-"            <strong>Thông tin nội bộ</strong>: Phản hồi lại nội dung này sẽ tạo một ghi chú nội bộ. Những người theo dõi tài liệu tương ứng sẽ Không nhận được thông báo bằng email.\n"
+"            <strong>Thông tin nội bộ</strong>: Phản hồi (Reply) lại nội dung này sẽ tạo một ghi chú nội bộ. Những người theo dõi tài liệu tương ứng sẽ Không nhận được thông báo bằng email.\n"
 "        </p>\n"
 "        % endif\n"
 "    </td>\n"
@@ -194,7 +192,7 @@ msgstr ""
 "% endif\n"
 "<br/>\n"
 "<p style=\"color: #555555;\">\n"
-"    Sent by\n"
+"    Gửi bởi\n"
 "    % if ctx.get('website_url'):\n"
 "    <a href=\"${ctx['website_url']}\" style=\"text-decoration:none; color: #875A7B;\">\n"
 "    % endif\n"
@@ -202,7 +200,7 @@ msgstr ""
 "    % if ctx.get('website_url'):\n"
 "    </a>\n"
 "    % endif\n"
-"    using\n"
+"    sử dụng\n"
 "    <a target=\"_blank\" href=\"https://www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a>.\n"
 "</p>\n"
 "</div>"
@@ -265,7 +263,7 @@ msgstr "%s đã tham gia mạng %s."
 #: code:addons/mail/static/src/xml/client_action.xml:211
 #, python-format
 msgid "&nbsp;("
-msgstr ""
+msgstr "&nbsp;("
 
 #. module: mail
 #. openerp-web
@@ -799,7 +797,7 @@ msgstr "Miền bí danh"
 #: model:ir.model.fields,field_description:mail.field_mail_channel_alias_model_id
 #: model:ir.model.fields,field_description:mail.field_mail_test_alias_model_id
 msgid "Aliased Model"
-msgstr ""
+msgstr "Bí danh Model"
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.action_view_mail_alias
@@ -1785,7 +1783,8 @@ msgstr "Emails"
 #: code:addons/mail/models/update.py:97
 #, python-format
 msgid "Error during communication with the publisher warranty server."
-msgstr "Có lỗi xảy ra khi thông tin liên lạc với máy chủ bảo hành của nhà phát hành."
+msgstr ""
+"Có lỗi xảy ra khi thông tin liên lạc với máy chủ bảo hành của nhà phát hành."
 
 #. module: mail
 #: code:addons/mail/models/mail_mail.py:302
@@ -2490,8 +2489,8 @@ msgid ""
 "If you have setup a catch-all email domain redirected to the Odoo server, "
 "enter the domain name here."
 msgstr ""
-"Nếu bạn đã thiết lập một miền email catch-all chuyển hướng đến Odoo, hãy "
-"nhập tên miền vào đây."
+"Nếu bạn đã thiết lập một miền email catch-all chuyển hướng đến Hệ thống, hãy"
+" nhập tên miền vào đây."
 
 #. module: mail
 #: code:addons/mail/models/mail_alias.py:141
@@ -2971,7 +2970,7 @@ msgstr "Kiểu Hoạt động Thư"
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_channel_view_form
 msgid "Mail Channel Form"
-msgstr ""
+msgstr "Kênh mail từ"
 
 #. module: mail
 #: code:addons/mail/models/mail_mail.py:369
@@ -3110,7 +3109,7 @@ msgstr "Thông điệp"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value_mail_message_id
 msgid "Message ID"
-msgstr ""
+msgstr "ID Thông điệp"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_notification
@@ -3145,7 +3144,7 @@ msgstr "Dẫn chiếu Thông điệp, ví dụ như ID của thông điệp trư
 #: code:addons/mail/static/src/xml/client_action.xml:124
 #, python-format
 msgid "Message sent in \""
-msgstr "Thông điệp được gửi trong \""
+msgstr "Thông điệp được gửi vào \""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_message_subtype_name
@@ -3415,7 +3414,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value_new_value_text
 msgid "New Value Text"
-msgstr ""
+msgstr "Giá trị văn bản mới"
 
 #. module: mail
 #. openerp-web
@@ -3853,7 +3852,7 @@ msgid ""
 "Odoo will not have the permission to send native notifications on this "
 "device."
 msgstr ""
-"Odoo hiện sẽ không có quyền để gửi native notification trên thiết bị này."
+"Odoo sẽ không có quyền để gửi native notification trên thiết bị này."
 
 #. module: mail
 #. openerp-web
@@ -3865,12 +3864,12 @@ msgstr "Ngoại tuyến"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value_old_value_char
 msgid "Old Value Char"
-msgstr ""
+msgstr "Char giá trị cũ"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value_old_value_datetime
 msgid "Old Value DateTime"
-msgstr ""
+msgstr "Giá trị ngày giờ cũ"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value_old_value_float
@@ -3927,7 +3926,7 @@ msgstr "Trực tuyến"
 #: code:addons/mail/models/ir_model.py:22
 #, python-format
 msgid "Only custom models can be modified."
-msgstr ""
+msgstr "Chỉ có thể sửa đổi các model tùy chỉnh."
 
 #. module: mail
 #: selection:mail.channel.partner,fold_state:0
@@ -3963,7 +3962,7 @@ msgstr "Mở chat"
 #: code:addons/mail/static/src/xml/extended_chat_window.xml:15
 #, python-format
 msgid "Open in Discuss"
-msgstr ""
+msgstr "Mở trong Thảo luận"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_partner_opt_out
@@ -4065,7 +4064,7 @@ msgstr "Máy chủ gửi email"
 #: selection:stock.picking,activity_state:0
 #: selection:survey.survey,activity_state:0
 msgid "Overdue"
-msgstr ""
+msgstr "Quá hạn"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_template_form
@@ -4091,7 +4090,7 @@ msgstr "Cấp cha"
 #: model:ir.model.fields,field_description:mail.field_mail_message_parent_id
 #: model:ir.model.fields,field_description:mail.field_survey_mail_compose_message_parent_id
 msgid "Parent Message"
-msgstr ""
+msgstr "Thông điệp cha"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_alias_alias_parent_model_id
@@ -4099,7 +4098,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_mail_channel_alias_parent_model_id
 #: model:ir.model.fields,field_description:mail.field_mail_test_alias_parent_model_id
 msgid "Parent Model"
-msgstr ""
+msgstr "Model cha"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_alias_alias_parent_thread_id
@@ -4247,6 +4246,9 @@ msgid ""
 "- Emails: notifications are sent to your email\n"
 "- Odoo: notifications appear in your Odoo Inbox"
 msgstr ""
+"Chính sách về cách xử lý thông báo Chat:\n"
+"- Emails: thông báo được gửi đến email của bạn\n"
+"- Hệ thống: thông báo xuất hiện trong Hộp thư đến của bạn"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_alias_contact
@@ -4273,7 +4275,7 @@ msgstr "Được hỗ trợ bởi"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_type_previous_type_ids
 msgid "Preceding Activities"
-msgstr ""
+msgstr "Hoạt động Liền trước"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_template_form
@@ -4327,7 +4329,7 @@ msgstr "Kênh Công cộng"
 #: model:ir.cron,cron_name:mail.ir_cron_module_update_notification
 #: model:ir.cron,name:mail.ir_cron_module_update_notification
 msgid "Publisher: Update Notification"
-msgstr ""
+msgstr "Nhà xuất bản: Cập nhật thông báo"
 
 #. module: mail
 #: code:addons/mail/wizard/mail_compose_message.py:179
@@ -4410,7 +4412,7 @@ msgstr "Đối tượng Tài liệu liên quan"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_followers_res_model
 msgid "Related Document Model Name"
-msgstr ""
+msgstr "Tên Model tài liệu liên quan"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_mail_tracking_value_form
@@ -4431,6 +4433,7 @@ msgstr "Trường Quan hệ"
 #: model:ir.ui.view,arch_db:mail.email_template_form
 msgid "Remove the contextual action to use this template on related documents"
 msgstr ""
+"Xóa hành động theo ngữ cảnh để sử dụng mẫu này trên các tài liệu liên quan"
 
 #. module: mail
 #. openerp-web
@@ -4467,7 +4470,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_mail_template_reply_to
 #: model:ir.model.fields,field_description:mail.field_survey_mail_compose_message_reply_to
 msgid "Reply-To"
-msgstr ""
+msgstr "Trả lời Đến"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_report_name
@@ -4711,7 +4714,7 @@ msgstr "Phím tắt"
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_search
 #: model:ir.ui.view,arch_db:mail.res_partner_view_search_inherit_mail
 msgid "Show all records which has next action date is before today"
-msgstr ""
+msgstr "Hiển thị tất cả dữ liệu có ngày xử lý tiếp theo mà trước ngày hôm nay"
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:667
@@ -4847,6 +4850,10 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Trạng thái dựa trên hoạt động\n"
+"Quá hạn: Ngày đến hạn phải được chuyển\n"
+"Hôm nay: Hôm nay là ngày phải thực hiện\n"
+"Kế hoạch: Các hoạt động trong tương lai."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_sub_model_object_field
@@ -5112,7 +5119,7 @@ msgstr "Hôm nay"
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_search
 #: model:ir.ui.view,arch_db:mail.res_partner_view_search_inherit_mail
 msgid "Today Activities"
-msgstr ""
+msgstr "Hoạt động Hôm nay"
 
 #. module: mail
 #: model:mail.activity.type,name:mail.mail_activity_data_todo
@@ -5124,7 +5131,7 @@ msgstr "Cần làm"
 #: code:addons/mail/static/src/js/activity.js:36
 #, python-format
 msgid "Tomorrow"
-msgstr ""
+msgstr "Ngày mai"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_channel_view_form
@@ -5211,7 +5218,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_shortcode_unicode_source
 msgid "Unicode Character"
-msgstr ""
+msgstr "Ký tự Unicode"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_account_analytic_account_message_unread
@@ -5378,7 +5385,7 @@ msgstr "Ngừng nhận cập nhật từ kênh"
 #: code:addons/mail/models/mail_template.py:510
 #, python-format
 msgid "Unsupported report type %s found."
-msgstr ""
+msgstr "Kiểu loại báo cáo %s không được hỗ trợ."
 
 #. module: mail
 #. openerp-web
@@ -5501,7 +5508,8 @@ msgstr ""
 msgid ""
 "When set, every modification to this field will be tracked in the chatter."
 msgstr ""
-"Khi thiết lập, mọi sửa đổi đối với lĩnh vực này sẽ được theo dõi trong cuộc nói chuyện"
+"Khi thiết lập, mọi sửa đổi đối với trường này sẽ được theo dõi trong khu vực "
+"chatter."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message_is_log

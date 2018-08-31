@@ -3,8 +3,9 @@
 # * website_event
 #
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
+# Martin Trigaux, 2017
 # Tuan Tran <tmtuan.projects@gmail.com>, 2017
 msgid ""
 msgstr ""
@@ -600,7 +601,7 @@ msgstr "Trang chủ Website"
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.event_event_view_form_inherit_website
 msgid "Website Menu"
-msgstr ""
+msgstr "Trình đơn Website"
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.event_description_full

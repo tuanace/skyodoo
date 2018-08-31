@@ -1224,6 +1224,8 @@ msgid ""
 "Invoices will be created in draft so that you can review\n"
 "                        them before validation."
 msgstr ""
+"Фактурите ще бъдат създадени в чернова, така че да можете да ги преглеждате\n"
+"                        преди валидирането им."
 
 #. module: sale
 #: code:addons/sale/models/sales_team.py:96
@@ -1421,7 +1423,7 @@ msgstr "Мои поръчки"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sales_order_line_filter
 msgid "My Sales Order Lines"
-msgstr ""
+msgstr "Моите редове на поръчки за продажби"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_layout_category_name
@@ -1485,6 +1487,8 @@ msgid ""
 "Number of days between the order confirmation and the shipping of the "
 "products to the customer"
 msgstr ""
+"Брой дни между потвърждаването на поръчката и шипинга на продуктите до "
+"клиента"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_crm_team_quotations_count
@@ -1623,6 +1627,8 @@ msgid ""
 "Ordered Quantity: Invoice based on the quantity the customer ordered.\n"
 "Delivered Quantity: Invoiced based on the quantity the vendor delivered (time or deliveries)."
 msgstr ""
+"Поръчано количество: Фактура въз основа на количеството, поръчано от клиента.\n"
+"Доставено количество: Фактурирано въз основа на количеството, доставено от доставчика (време или доставки)."
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_product_search
@@ -1997,6 +2003,8 @@ msgstr "Означение"
 #: model:ir.model.fields,help:sale.field_sale_order_origin
 msgid "Reference of the document that generated this sales order request."
 msgstr ""
+"Референция към документа, който създаде това запитване за поръчка за "
+"продажби."
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.report_configuration_action
@@ -2078,7 +2086,7 @@ msgstr ""
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
 msgid "Sales Information"
-msgstr ""
+msgstr "Информация за продажбите"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_partner_sale_order_ids
@@ -2538,6 +2546,8 @@ msgid ""
 "There is no income account defined for this product: \"%s\". You may have to"
 " install a chart of account from Accounting app, settings menu."
 msgstr ""
+"Няма входяща сметка, определена за този продукт: \"%s\". Може да се наложи "
+"да инсталирате сметкоплан от счетоводното приложение, менюто с настройки."
 
 #. module: sale
 #: code:addons/sale/models/sale.py:430 code:addons/sale/models/sale.py:434
@@ -2571,6 +2581,12 @@ msgid ""
 "having invoiced yet. If you want to analyse your turnover, you should use "
 "the Invoice Analysis report in the Accounting application."
 msgstr ""
+"Този отчет извършва анализ на Вашите оферти и поръчки за продажба. Анализът "
+"проверява приходите Ви от продяжби и ги сортира според различни групови "
+"критерии (продавач, контрагент, продукт и т.н.) Използвайте този отчет, за "
+"да извършите анализ на продажбите, които все още не са фактурирани. Ако "
+"желаете да анализирате оборота си, трябва да изпълзвате отчета за анализ на "
+"фактурите в счетоводното приложение."
 
 #. module: sale
 #: model:ir.actions.act_window,help:sale.action_order_report_quotation_salesteam
@@ -2581,6 +2597,12 @@ msgid ""
 "invoiced yet. If you want to analyse your turnover, you should use the "
 "Invoice Analysis report in the Accounting application."
 msgstr ""
+"Този отчет извършва анализ на Вашите оферти. Анализът проверява приходите Ви"
+" от продяжби и ги сортира според различни групови критерии (продавач, "
+"контрагент, продукт и т.н.) Използвайте този отчет, за да извършите анализ "
+"на продажбите, които все още не са фактурирани. Ако желаете да анализирате "
+"оборота си, трябва да изпълзвате отчета за анализ на фактурите в "
+"счетоводното приложение."
 
 #. module: sale
 #: model:ir.actions.act_window,help:sale.action_order_report_so_salesteam
@@ -2591,6 +2613,12 @@ msgid ""
 "invoiced yet. If you want to analyse your turnover, you should use the "
 "Invoice Analysis report in the Accounting application."
 msgstr ""
+"Този отчет извършва анализ на Вашите поръчки за продажби. Анализът проверява"
+" приходите Ви от продяжби и ги сортира според различни групови критерии "
+"(продавач, контрагент, продукт и т.н.) Използвайте този отчет, за да "
+"извършите анализ на продажбите, които все още не са фактурирани. Ако желаете"
+" да анализирате оборота си, трябва да изпълзвате отчета за анализ на "
+"фактурите в счетоводното приложение."
 
 #. module: sale
 #: selection:product.template,service_type:0

@@ -1,16 +1,15 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * point_of_sale
-# 
+#
 # Translators:
+# Duy BQ <duybq86@gmail.com>, 2017
 # Martin Trigaux, 2017
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
 # lam nguyen <lamev.inc@gmail.com>, 2017
 # file aio <fileaio@gmail.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
-# Su Pham Nghiep Vu <nghiepvusupham58@gmail.com>, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
 # Minh Nguyen <minh@kiuasia.com>, 2017
 # trieu le <trieu.lth@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
@@ -24,10 +23,10 @@ msgstr ""
 "PO-Revision-Date: 2018-01-08 10:30+0000\n"
 "Last-Translator: Tri Bui <tribd@trobz.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: point_of_sale
@@ -169,7 +168,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
 msgid "<span class=\"pos-change_title\">Change</span>"
-msgstr ""
+msgstr "<span class=\"pos-change_title\">Thối lại</span>"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
@@ -411,8 +410,9 @@ msgid ""
 "the Sales Journal set on this point of sale if you use the Accounting "
 "application."
 msgstr ""
-"Tất cả các bảng giá khả dụng cho PoS phải có cùng tiền tệ với tiền tệ của công ty hoặc "
-"Sổ Nhật ký Bán hàng của PoS này nếu hệ thống của bạn bạn cài phân hệ kế toán."
+"Tất cả các bảng giá khả dụng cho PoS phải có cùng tiền tệ với tiền tệ của "
+"công ty hoặc Sổ Nhật ký Bán hàng của PoS này nếu hệ thống của bạn bạn cài "
+"phân hệ kế toán."
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_config.py:243
@@ -421,8 +421,8 @@ msgid ""
 "All payment methods must be in the same currency as the Sales Journal or the"
 " company currency if that is not set."
 msgstr ""
-"Tất cả các phương thức thanh toán phải được thiết lập cùng tiền tệ với Sổ Nhật "
-"ký Bán hàng hoặc Công ty nếu chưa thiết lập sổ."
+"Tất cả các phương thức thanh toán phải được thiết lập cùng tiền tệ với Sổ "
+"Nhật ký Bán hàng hoặc Công ty nếu chưa thiết lập sổ."
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_all_sales_lines
@@ -501,7 +501,9 @@ msgstr "Thuộc tính"
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_session_rescue
 msgid "Auto-generated session for orphan orders, ignored in constraints"
-msgstr "Phiên được sinh tự động cho các đơn bán mồ côi (không thuộc phiên nào), bị bỏ qua ràng buộc"
+msgstr ""
+"Phiên được sinh tự động cho các đơn bán mồ côi (không thuộc phiên nào), bị "
+"bỏ qua trong các ràng buộc"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_iface_print_auto
@@ -776,8 +778,7 @@ msgstr "Tiền thừa:"
 #: model:ir.model.fields,help:point_of_sale.field_product_template_to_weight
 msgid ""
 "Check if the product should be weighted using the hardware scale integration"
-msgstr ""
-"Đánh dấu nếu sản phẩm sẽ được cân sử dụng tính năng tích hợp với cân"
+msgstr "Đánh dấu nếu sản phẩm sẽ được cân sử dụng tính năng tích hợp với cân"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_product_product_available_in_pos
@@ -791,7 +792,8 @@ msgstr "Đánh dấu nếu bạn muốn sản phẩm này xuất hiện ở đi�
 msgid ""
 "Check if you want to group products of this category in point of sale orders"
 msgstr ""
-"Đánh dấu nếu bạn muốn nhóm các sản phẩm của nhóm này ở các đơn bán ở điểm bán lẻ"
+"Đánh dấu nếu bạn muốn nhóm các sản phẩm của nhóm này ở các đơn bán ở điểm "
+"bán lẻ"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_cash_control
@@ -813,7 +815,8 @@ msgid ""
 "Check this if you want to group the Journal Items by Product while closing a"
 " Session."
 msgstr ""
-"Đánh dấu nếu bạn muốn nhóm các Phát sinh Kế toán theo Sản phẩm trong khi đóng phiên."
+"Đánh dấu nếu bạn muốn nhóm các Phát sinh Kế toán theo Sản phẩm trong khi "
+"đóng phiên."
 
 #. module: point_of_sale
 #. openerp-web
@@ -838,8 +841,8 @@ msgid ""
 "Choose a specific tax regime at the order depending on the kind of customer "
 "(tax exempt, onsite vs. takeaway, etc.)."
 msgstr ""
-"Chọn một chế độ thuế đặc thù cho đơn bán tuỳ thuộc vào kiểu khách hàng "
-"(miễn thuế, )."
+"Chọn một chế độ thuế đặc thù cho đơn bán tuỳ thuộc vào kiểu khách hàng (miễn"
+" thuế, )."
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -1088,7 +1091,7 @@ msgstr ""
 #: code:addons/point_of_sale/models/pos_order.py:537
 #, python-format
 msgid "Customer Invoice"
-msgstr "hoá đơn khách hàng"
+msgstr "Hoá đơn khách hàng"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_customer_facing_display_html
@@ -1319,8 +1322,8 @@ msgid ""
 "Don't turn this option on if you take orders on smartphones or tablets. Such"
 " devices already benefit from a native keyboard."
 msgstr ""
-"Đừng bật tính năng này nếu bạn định đặt hàng trên smartphone hoặc máy tính bảng. Các"
-" thiết bị như vậy đã có bàn phím rồi."
+"Đừng bật tính năng này nếu bạn định đặt hàng trên smartphone hoặc máy tính "
+"bảng. Các thiết bị như vậy đã có bàn phím rồi."
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_order_filter
@@ -1703,7 +1706,9 @@ msgstr "Nhập Đơn bán"
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "Improve navigation for imprecise industrial touchscreens"
-msgstr "Cải tiện việc điều hướng đối với các màn hình cảm ứng công nghiệp thiếu chính xác"
+msgstr ""
+"Cải tiện việc điều hướng đối với các màn hình cảm ứng công nghiệp thiếu tính"
+" chính xác"
 
 #. module: point_of_sale
 #: model:product.product,name:point_of_sale.tomate_en_grappe
@@ -2009,6 +2014,8 @@ msgid ""
 "128x128px image, with aspect ratio preserved. Use this field in form views "
 "or some kanban views."
 msgstr ""
+"Hình cỡ trung của nhóm. Nó sẽ tự động được thu về kích thước 128x128px và "
+"giữ nguyên tỷ lệ. Use this field in form views or some kanban views."
 
 #. module: point_of_sale
 #. openerp-web
@@ -2141,7 +2148,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/js/chrome.js:401
 #, python-format
 msgid "Offline"
-msgstr ""
+msgstr "Ngoại tuyến"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3102,7 +3109,7 @@ msgstr "Sổ nhật ký Bán hàng"
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
 msgid "Sales Orders"
-msgstr "Đơn hàng Bán"
+msgstr "Đơn Bán"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_user_id
@@ -3367,6 +3374,8 @@ msgid ""
 "image, with aspect ratio preserved. Use this field anywhere a small image is"
 " required."
 msgstr ""
+"Hình cỡ nhỏ của nhóm. Hình được tự động thu nhỏ về kích thước 64x64px, (giữ "
+"nguyên tỉ lệ). Sử dụng trường này bất cứ nơi nào bạn cần có hình nhỏ."
 
 #. module: point_of_sale
 #. openerp-web
@@ -3651,8 +3660,8 @@ msgid ""
 "The invoice journal must be in the same currency as the Sales Journal or the"
 " company currency if that is not set."
 msgstr ""
-"Sổ nhật ký hoá đơn phải cùng tiền tệ với sổ nhật ký bán hàng hoặc tiện tệ công ty "
-"nếu chưa thiết lập sổ nhật ký bán hàng."
+"Sổ nhật ký hoá đơn phải cùng tiền tệ với sổ nhật ký bán hàng hoặc tiện tệ "
+"công ty nếu chưa thiết lập sổ nhật ký bán hàng."
 
 #. module: point_of_sale
 #: sql_constraint:pos.session:0
@@ -3895,7 +3904,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_tip_product_id
 msgid "This product is used as reference on customer receipts."
-msgstr ""
+msgstr "Sản phẩm này được sử dụng như một dẫn chiếu trên biên lai khách hàng."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_sequence_line_id
@@ -3935,7 +3944,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_tip_product_id
 msgid "Tip Product"
-msgstr ""
+msgstr "Sản phẩm Típ"
 
 #. module: point_of_sale
 #: model:product.product,name:point_of_sale.product_product_tip
@@ -4188,7 +4197,7 @@ msgstr ""
 #: code:addons/point_of_sale/models/barcode_rule.py:12
 #, python-format
 msgid "Weighted Product"
-msgstr ""
+msgstr "Sản phẩm được Cân"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -4231,6 +4240,8 @@ msgid ""
 "You cannot change the partner of a POS order for which an invoice has "
 "already been issued."
 msgstr ""
+"Bạn không được thay đổi đối tác trên đơn hàng ở Điểm bán lẻ (PoS) mà đã xuất"
+" hoá đơn."
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_session.py:33
@@ -4245,6 +4256,7 @@ msgstr ""
 #, python-format
 msgid "You cannot create two active sessions with the same responsible!"
 msgstr ""
+"Bạn không thể tạo hai phiên làm việc cho cùng một người chịu trách nhiệm!"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/product.py:21
@@ -4253,6 +4265,8 @@ msgid ""
 "You cannot delete a product saleable in point of sale while a session is "
 "still opened."
 msgstr ""
+"Bạn không được xoá một sản phẩm bán được ở Điểm bán lẻ (PoS) khi mà có tồn "
+"tại một phiên chưa đóng."
 
 #. module: point_of_sale
 #. openerp-web
@@ -4335,7 +4349,9 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/js/screens.js:2006
 #, python-format
 msgid "You need to select the customer before you can invoice an order."
-msgstr "Bạn cần phải chọn một khách hàng trước khi bạn có thể xuất hoá đơn cho một đơn bán."
+msgstr ""
+"Bạn cần phải chọn một khách hàng trước khi bạn có thể xuất hoá đơn cho một "
+"đơn bán."
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_session.py:166
@@ -4399,7 +4415,7 @@ msgstr "ở"
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_barcode_rule
 msgid "barcode.rule"
-msgstr ""
+msgstr "barcode.rule"
 
 #. module: point_of_sale
 #. openerp-web

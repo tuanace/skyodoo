@@ -3,21 +3,20 @@
 # * web
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
-# Thang Duong Bao <nothingctrl@gmail.com>, 2017
+# Martin Trigaux, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
+# Thang Duong Bao <nothingctrl@gmail.com>, 2017
 # lam nguyen <lamev.inc@gmail.com>, 2017
 # Tuan Tran <tmtuan.projects@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
-# Nguyễn Hồng Quân <ng.hong.quan@gmail.com>, 2017
-# DuyBQ <duybq86@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-09 10:16+0000\n"
 "PO-Revision-Date: 2018-01-09 10:16+0000\n"
-"Last-Translator: Nguyễn Hồng Quân <ng.hong.quan@gmail.com>, 2017\n"
+"Last-Translator: son dang <son.dang@doda100.com>, 2017\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -221,7 +220,7 @@ msgstr "(không nhãn)"
 #: code:addons/web/static/src/js/fields/field_utils.js:244
 #, python-format
 msgid "1 record"
-msgstr "1 bảng ghi"
+msgstr "1 bản ghi"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
@@ -551,8 +550,8 @@ msgid ""
 "Binary fields can not be exported to Excel unless their content is "
 "base64-encoded. That does not seem to be the case for %s."
 msgstr ""
-"Trường Nhị phân không thể xuất ra Excel trừ phi nội dung của nó được "
-"mã hoá base64 (base64-encoded). Đó dường như không phải tình huống cho %s "
+"Trường Nhị phân không thể xuất ra Excel trừ phi nội dung của nó được mã hoá "
+"base64 (base64-encoded). Đó dường như không phải tình huống %s "
 
 #. module: web
 #. openerp-web
@@ -650,7 +649,7 @@ msgstr "Làm sạch"
 #: code:addons/web/static/src/xml/base.xml:228
 #, python-format
 msgid "Clear Events"
-msgstr ""
+msgstr "Xóa các sự kiện"
 
 #. module: web
 #. openerp-web
@@ -734,7 +733,7 @@ msgstr "Đã sao chép!"
 #: code:addons/web/static/src/xml/base.xml:144
 #, python-format
 msgid "Copy the full error to clipboard"
-msgstr "Sao chép báo cáo lỗi đầy đủ vào clipboard"
+msgstr "Sao chép đầy đủ báo cáo lỗi vào clipboard"
 
 #. module: web
 #. openerp-web
@@ -916,7 +915,7 @@ msgstr "Hủy bỏ"
 #: code:addons/web/static/src/js/widgets/data_export.js:336
 #, python-format
 msgid "Do you really want to delete this export template?"
-msgstr ""
+msgstr "Bạn có thực sự muốn xóa mẫu xuất này không?"
 
 #. module: web
 #. openerp-web
@@ -1400,6 +1399,8 @@ msgid ""
 "Invalid database name. Only alphanumerical characters, underscore, hyphen "
 "and dot are allowed."
 msgstr ""
+"Tên cơ sở dữ liệu không hợp lệ. Chỉ cho phép các ký tự chữ và số, dấu gạch "
+"dưới, gạch nối và dấu chấm."
 
 #. module: web
 #. openerp-web
@@ -1555,7 +1556,7 @@ msgstr "Quản lý các bộ lọc"
 #: code:addons/web/static/src/xml/base.xml:634
 #, python-format
 msgid "Match"
-msgstr ""
+msgstr "Khớp"
 
 #. module: web
 #. openerp-web
@@ -1569,7 +1570,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:639
 #, python-format
 msgid "Match records with the following rule:"
-msgstr ""
+msgstr "Khớp các bản ghi với quy tắc sau:"
 
 #. module: web
 #. openerp-web
@@ -1768,7 +1769,7 @@ msgstr "Không có metadata nào"
 #: code:addons/web/static/src/js/fields/field_utils.js:242
 #, python-format
 msgid "No records"
-msgstr "Không có bảng ghi"
+msgstr "Không có bản ghi"
 
 #. module: web
 #. openerp-web
@@ -1904,7 +1905,8 @@ msgstr "Chỉ có giá trị số nguyên có thể hợp lệ."
 msgid ""
 "Only employee can access this database. Please contact the administrator."
 msgstr ""
-"Chỉ nhân viên mới có thể truy cập cơ sở dữ liệu này. Vui lòng liên lạc với quản trị viên."
+"Chỉ nhân viên mới có thể truy cập cơ sở dữ liệu này. Vui lòng liên lạc với "
+"quản trị viên."
 
 #. module: web
 #. openerp-web
@@ -1961,7 +1963,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:web.external_layout_boxed
 #: model:ir.ui.view,arch_db:web.external_layout_standard
 msgid "Page: <span class=\"page\"/> / <span class=\"topage\"/>"
-msgstr ""
+msgstr "Trang: <span class=\"page\"/>/<span class=\"topage\"/>"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login
@@ -2062,7 +2064,8 @@ msgstr "Hãy chọn các trường để lưu danh mục xuất"
 msgid ""
 "Please use the copy button to report the error to your support service."
 msgstr ""
-"Vui lòng sử dụng nút Sao chép để báo cáo lỗi đến nhà cung cấp dịch vụ của bạn."
+"Vui lòng sử dụng nút Sao chép để báo cáo lỗi đến nhà cung cấp dịch vụ của "
+"bạn."
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
@@ -2111,7 +2114,7 @@ msgstr "Quý"
 #: code:addons/web/static/src/js/widgets/model_field_selector.js:455
 #, python-format
 msgid "Relation not allowed"
-msgstr ""
+msgstr "Quan hệ không được phép"
 
 #. module: web
 #. openerp-web
@@ -2173,15 +2176,15 @@ msgstr "Khôi phục các bản ghi"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:223
 #, python-format
-msgid "Chạy kiểm tra JS điện thoại"
-msgstr ""
+msgid "Run JS Mobile Tests"
+msgstr "Chạy Kiểm thử Mobile JS"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:222
 #, python-format
-msgid "Chạy kiểm tra JS"
-msgstr ""
+msgid "Run JS Tests"
+msgstr "Chạy Kiểm thử JS"
 
 #. module: web
 #. openerp-web
@@ -2460,7 +2463,7 @@ msgstr "Điện thoại:"
 #: code:addons/web/static/src/js/widgets/domain_selector.js:567
 #, python-format
 msgid "The domain you entered is not properly formed"
-msgstr ""
+msgstr "Miền bạn đã nhập không được định dạng đúng"
 
 #. module: web
 #. openerp-web
@@ -2506,8 +2509,8 @@ msgid ""
 "The record has been modified, your changes will be discarded. Do you want to"
 " proceed?"
 msgstr ""
-"Bản ghi đã được sửa đổi, các thay đổi của bạn sẽ bị mất. Bạn có muốn tiếp"
-" tục?"
+"Bản ghi đã được sửa đổi, các thay đổi của bạn sẽ bị mất. Bạn có muốn tiếp "
+"tục?"
 
 #. module: web
 #. openerp-web
@@ -2534,6 +2537,8 @@ msgid ""
 "There are too many rows (%s rows, limit: 65535) to export as Excel 97-2003 "
 "(.xls) format. Consider splitting the export."
 msgstr ""
+"Có quá nhiều hàng (%shàng, giới hạn: 65.535) để xuất dưới dạng định dạng "
+"Excel 97-2003 (.xls). Cân nhắc việc tách xuất."
 
 #. module: web
 #. openerp-web
@@ -2658,6 +2663,9 @@ msgid ""
 "system. The report will be shown in html.<br><br><a href=\"http://wkhtmltopdf.org/\" target=\"_blank\">\n"
 "wkhtmltopdf.org</a>"
 msgstr ""
+"Không thể tìm thấy Wkhtmltopdf trong\n"
+"hệ thống này. Báo cáo sẽ được hiển thị bằng html.<br><br><a href=\"http://wkhtmltopdf.org/\" target=\"_blank\">\n"
+"wkhtmltopdf.org"
 
 #. module: web
 #. openerp-web
@@ -2805,12 +2813,12 @@ msgstr ""
 #. module: web
 #: model:ir.ui.view,arch_db:web.qunit_mobile_suite
 msgid "Web Mobile Tests"
-msgstr ""
+msgstr "Kiểm tra Web Mobile"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.qunit_suite
 msgid "Web Tests"
-msgstr ""
+msgstr "Kiểm tra Web"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.external_layout_boxed
@@ -2933,6 +2941,8 @@ msgid ""
 "You need to start OpenERP with at least two \n"
 "workers to print a pdf version of the reports."
 msgstr ""
+"Bạn cần bắt đầu Hệ thống với ít nhất hai\n"
+"công nhân để in phiên bản pdf của báo cáo."
 
 #. module: web
 #. openerp-web
@@ -2944,6 +2954,10 @@ msgid ""
 "support for table-breaking between pages.<br><br><a href=\"http://wkhtmltopdf.org/\" \n"
 "target=\"_blank\">wkhtmltopdf.org</a>"
 msgstr ""
+"Bạn nên nâng cấp phiên bản của Wkhtmltopdf\n"
+"đến ít nhất 0.12.0 để hiển thị chính xác các đầu trang và chân trang cũng như\n"
+"hỗ trợ cho việc liên kết bảng giữa các trang. <br><br><a href=\"http://wkhtmltopdf.org/\" \n"
+"target=\"_blank\">wkhtmltopdf.org</a>"
 
 #. module: web
 #. openerp-web
@@ -3014,7 +3028,7 @@ msgstr "khoảng một giờ trước"
 #: code:addons/web/static/src/xml/base.xml:634
 #, python-format
 msgid "all records"
-msgstr ""
+msgstr "tất cả bản ghi"
 
 #. module: web
 #: model:ir.model,name:web.model_base
@@ -3246,14 +3260,14 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:643
 #, python-format
 msgid "of the following rules:"
-msgstr ""
+msgstr "của các quy tắc sau:"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:658
 #, python-format
 msgid "of:"
-msgstr ""
+msgstr "của:"
 
 #. module: web
 #. openerp-web
@@ -3268,7 +3282,7 @@ msgstr "hoặc"
 #: code:addons/web/static/src/js/widgets/domain_selector.js:29
 #, python-format
 msgid "parent of"
-msgstr ""
+msgstr "cấp cha của"
 
 #. module: web
 #. openerp-web
@@ -3282,7 +3296,7 @@ msgstr "bản ghi"
 #: code:addons/web/static/src/xml/kanban.xml:41
 #, python-format
 msgid "remaining)"
-msgstr ""
+msgstr "còn lại)"
 
 #. module: web
 #. openerp-web

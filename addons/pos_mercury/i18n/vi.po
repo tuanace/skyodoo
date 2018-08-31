@@ -6,7 +6,7 @@
 # Phạm Lân <phamquanglan@gmail.com>, 2017
 # Martin Trigaux, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
 msgid ""
@@ -331,7 +331,7 @@ msgstr ""
 #. module: pos_mercury
 #: model:ir.model,name:pos_mercury.model_pos_order
 msgid "Point of Sale Orders"
-msgstr ""
+msgstr "Đơn hàng PoS"
 
 #. module: pos_mercury
 #. openerp-web
@@ -447,7 +447,7 @@ msgstr ""
 #. module: pos_mercury
 #: model:ir.model,name:pos_mercury.model_barcode_rule
 msgid "barcode.rule"
-msgstr ""
+msgstr "barcode.rule"
 
 #. module: pos_mercury
 #: model:ir.model,name:pos_mercury.model_ir_autovacuum

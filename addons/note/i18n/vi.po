@@ -6,21 +6,18 @@
 # Martin Trigaux, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
 # Tuan Tran <tmtuan.projects@gmail.com>, 2017
-# son dang <son.dang@doda100.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
-# lam nguyen <lamev.inc@gmail.com>, 2017
+# son dang <son.dang@doda100.com>, 2017
 # Thang Duong Bao <nothingctrl@gmail.com>, 2017
-# Binh Lam <ltb0374@gmail.com>, 2017
-# DuyBQ <duybq86@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
-"Last-Translator: Binh Lam <ltb0374@gmail.com>, 2017\n"
+"Last-Translator: Thang Duong Bao <nothingctrl@gmail.com>, 2017\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -215,7 +212,8 @@ msgstr "Trình tự"
 #. module: note
 #: model:ir.ui.view,arch_db:note.view_note_note_filter
 msgid "Show all records which has next action date is before today"
-msgstr "Hiển thị tất cả hồ sơ có ngày hành động tiếp theo là trước ngày hôm nay"
+msgstr ""
+"Hiển thị tất cả các bản ghi mà có ngày hành động kế tiếp trước ngày hôm nay"
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note_stage_id
@@ -300,6 +298,13 @@ msgid ""
 "            on the note. (Useful for meeting minutes, especially if\n"
 "            you activate the pad feature for collaborative writings)."
 msgstr ""
+"Sử dụng các ghi chú để tổ chức các nhiệm vụ cá nhận hay đơn giản là để ghi chú.\n"
+"            Tât cả các ghi chú mà bạn tạo thì đều mang tính riêng tư; không ai\n"
+"            có thể nhìn thấy chúng. Tuy nhiên, bạn cũng có thể chia sẻ một số\n"
+"            ghi chú của bạn với những người khác bằng cách mời họ theo dõi ghi chú.\n"
+"            (Thường hữu ích cho việc ghi nhận biên bản/nội dung họp, đặc biệt hữu\n"
+"            ích nếu bạn kích hoạt tính năng pad để viết cộng tác (nhiều người cùng\n"
+"            đồng thời)"
 
 #. module: note
 #: model:ir.model.fields,help:note.field_note_stage_sequence

@@ -11,10 +11,10 @@ msgstr ""
 "PO-Revision-Date: 2015-12-29 08:18+0000\n"
 "Last-Translator: Martin Trigaux\n"
 "Language-Team: Vietnamese (http://www.transifex.com/odoo/odoo-9/language/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: l10n_be_intrastat
@@ -294,12 +294,12 @@ msgstr ""
 #. module: l10n_be_intrastat
 #: model:ir.model,name:l10n_be_intrastat.model_account_invoice
 msgid "Invoice"
-msgstr "hoá đơn"
+msgstr "Hoá đơn"
 
 #. module: l10n_be_intrastat
 #: model:ir.model,name:l10n_be_intrastat.model_account_invoice_line
 msgid "Invoice Line"
-msgstr ""
+msgstr "Chi tiết hoá đơn"
 
 #. module: l10n_be_intrastat
 #: selection:l10n_be_intrastat_xml.xml_decl,month:0

@@ -4,9 +4,8 @@
 #
 # Translators:
 # fanha99 <fanha99@hotmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
-# Tuan Tran <tmtuan.projects@gmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
+# Martin Trigaux, 2017
 # son dang <son.dang@doda100.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
 msgid ""
@@ -209,7 +208,7 @@ msgstr "Hội thoại"
 #: code:addons/im_livechat/static/src/js/copy_clipboard.js:32
 #, python-format
 msgid "Copied !"
-msgstr ""
+msgstr "Đã sao chép!"
 
 #. module: im_livechat
 #. openerp-web
@@ -279,7 +278,7 @@ msgstr "Ngày tạo (năm)"
 #: model:ir.actions.act_window,name:im_livechat.rating_rating_action_livechat_report
 #: model:ir.ui.menu,name:im_livechat.rating_rating_menu_livechat
 msgid "Customer Ratings"
-msgstr ""
+msgstr "Khách hàng xếp hạng"
 
 #. module: im_livechat
 #: model:ir.actions.act_window,help:im_livechat.rating_rating_action_livechat_report
@@ -485,7 +484,7 @@ msgstr "Rời Kênh"
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_mail_channel_partner
 msgid "Listeners of a Channel"
-msgstr ""
+msgstr "Người nhận thông điệp của kênh"
 
 #. module: im_livechat
 #: model:ir.ui.menu,name:im_livechat.menu_livechat_root
@@ -770,6 +769,9 @@ msgid ""
 "image, with aspect ratio preserved. Use this field anywhere a small image is"
 " required."
 msgstr ""
+"Hình cỡ nhỏ đại diện cho nhóm. Hình sẽ tự động được đưa về kích thước "
+"64x64px và giữ nguyên tỷ lệ. Sử dụng trường này bất cứ đâu có yêu cầu hình "
+"nhỏ."
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel_start_date
@@ -829,6 +831,8 @@ msgid ""
 "This field holds the image used as photo for the group, limited to "
 "1024x1024px."
 msgstr ""
+"Trường này chứa hình được sử dụng đại diện cho nhóm, giới hạn tối đa "
+"1024x1024px."
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_default_message

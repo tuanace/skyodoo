@@ -7,29 +7,26 @@
 # lam nguyen <lamev.inc@gmail.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
 # Su Pham Nghiep Vu <nghiepvusupham58@gmail.com>, 2017
-# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2017
-# Tuan Tran <tmtuan.projects@gmail.com>, 2017
+# Hoang Loc Le Huu <loclhh@gmail.com>, 2017
 # son dang <son.dang@doda100.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
-# Thang Duong Bao <nothingctrl@gmail.com>, 2017
-# Binh Lam <ltb0374@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-20 09:54+0000\n"
-"PO-Revision-Date: 2017-09-20 09:54+0000\n"
-"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
+"POT-Creation-Date: 2018-07-27 11:56+0000\n"
+"PO-Revision-Date: 2018-07-27 11:56+0000\n"
+"Last-Translator: Phạm Lân <phamquanglan@gmail.com>, 2017\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: fleet
-#: code:addons/fleet/models/fleet_vehicle.py:198
+#: code:addons/fleet/models/fleet_vehicle.py:199
 #, python-format
 msgid "%s %s has been added to the fleet!"
 msgstr "%s %s đã được thêm vào đội!"
@@ -177,7 +174,7 @@ msgstr "Thay thế đĩa phanh"
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_vehicle_model_brand
 msgid "Brand of the vehicle"
-msgstr ""
+msgstr "Nhãn hiệu của phương tiện"
 
 #. module: fleet
 #: model:fleet.vehicle.tag,name:fleet.vehicle_tag_break
@@ -501,6 +498,9 @@ msgid ""
 "Costs paid at regular intervals, depending on the cost frequency. If the "
 "cost frequency is set to unique, the cost will be logged at the start date"
 msgstr ""
+"Các chi phí được thanh toán theo các khoảng thời gian nhất định, phụ thuộc "
+"vào tần suất của chi phí. Nếu tần suất của chi phí được thiết lập mang tính "
+"duy nhất, chi phí sẽ được ghi nhật ký vào ngày bắt đầu"
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
@@ -635,7 +635,7 @@ msgid "Driver of the vehicle"
 msgstr "Người điểu khiển (lái chính) chính của phương tiện này"
 
 #. module: fleet
-#: code:addons/fleet/models/fleet_vehicle.py:216
+#: code:addons/fleet/models/fleet_vehicle.py:217
 #, python-format
 msgid "Driver: from '%s' to '%s'"
 msgstr "Lái xe: từ '%s' đến '%s'"
@@ -712,7 +712,7 @@ msgstr ""
 #: selection:fleet.vehicle.log.contract,state:0
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search
 msgid "Expired"
-msgstr ""
+msgstr "Hết hạn"
 
 #. module: fleet
 #: selection:fleet.vehicle.log.contract,state:0
@@ -898,10 +898,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_id
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_id
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_id
-#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand_id_3068
-#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_id_3057
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand_id_3082
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_id_3071
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer_id
-#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state_id_2903
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state_id_2917
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_id
 msgid "ID"
 msgstr "ID"
@@ -1054,10 +1054,10 @@ msgstr "Cho thuê"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_license_plate
 msgid "License Plate"
-msgstr ""
+msgstr "Biển số"
 
 #. module: fleet
-#: code:addons/fleet/models/fleet_vehicle.py:223
+#: code:addons/fleet/models/fleet_vehicle.py:224
 #, python-format
 msgid "License Plate: from '%s' to '%s'"
 msgstr "Biển số: từ '%s' đến '%s'"
@@ -1197,7 +1197,7 @@ msgid "Model of the vehicle"
 msgstr "Model của phương tiện"
 
 #. module: fleet
-#: code:addons/fleet/models/fleet_vehicle.py:212
+#: code:addons/fleet/models/fleet_vehicle.py:213
 #, python-format
 msgid "Model: from '%s' to '%s'"
 msgstr "Model: từ '%s' đến '%s'"
@@ -1241,10 +1241,16 @@ msgid "No"
 msgstr "Không"
 
 #. module: fleet
-#: code:addons/fleet/models/fleet_vehicle.py:211
-#: code:addons/fleet/models/fleet_vehicle.py:215
-#: code:addons/fleet/models/fleet_vehicle.py:219
-#: code:addons/fleet/models/fleet_vehicle.py:222
+#: code:addons/fleet/models/fleet_vehicle.py:81
+#, python-format
+msgid "No Plate"
+msgstr ""
+
+#. module: fleet
+#: code:addons/fleet/models/fleet_vehicle.py:212
+#: code:addons/fleet/models/fleet_vehicle.py:216
+#: code:addons/fleet/models/fleet_vehicle.py:220
+#: code:addons/fleet/models/fleet_vehicle.py:223
 #, python-format
 msgid "None"
 msgstr "Không"
@@ -1462,7 +1468,7 @@ msgstr "Giá"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_price_per_liter
 msgid "Price Per Liter"
-msgstr ""
+msgstr "Giá mỗi Lít"
 
 #. module: fleet
 #: model:fleet.vehicle.tag,name:fleet.vehicle_tag_purchased
@@ -1536,7 +1542,7 @@ msgstr "Báo cáo"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_residual_value
 msgid "Residual Value"
-msgstr ""
+msgstr "Giá trị còn lại"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_15
@@ -1679,7 +1685,7 @@ msgid "State name already exists"
 msgstr "Tên tình trạng đã tồn tại"
 
 #. module: fleet
-#: code:addons/fleet/models/fleet_vehicle.py:220
+#: code:addons/fleet/models/fleet_vehicle.py:221
 #, python-format
 msgid "State: from '%s' to '%s'"
 msgstr "Tình trạng: từ '%s' đến '%s'"
@@ -1830,7 +1836,7 @@ msgstr "Số duy nhất được ghi trên động cơ của phương tiện (S�
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_odometer_unit
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_odometer_unit
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_odometer_unit
-#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer_unit_2892
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer_unit_2906
 msgid "Unit"
 msgstr "Đơn vị"
 
@@ -1840,7 +1846,7 @@ msgstr "Đơn vị"
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_fuel_odometer_unit
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services_odometer_unit
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_odometer_unit
-#: model:ir.model.fields,help:fleet.field_fleet_vehicle_odometer_unit_2892
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_odometer_unit_2906
 msgid "Unit of the odometer "
 msgstr "Đơn vị đồng hồ công tơ mét "
 
