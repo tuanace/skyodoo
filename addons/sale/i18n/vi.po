@@ -656,7 +656,7 @@ msgstr "Theo Người bán hàng"
 #. module: sale
 #: model:ir.filters,name:sale.filter_sale_report_salesteam
 msgid "By Salesteam"
-msgstr "Bởi đội Kinh doanh"
+msgstr "Bởi đội Bán hàng"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_qty_delivered_updateable
@@ -2129,7 +2129,7 @@ msgstr "Báo cáo"
 #: model:ir.ui.view,arch_db:sale.sale_order_view_search_inherit_sale
 #: model:ir.ui.view,arch_db:sale.view_order_product_search
 msgid "Sales"
-msgstr "Kinh doanh"
+msgstr "Bán"
 
 #. module: sale
 #: model:ir.model,name:sale.model_sale_advance_payment_inv
@@ -2143,7 +2143,7 @@ msgstr "Hoá đơn thanh toán tạm ứng"
 #: model:ir.ui.view,arch_db:sale.view_order_product_pivot
 #: model:ir.ui.view,arch_db:sale.view_order_product_search
 msgid "Sales Analysis"
-msgstr "Phân tích Kinh doanh"
+msgstr "Phân tích Bán"
 
 #. module: sale
 #: model:ir.model,name:sale.model_crm_team
@@ -2158,13 +2158,13 @@ msgstr "Phân tích Kinh doanh"
 #: model:ir.ui.view,arch_db:sale.view_order_product_search
 #: model:ir.ui.view,arch_db:sale.view_sales_order_filter
 msgid "Sales Channel"
-msgstr "Kênh Kinh doanh"
+msgstr "Kênh Bán"
 
 #. module: sale
 #: model:ir.ui.menu,name:sale.report_sales_team
 #: model:ir.ui.menu,name:sale.sales_team_config
 msgid "Sales Channels"
-msgstr "Kênh Kinh doanh"
+msgstr "Kênh Bán"
 
 #. module: sale
 #: selection:sale.report,state:0
@@ -2179,7 +2179,7 @@ msgstr "Phễu Bán hàng"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
 msgid "Sales Information"
-msgstr "Các thông tin Kinh doanh"
+msgstr "Các thông tin Bán"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_partner_sale_order_ids
@@ -2191,13 +2191,13 @@ msgstr "Các thông tin Kinh doanh"
 #: model:res.request.link,name:sale.req_link_sale_order
 #: selection:sale.order,state:0 selection:sale.report,state:0
 msgid "Sales Order"
-msgstr "Đơn bán hàng"
+msgstr "Đơn Bán"
 
 #. module: sale
 #: model:mail.message.subtype,name:sale.mt_order_confirmed
 #: model:mail.message.subtype,name:sale.mt_salesteam_order_confirmed
 msgid "Sales Order Confirmed"
-msgstr "Đơn hàng được Xác nhận"
+msgstr "Đơn Bán được Xác nhận"
 
 #. module: sale
 #: model:ir.model,name:sale.model_sale_order_line
@@ -2213,7 +2213,7 @@ msgstr "Chi tiết Đơn Bán"
 #: model:ir.ui.view,arch_db:sale.view_order_form
 #: model:ir.ui.view,arch_db:sale.view_order_line_tree
 msgid "Sales Order Lines"
-msgstr "Chi tiết đơn hàng"
+msgstr "Chi tiết Đơn Bán"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sales_order_line_filter
@@ -2223,7 +2223,7 @@ msgstr "Hạng mục sẵn sàng xuất hoá đơn"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sales_order_line_filter
 msgid "Sales Order Lines related to a Sales Order of mine"
-msgstr "Các chi tiết Kinh doanh liên quan đến một Đơn bán hàng của tôi"
+msgstr "Các dòng đơn bán liên quan đến một Đơn bán hàng của tôi"
 
 #. module: sale
 #: code:addons/sale/models/sales_team.py:102
