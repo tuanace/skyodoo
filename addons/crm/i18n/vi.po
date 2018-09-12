@@ -874,7 +874,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "<strong>Website Live Chat</strong>"
-msgstr ""
+msgstr "<strong>Chat trực tuyến ở Website</strong>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -2278,7 +2278,7 @@ msgstr "Tăng trưởng thu nhập"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_partner_binding
 msgid "Handle partner binding or generation in CRM wizards."
-msgstr ""
+msgstr "Xử lý ràng buộc hoặc tạo đối tác trong trình hướng dẫn CRM."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -2301,6 +2301,8 @@ msgid ""
 "Here are a few examples of documents you should provide to your sales "
 "channel based on the sales stage:"
 msgstr ""
+"Dưới đây là một vài ví dụ về tài liệu bạn nên cung cấp cho kênh bán hàng của"
+" mình dựa trên giai đoạn bán hàng:"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -2814,7 +2816,7 @@ msgstr "Số lượng Nhóm Liên hệ tối đa"
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Medium"
-msgstr "Kênh / Medium"
+msgstr "Phương thức"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:924

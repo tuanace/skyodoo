@@ -116,7 +116,7 @@ msgstr "%s (bản sao)"
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_invoice_document
 msgid "&amp;nbsp;<span>on</span>"
-msgstr "&amp;nbsp;<span>trong</span>"
+msgstr "&amp;nbsp;<span>cho</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
