@@ -561,7 +561,7 @@ msgstr "Thấp"
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Medium"
-msgstr "Trung bình"
+msgstr "Phương thức"
 
 #. module: website_blog
 #: model:ir.model,name:website_blog.model_mail_message

@@ -826,7 +826,7 @@ msgstr "Marketing"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_image_medium
 msgid "Medium"
-msgstr "Trung bình"
+msgstr "Phương thức"
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel_access_error_msg

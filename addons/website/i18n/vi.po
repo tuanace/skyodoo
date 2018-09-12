@@ -2542,7 +2542,7 @@ msgstr "Có phải bạn đang kiếm tìm một trong số các trang phổ bi�
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Medium"
-msgstr "Trung bình"
+msgstr "Phương thức"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_company_team

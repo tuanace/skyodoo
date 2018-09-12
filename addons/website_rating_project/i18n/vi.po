@@ -38,7 +38,7 @@ msgstr ""
 #. module: website_rating_project
 #: model:ir.ui.view,arch_db:website_rating_project.project_rating_data
 msgid "Average"
-msgstr "Trung bình"
+msgstr "Phương thức"
 
 #. module: website_rating_project
 #: model:ir.ui.view,arch_db:website_rating_project.project_rating_data

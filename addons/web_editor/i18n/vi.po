@@ -913,7 +913,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:259
 #, python-format
 msgid "Medium"
-msgstr "Trung bình"
+msgstr "Phương thức"
 
 #. module: web_editor
 #. openerp-web

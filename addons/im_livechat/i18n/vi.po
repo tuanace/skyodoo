@@ -552,7 +552,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_image_medium
 msgid "Medium"
-msgstr "Trung bình"
+msgstr "Phương thức"
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_image_medium
