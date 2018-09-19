@@ -5617,7 +5617,7 @@ msgstr ""
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.message_user_assigned
 msgid "You have been assigned to the"
-msgstr "Bạn đã được phân công/gán cho"
+msgstr "Bạn đã được phân công cho"
 
 #. module: mail
 #. openerp-web
