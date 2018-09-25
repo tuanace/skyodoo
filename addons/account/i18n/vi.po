@@ -4898,7 +4898,7 @@ msgstr "Ánh xạ/Khớp Tài khoá"
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Fiscal Periods"
-msgstr "Chi kỳ Tài chính"
+msgstr "Chu kỳ Tài chính"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_fiscal_position_template_form
