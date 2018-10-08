@@ -7,6 +7,7 @@
 # Duy BQ <duybq86@gmail.com>, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
 # file aio <fileaio@gmail.com>, 2017
+# Tien Nguyen <tienkt05@gmail.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
 # Thang Duong Bao <nothingctrl@gmail.com>, 2017
 # Tuan Tran <tmtuan.projects@gmail.com>, 2017
@@ -286,7 +287,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document_access_token
 msgid "Access Token"
-msgstr ""
+msgstr "Token truy cập"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_active

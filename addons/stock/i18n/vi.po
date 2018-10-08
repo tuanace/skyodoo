@@ -16,6 +16,7 @@
 # Thang Duong Bao <nothingctrl@gmail.com>, 2017
 # Tuan Tran <tmtuan.projects@gmail.com>, 2017
 # Duc Dao <blakice12@gmail.com>, 2017
+# Tien Nguyen <tienkt05@gmail.com>, 2018
 # thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
 msgid ""
 msgstr ""

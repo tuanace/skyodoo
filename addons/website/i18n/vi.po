@@ -2232,7 +2232,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.index_management
 #, python-format
 msgid "Indexed"
-msgstr ""
+msgstr "Cho tìm theo"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
