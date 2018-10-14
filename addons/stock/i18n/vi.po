@@ -22,8 +22,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 13:42+0000\n"
-"PO-Revision-Date: 2018-02-19 13:42+0000\n"
+"POT-Creation-Date: 2018-07-27 11:55+0000\n"
+"PO-Revision-Date: 2018-07-27 11:55+0000\n"
 "Last-Translator: thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: stock
-#: code:addons/stock/models/stock_move.py:230
+#: code:addons/stock/models/stock_move.py:340
 #, python-format
 msgid ""
 "\n"
@@ -45,7 +45,7 @@ msgstr ""
 "%s --> Đơn vị sản phẩm là %s (%s) - Đơn vị Dịch chuyển là %s (%s)"
 
 #. module: stock
-#: code:addons/stock/models/stock_move.py:231
+#: code:addons/stock/models/stock_move.py:341
 #, python-format
 msgid ""
 "\n"
@@ -54,16 +54,16 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Tắc nghẽn: %s"
+"Đang bị chặn: %s"
 
 #. module: stock
-#: code:addons/stock/models/stock_move.py:308
+#: code:addons/stock/models/stock_move.py:328
 #, python-format
 msgid " (%s reserved)"
 msgstr " (%s được xí)"
 
 #. module: stock
-#: code:addons/stock/models/stock_move.py:311
+#: code:addons/stock/models/stock_move.py:331
 #, python-format
 msgid " (reserved)"
 msgstr " (được xí)"
@@ -91,7 +91,7 @@ msgid "#Products"
 msgstr "SL Sản phẩm"
 
 #. module: stock
-#: code:addons/stock/models/stock_warehouse.py:481
+#: code:addons/stock/models/stock_warehouse.py:486
 #, python-format
 msgid "%s: Supply Product from %s"
 msgstr "%s: Cung cấp sản phẩm từ %s"
@@ -505,11 +505,6 @@ msgid "<strong>Date</strong>"
 msgstr "<strong>Ngày</strong>"
 
 #. module: stock
-#: model:ir.ui.view,arch_db:stock.report_delivery_document
-msgid "<strong>Delivered Quantity</strong>"
-msgstr "<strong>Số lượng đã giao</strong>"
-
-#. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "<strong>Enjoy your Inventory management with Odoo!</strong>"
 msgstr "<strong>Tận hưởng ứng dụng Quản lý Kho bằng Odoo!</strong>"
@@ -632,11 +627,6 @@ msgid "<strong>Order (Origin)</strong>"
 msgstr "<strong>Lệnh (Gốc)</strong>"
 
 #. module: stock
-#: model:ir.ui.view,arch_db:stock.report_delivery_document
-msgid "<strong>Ordered Quantity</strong>"
-msgstr "<strong>Số lượng Đặt hàng</strong>"
-
-#. module: stock
 #: model:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Package</strong>"
 msgstr "<strong>Đóng gói</strong>"
@@ -658,6 +648,7 @@ msgid "<strong>Qty: </strong>"
 msgstr "<strong>SL:</strong>"
 
 #. module: stock
+#: model:ir.ui.view,arch_db:stock.report_delivery_document
 #: model:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Quantity</strong>"
 msgstr "<strong>Số lượng</strong>"
@@ -717,7 +708,7 @@ msgstr ""
 "từng sản phẩm bằng cách bấm vào hình tượng <span class=\"fa fa-list\"/>"
 
 #. module: stock
-#: code:addons/stock/models/stock_inventory.py:115
+#: code:addons/stock/models/stock_inventory.py:122
 #, python-format
 msgid "A Pack"
 msgstr "Một Gói"
@@ -733,7 +724,7 @@ msgid "A classic sales flow looks like the following:"
 msgstr "Một chu trình bán hàng truyền thống trông như sau:"
 
 #. module: stock
-#: code:addons/stock/models/stock_move_line.py:86
+#: code:addons/stock/models/stock_move_line.py:93
 #, python-format
 msgid "A done move line should never have a reserved quantity."
 msgstr "Dịch chuyển đã hoàn tất thì không bao giờ có số lượng đã xí."
@@ -750,7 +741,7 @@ msgstr ""
 "                        hết không gian kho, làm tăng chi phí lưu/quản lý kho cũng như tăng tông đọng vốn)."
 
 #. module: stock
-#: code:addons/stock/models/stock_quant.py:76
+#: code:addons/stock/models/stock_quant.py:80
 #, python-format
 msgid "A serial number should only be linked to a single product."
 msgstr "Một số Sơ-ri chỉ đăng ký được cho một sản phẩm duy nhất."
@@ -806,6 +797,8 @@ msgid ""
 "Add and customize route operations to process product moves in your warehouse(s): e.g. unload > quality control > stock for incoming products, pick > pack > ship for outgoing products. \n"
 " You can also set putaway strategies on warehouse locations in order to send incoming products into specific child locations straight away (e.g. specific bins, racks)."
 msgstr ""
+"Thêm và tùy chỉnh hoạt động tuyến đường để xử lý các chuyển động sản phẩm trong (các) nhà kho của bạn: ví dụ: dỡ hàng> kiểm soát chất lượng> cổ phiếu cho các sản phẩm đến, chọn> gói> tàu cho sản phẩm đi.\n"
+"  Bạn cũng có thể đặt chiến lược đặt cược vào vị trí nhà kho để gửi sản phẩm đến các vị trí con cụ thể ngay lập tức (ví dụ: thùng cụ thể, giá đỡ)."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -816,6 +809,11 @@ msgid ""
 "strategies on warehouse locations in order to send incoming products into "
 "specific child locations straight away (e.g. specific bins, racks)."
 msgstr ""
+"Thêm và tùy chỉnh hoạt động tuyến đường để xử lý các chuyển động sản phẩm "
+"trong (các) nhà kho của bạn: ví dụ: dỡ hàng> kiểm soát chất lượng> cổ phiếu "
+"cho các sản phẩm đến, chọn> gói> tàu cho sản phẩm đi. Bạn cũng có thể đặt "
+"chiến lược đặt cược vào vị trí nhà kho để gửi sản phẩm đến các vị trí con cụ"
+" thể ngay lập tức (ví dụ: thùng cụ thể, giá đỡ)."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_picking_form
@@ -878,7 +876,7 @@ msgstr ""
 "vận chuyển ngay khi chúng có sẵn."
 
 #. module: stock
-#: code:addons/stock/models/stock_inventory.py:105
+#: code:addons/stock/models/stock_inventory.py:112
 #, python-format
 msgid "All products"
 msgstr "Tất cả sản phẩm"
@@ -893,13 +891,6 @@ msgstr "Tất cả dịch chuyên trả hàng"
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type_show_entire_packs
 msgid "Allow moving packs"
 msgstr "Cho phép di chuyển gói"
-
-#. module: stock
-#: code:addons/stock/models/stock_quant.py:82
-#, python-format
-msgid "An incoming date cannot be set to an untracked product."
-msgstr ""
-"Ngày về không thể được thiết lập cho một sản phẩm không theo vết (theo dõi)"
 
 #. module: stock
 #: model:stock.inventory.line,product_name:stock.stock_inventory_line_2
@@ -1036,12 +1027,6 @@ msgid "Back order <em>%s</em> <b>cancelled</b>."
 msgstr "Phần dở dang <em>%s</em> <b>bị hủy</b>."
 
 #. module: stock
-#: code:addons/stock/models/stock_picking.py:790
-#, python-format
-msgid "Back order <em>%s</em> <b>created</b>."
-msgstr "Phần dở dang <em>%s</em> <b>được tạo</b>."
-
-#. module: stock
 #: model:ir.model,name:stock.model_stock_backorder_confirmation
 msgid "Backorder Confirmation"
 msgstr "Xác nhận phần dở dang"
@@ -1141,7 +1126,7 @@ msgid "By Unique Serial Number"
 msgstr "Theo Số sê-ri duy nhất"
 
 #. module: stock
-#: code:addons/stock/models/stock_move.py:612
+#: code:addons/stock/models/stock_move.py:644
 #, python-format
 msgid ""
 "By changing this quantity here, you accept the new quantity as complete: "
@@ -1217,13 +1202,13 @@ msgid "Calendar View"
 msgstr "Giao diện Lịch"
 
 #. module: stock
-#: code:addons/stock/models/stock_warehouse.py:428
+#: code:addons/stock/models/stock_warehouse.py:432
 #, python-format
 msgid "Can't find any customer or supplier location."
 msgstr "Không tìm thấy bất kỳ địa điểm kho nhà cung cấp hoặc khách hàng nào."
 
 #. module: stock
-#: code:addons/stock/models/stock_warehouse.py:476
+#: code:addons/stock/models/stock_warehouse.py:481
 #, python-format
 msgid "Can't find any generic Make To Order route."
 msgstr "Không tìm thấy bất kỳ định tuyến Make To Order nào."
@@ -1251,7 +1236,7 @@ msgid "Cancelled"
 msgstr "Đã hủy"
 
 #. module: stock
-#: code:addons/stock/models/stock_move.py:468
+#: code:addons/stock/models/stock_move.py:499
 #, python-format
 msgid "Cannot unreserve a done move"
 msgstr "Không thể thôi xí một dịch chuyển đã thực hiện (hoàn thành)"
@@ -1591,7 +1576,7 @@ msgid "Create Backorder"
 msgstr "Tạo Phần dở dang"
 
 #. module: stock
-#: code:addons/stock/models/stock_picking.py:715
+#: code:addons/stock/models/stock_picking.py:766
 #, python-format
 msgid "Create Backorder?"
 msgstr "Tạo Phần dở dang?"
@@ -1742,7 +1727,7 @@ msgid "Creation Date, usually the time of the order"
 msgstr "Ngày tạo, thường là ngày đặt hàng"
 
 #. module: stock
-#: code:addons/stock/models/stock_warehouse.py:433
+#: code:addons/stock/models/stock_warehouse.py:437
 #, python-format
 msgid "Cross-Dock"
 msgstr "Điểm trung chuyển"
