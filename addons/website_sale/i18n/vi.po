@@ -3683,6 +3683,8 @@ msgid ""
 "if you want to restore your previous cart. Your current cart will be "
 "replaced with your previous cart."
 msgstr ""
+"nếu bạn muốn khôi phục giỏ hàng trước đó của bạn. Giỏ hàng hiện tại của bạn"
+" sẽ được thay thế bằng giỏ hàng trước đó của bạn."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart_popover

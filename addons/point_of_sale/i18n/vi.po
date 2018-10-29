@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * point_of_sale
-#
+# 
 # Translators:
 # Duy BQ <duybq86@gmail.com>, 2017
 # Martin Trigaux, 2017
@@ -23,10 +23,10 @@ msgstr ""
 "PO-Revision-Date: 2018-07-30 08:47+0000\n"
 "Last-Translator: Tri Bui <tribd@trobz.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
-"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: point_of_sale
@@ -299,7 +299,7 @@ msgstr "Một số thứ tự mà tự tăng mỗi lần người dùng khôi ph
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_session_sequence_number
 msgid "A sequence number that is incremented with each order"
-msgstr ""
+msgstr "Số thứ tự được tăng lên theo từng đơn đặt hàng"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,help:point_of_sale.action_pos_session
@@ -343,7 +343,7 @@ msgstr "Chấp thuận các khoản thanh toán bằng đầu đọc thẻ"
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_account_bank_statement_cashbox
 msgid "Account Bank Statement Cashbox Details"
-msgstr ""
+msgstr "Chi tiết Tài khoản Tiền gửi Ngân hàng"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -472,6 +472,8 @@ msgid ""
 "An error occurred when loading product prices. Make sure all pricelists are "
 "available in the POS."
 msgstr ""
+"Đã xảy ra lỗi khi tải giá sản phẩm. Đảm bảo tất cả bảng giá có sẵn trong "
+"POS."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_name
@@ -807,7 +809,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_cash_control
 msgid "Check the amount of the cashbox at opening and closing."
-msgstr ""
+msgstr "Kiểm tra số tiền của hộp tiền mặt khi mở và đóng."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_account_journal_journal_user
@@ -907,7 +909,7 @@ msgstr "Khách"
 #: code:addons/point_of_sale/static/src/js/chrome.js:462
 #, python-format
 msgid "Client Screen Unsupported. Please upgrade the PosBox"
-msgstr ""
+msgstr "Màn hình ứng dụng không được hỗ trợ. Vui lòng nâng cấp PosBox"
 
 #. module: point_of_sale
 #. openerp-web
@@ -1093,7 +1095,7 @@ msgstr "Hiển thị Khách hàng"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_iface_customer_facing_display
 msgid "Customer Facing Display"
-msgstr ""
+msgstr "Mà hình Đối diện Khách hàng"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_order.py:559
@@ -1105,7 +1107,7 @@ msgstr "Hoá đơn khách hàng"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_customer_facing_display_html
 msgid "Customer facing display content"
-msgstr ""
+msgstr "Nội dung Màn hình Đối diện Khách hàng"
 
 #. module: point_of_sale
 #: model:ir.ui.menu,name:point_of_sale.menu_pos_dashboard
@@ -1476,6 +1478,9 @@ msgid ""
 "administrator in a multi-company setup, with the administrator account set "
 "to the wrong company."
 msgstr ""
+"Lỗi: Người bán phải thuộc cùng một công ty với Điểm bán hàng. Có thể bạn "
+"đang cố tải điểm bán hàng dưới dạng quản trị viên trong thiết lập nhiều công"
+" ty, với tài khoản quản trị viên được thiết lập sai công ty."
 
 #. module: point_of_sale
 #. openerp-web
@@ -1513,7 +1518,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1211
 #, python-format
 msgid "Finished Importing Orders"
-msgstr ""
+msgstr "Hoàn tất nhập đơn hàng"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_fiscal_position_id
@@ -1555,7 +1560,7 @@ msgstr "Thông tin chung"
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "Generation of your order references"
-msgstr ""
+msgstr "Sinh các tham chiếu đơn hàng của bạn"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -1566,6 +1571,11 @@ msgid ""
 "recommended for an easy review of your journal entries when managing lots of"
 " orders."
 msgstr ""
+"Nhận một phát sinh kế toán cho mỗi sản phẩm thay vì một phát sinh kế toán trên mỗi dòng "
+"biên lai. Tính năng này hoạt động với mọi đơn hàng nặc danh (không có khách hàng). Nếu khách hàng "
+"được thiết lập trên đơn hàng, một phát sinh kế toán được tạo cho mỗi dòng biên lai. Tùy "
+"chọn này được khuyên dùng để dễ dàng xem lại các bút toán sổ nhật ký của bạn khi "
+"quản lý nhiều đơn hàng."
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -1630,7 +1640,7 @@ msgstr "Nhóm các Sản phẩm ở PoS"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1369
 #, python-format
 msgid "Hardware Events"
-msgstr ""
+msgstr "Sự kiện Phần cứng"
 
 #. module: point_of_sale
 #. openerp-web
@@ -1691,6 +1701,10 @@ msgid ""
 "can also decide to not put lots in this operation type.  This means it will "
 "create stock with no lot or not put a restriction on the lot taken. "
 msgstr ""
+"Nếu đánh dấu chỗ này, bạn sẽ có thể chọn số lô/Seria. Bạn cũng có thể quyết "
+"định không cho lô hàng vào loại thao tác này. Điều này có nghĩa là nó sẽ tạo"
+" ra tồn kho mà không có lô hàng hoặc không đặt một hạn chế trên lô hàng được"
+" thực hiện."
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,help:point_of_sale.product_pos_category_action
@@ -1699,6 +1713,9 @@ msgid ""
 "                touchscreen interface will automatically. We suggest not to put\n"
 "                a photo on categories for small (1024x768) screens."
 msgstr ""
+"Nếu bạn thêm ảnh lên danh mục, bố cục của\n"
+"                 giao diện màn hình cảm ứng sẽ tự động. Chúng tôi khuyên bạn không nên đặt\n"
+"                 ảnh trên danh mục cho màn hình nhỏ (1024x768)."
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_category_image
@@ -2101,7 +2118,7 @@ msgstr "Đơn Kế tiếp"
 #: code:addons/point_of_sale/models/pos_order.py:1089
 #, python-format
 msgid "No Taxes"
-msgstr ""
+msgstr "Không thuế"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_order.py:142
