@@ -3110,14 +3110,14 @@ msgstr "là"
 #: code:addons/web/static/src/js/chrome/search_filters.js:183
 #, python-format
 msgid "is after"
-msgstr ""
+msgstr "sau"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/chrome/search_filters.js:184
 #, python-format
 msgid "is before"
-msgstr ""
+msgstr "trước"
 
 #. module: web
 #. openerp-web
